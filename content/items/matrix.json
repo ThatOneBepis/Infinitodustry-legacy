@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Matrix",
+	"description": "Spoon is not here. Keep scrolling",
+	"cost": 1.6,
+	"hardness": 4,
+	"tier": 8,
+	"color": "b83fb8"
+}

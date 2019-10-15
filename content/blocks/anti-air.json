@@ -1,0 +1,89 @@
+{
+	"type": "DoubleTurret",
+	"name": "Anti-air",
+	"description": "More spammy cousin of Scatter.",
+	"health": 360,
+	"size": 2,
+	"reload": 15,
+	"targetGround": false,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0,
+	"rotatespeed": 20,
+	"ammo": {
+		"copper": {
+			"speed": 4.5,
+			"damage": 20,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+		},
+		"snowball":
+			{
+			"speed": 6,
+			"damage": 5,
+			"color": "ffffff",
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+
+			},
+		"lead": {
+			"speed": 6,
+			"damage": 30,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reload": 0.8
+		},
+		"silicon": {
+			"speed": 4.0,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"lifetime": 300,
+			"homingPower" : 2,
+            "homingRange" : 50
+		},
+		"titanium": {
+			"speed": 4.5,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reload": 1.5
+	    },
+		"surge-alloy": {
+			"speed": 4.5,
+			"damage": 35,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+            "lightining" : 2,
+            "lightningLength" : 5
+		},
+		"vector": {
+			"speed": 10,
+			"damage": 20,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"reload": 1.1
+		}
+	    },
+	"requirements": [
+		{ "item": "lead", "amount": 70 },
+		{ "item": "copper", "amount": 140 },
+        { "item": "visionary-glass", "amount": 50 }
+	],
+	"category": "turret",
+	"research": "scatter"
+}

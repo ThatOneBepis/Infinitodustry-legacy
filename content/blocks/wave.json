@@ -1,0 +1,20 @@
+{
+"ammo":
+	{
+		"water": "waterShot",
+		"slag": "slagShot",
+		"cryofluid": "cryoShot",
+		"oil": "oilShot",
+		"dark-matter":
+		{
+			"speed": 2.0,
+			"damage": 30,
+			"reloadMultiplier": 5,
+			"bulletWidth": 15,
+			"bulletHeight": 15,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 10,
+		}
+	}
+}         

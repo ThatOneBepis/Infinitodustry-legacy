@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Tensor",
+	"description": "Multidimensional thing",
+	"cost": 1.7,
+	"hardness": 3,
+	"tier": 9,
+	"color": "ff7c00"
+}

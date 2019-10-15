@@ -1,0 +1,26 @@
+{
+	"name": "V2-CTR",
+	"description": "Drill specified for mining Vector.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 7,
+	"drillTime": 215,
+	"consumes": {
+		"power": 0.4,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "scalar", "amount": 45 },
+		{ "item": "metaglass", "amount": 70 },
+		{ "item": "copper", "amount": 90 },
+		{ "item": "graphite", "amount": 65 },
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "production",
+	"research": "scalar-drill"
+}

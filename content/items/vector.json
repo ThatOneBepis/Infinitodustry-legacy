@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Vector",
+	"description": "Very fammiliar and with direction.",
+	"cost": 1.5,
+	"hardness": 5,
+	"tier": 7,
+	"color": "0031ca"
+}

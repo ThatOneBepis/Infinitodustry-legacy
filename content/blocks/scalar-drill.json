@@ -1,0 +1,24 @@
+{
+	"name": "SCL1-R",
+	"description": "Drill specified for mining Scalar. Runs on Visionary glass",
+	"type": "Drill",
+	"size": 2,
+	"tier": 6,
+	"hasItems": true,
+	"drillTime": 225,
+	"consumes": {
+		"items": {
+	"items": [
+		{"item": "visionary-glass", "amount": 1},
+	]
+	}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 35 },
+		{ "item": "visionary-glass", "amount": 45},
+		{ "item": "copper", "amount": 70 },
+		{ "item": "silicon", "amount": 30 }
+	],
+	"category": "production",
+	"research": "pneumatic-drill"
+}

@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Blast press",
+	"description": "Building used for infusing Plastanium with Blast compound, causing blast-resistant fabric to be made.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "blast-fabric", "amount": 2.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 100,
+	"updateEffect": "explosion",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+        "items": [
+        {"item": "plastanium", "amount": 2},
+        {"item": "blast-compound", "amount": 2}
+    ]
+    }
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 200 },
+		{ "item": "plastanium", "amount": 120 },
+		{ "item": "tensor", "amount": 35 },
+		{ "item": "silicon", "amount": 120 },
+	],
+	"category": "crafting",
+	"research": "blast-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

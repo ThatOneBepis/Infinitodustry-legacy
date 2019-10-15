@@ -1,0 +1,9 @@
+{
+	"type": "Floor",
+	"name": "Water-flowing floor",
+	"speedMultiplier": 1,
+	"isLiquid": true,
+	"liquidDrop": "water",
+	"blendGroup": "tau-floor",
+	"variants": 1
+}

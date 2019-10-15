@@ -1,0 +1,5 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "scalar",
+	"playerUnmineable": true
+}

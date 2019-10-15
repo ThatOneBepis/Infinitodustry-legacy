@@ -1,0 +1,12 @@
+{
+	"name": "Infiar wall",
+	"description": "Wall made out of digital compound. Has the ability to regenerate it's lost health.",
+	"type": "Wall",
+	"health": 900,
+	"size": 1,
+	"requirements": [
+		{ "item": "infiar", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "thorium-wall"
+}

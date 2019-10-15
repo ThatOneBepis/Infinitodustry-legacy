@@ -1,0 +1,5 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "matrix",
+	"playerUnmineable": true
+}

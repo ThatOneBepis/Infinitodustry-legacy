@@ -1,0 +1,7 @@
+{
+	"type": "StaticWall",
+	"name": "Tau glass wall",
+	"fillsTile": false,
+	"variants": 4,
+	"hasShadow": false
+}

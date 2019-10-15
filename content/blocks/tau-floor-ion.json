@@ -1,0 +1,6 @@
+{
+	"type": "Floor",
+	"name": "Ion-flowing Floor",
+	"blendGroup": "tau-floor",
+	"variants": 1
+}

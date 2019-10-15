@@ -1,0 +1,70 @@
+{
+	"type": "ItemTurret",
+	"name": "Hammerhead cannon",
+	"description": "Powerful single-shot cannon what ionises most enemies.",
+	"health": 2350,
+	"size": 4,
+	"reload": 125,
+	"targetGround": true,
+	"targetAir": true,
+	"range": 250,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"ammo": {
+		"infiar": {
+			"speed": 20,
+			"damage": 800,
+			"backColor": "00ffff",
+			"frontColor": "00ffff",
+			"bulletWidth": 10,
+			"bulletHeight": 100,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke"
+		},
+		"blast-compound": {
+			"speed": 20,
+			"damage": 1000,
+			"backColor": "00ffff",
+			"frontColor": "00ffff",
+			"bulletWidth": 10,
+			"bulletHeight": 100,
+			"shootEffect": "explosion",
+			"smokeEffect": "shootBigSmoke",
+			"reloadMultiplier": 0.8
+		},
+		"phase-fabric": {
+			"speed": 20,
+			"damage": 450,
+			"backColor": "00ffff",
+			"frontColor": "00ffff",
+			"bulletWidth": 10,
+			"bulletHeight": 100,
+			"shootEffect": "shootBig",
+			"smokeEffect": "smeltsmoke",
+			"reloadMultiplier": 2
+		},
+		"surge-alloy": {
+			"speed": 20,
+			"damage": 600,
+			"backColor": "00ffff",
+			"frontColor": "00ffff",
+			"bulletWidth": 10,
+			"bulletHeight": 100,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+            "lightining" : 2,
+            "lightningLength" : 5
+		},
+	    },
+	"requirements": [
+		{ "item": "lead", "amount": 470 },
+		{ "item": "surge-alloy", "amount": 270 },
+		{ "item": "copper", "amount": 440 },
+        { "item": "scalar", "amount": 350 },
+        { "item": "infiar", "amount": 150 },
+        { "item": "graphite", "amount": 350 }
+	],
+	"category": "turret",
+	"research": "fuse"
+}

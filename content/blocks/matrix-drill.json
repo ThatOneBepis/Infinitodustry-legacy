@@ -1,0 +1,26 @@
+{
+	"name": "MTRX-3",
+	"description": "Drill specified for mining Matrix. Will not output any spoons.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 8,
+	"drillTime": 200,
+	"consumes": {
+		"power": 1.1,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "vector", "amount": 75 },
+		{ "item": "silicon", "amount": 95 },
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "plastanium", "amount": 100 }
+	],
+	"category": "production",
+	"research": "vector-drill"
+}

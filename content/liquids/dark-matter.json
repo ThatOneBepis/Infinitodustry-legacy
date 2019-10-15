@@ -1,0 +1,13 @@
+
+{
+	"type": "liquid",
+	"name": "Dark matter",
+	"temperature": 0.0001,
+    "viscosity": 2,
+    "explosiveness": 1.25,
+    "flammability": -15,
+    "effect": "tarred",
+    "effect": "melting",
+    "color": "0b020d",
+    "description": "The best way to embrace the void is to harvest it"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "Floor",
+	"name": "Cryo-flowing floor",
+	"speedMultiplier": 1,
+	"isLiquid": true,
+	"liquidDrop": "cryofluid",
+	"blendGroup": "tau-floor",
+	"variants": 1
+}

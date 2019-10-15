@@ -1,0 +1,9 @@
+{
+	"type": "Floor",
+	"name": "Oil-flowing floor",
+	"speedMultiplier": 1,
+	"isLiquid": true,
+	"liquidDrop": "oil",
+	"blendGroup": "tau-floor",
+	"variants": 1
+}

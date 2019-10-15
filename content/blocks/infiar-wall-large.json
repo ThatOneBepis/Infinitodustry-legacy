@@ -1,0 +1,12 @@
+{
+	"name": "Larger infiar wall",
+	"description": "Larger wall made out of digital compound. Has the ability to regenerate it's lost health.",
+	"type": "Wall",
+	"health": 3600,
+	"size": 2,
+	"requirements": [
+		{ "item": "infiar", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "infiar-wall"
+}

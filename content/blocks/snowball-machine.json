@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Snowball machine",
+	"description": "A building which freezes water into round objects called snowballs.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "snowball", "amount": 1.0},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1
+    }
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "graphite", "amount": 15 },
+		{ "item": "scalar", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "water-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

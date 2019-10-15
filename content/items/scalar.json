@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Scalar",
+	"description": "As simple as two.",
+	"cost": 1,
+	"hardness": 6,
+	"tier": 6,
+	"color": "43c131"
+}
