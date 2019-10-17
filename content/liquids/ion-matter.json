@@ -1,0 +1,11 @@
+
+{
+	"type": "liquid",
+	"name": "Ionising fluid",
+	"temperature": 10,
+    "viscosity": 0.5,
+    "explosiveness": 0,
+    "effect": "burning",
+    "color": "00ffff",
+    "description": "Taus are majestic for inventing this, change my mind"
+}
