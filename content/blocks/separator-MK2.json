@@ -1,0 +1,58 @@
+{
+	"type": "Separator",
+	"name": "De-ioniser",
+	"description": "Uses a lot of energy and cryofluid, which is glazed on extremely cold snowballs, in order to release quite vast selection of items from seemingly inreversible Plasma state of matter. With snowballs escaping the de-ionising capsule the same way resources should come from, usage of inverted sorter is advised.",
+	"itemCapacity": 50,
+	"results": [
+            {"item": "matrix", "amount": 45},
+            {"item": "silicon", "amount": 60},
+            {"item": "infiar", "amount": 10},
+            {"item": "graphite", "amount": 75},
+            {"item": "scalar", "amount": 65},
+            {"item": "tensor", "amount": 35},
+            {"item": "surge-alloy", "amount": 25},
+            {"item": "phase-fabric", "amount": 35},
+            {"item": "plastanium", "amount": 50},
+            {"item": "blast-fabric", "amount": 35},
+            {"item": "vector", "amount": 55},
+            {"item": "metaglass", "amount": 60},
+            {"item": "visionary-glass", "amount": 50},
+            {"item": "copper", "amount": 85},
+            {"item": "lead", "amount": 85},
+            {"item": "titanium", "amount": 65},
+            {"item": "thorium", "amount": 50}
+        ],
+	"spinnerLength": 9,
+	"spinnerRadius": 8,
+	"spinnerThickness": 5,
+	"spinnerSpeed": 15,
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 10.5,
+		"liquid": {
+			"liquid": "ion-matter", 
+			"amount": 0.5
+    },
+		"items": {
+		"items": [
+			{"item": "snowball-but-colder", "amount": 5}
+		]
+	}
+    },
+	"requirements": [
+		{ "item": "titanium", "amount": 265 },
+		{ "item": "graphite", "amount": 85 },
+		{ "item": "infiar", "amount": 125 },
+		{ "item": "surge-alloy", "amount": 80 },
+		{ "item": "thorium", "amount": 145 },
+		{ "item": "blast-fabric", "amount": 95}
+	],
+	"category": "crafting",
+	"research": "separator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

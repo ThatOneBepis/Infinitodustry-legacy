@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "Snowball freezer",
+	"description": "A building which freezes round objects called snowballs into colder round objects called snowballs 2.0.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "snowball-but-colder", "amount": 1.0},
+	"size": 1,
+	"hasPower": true,
+	"hasitems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+		"items": [
+			{"item": "snowball", "amount": 1.0}
+		]
+	},
+	"liquid": {
+			"liquid": "cryofluid", 
+			"amount": 2.0
+    }
+    },
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "graphite", "amount": 15 },
+		{ "item": "vector", "amount": 45 },
+		{ "item": "silicon", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "snowball-machine",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

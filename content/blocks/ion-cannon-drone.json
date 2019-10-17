@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Erradication cannon",
-	"description": "Powerful single-shot cannon what erradicates most Divinity's advesaries.",
+	"description": "Powerful single-shot cannon what erradicates most Divinity's advesaries. It's designer, TrinityXyz, was executed by drones with it.",
 	"health": 2350,
 	"size": 4,
 	"reload": 125,
@@ -15,8 +15,6 @@
 		"infiar": {
 			"speed": 20,
 			"damage": 800,
-			"backColor": "c4791e",
-			"frontColor": "c4791e",
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "shootBig",
@@ -25,8 +23,6 @@
 		"blast-compound": {
 			"speed": 20,
 			"damage": 1000,
-			"backColor": "c4791e",
-			"frontColor": "c4791e",
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "explosion",
@@ -36,8 +32,6 @@
 		"phase-fabric": {
 			"speed": 20,
 			"damage": 450,
-			"backColor": "c4791e",
-			"frontColor": "c4791e",
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "shootBig",
@@ -47,8 +41,6 @@
 		"surge-alloy": {
 			"speed": 20,
 			"damage": 600,
-			"backColor": "c4791e",
-			"frontColor": "c4791e",
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "shootBig",
@@ -58,14 +50,13 @@
 		},
 	    },
 	"requirements": [
-		{ "item": "lead", "amount": 470 },
-		{ "item": "surge-alloy", "amount": 270 },
-		{ "item": "copper", "amount": 440 },
-        { "item": "scalar", "amount": 350 },
-        { "item": "infiar", "amount": 150 },
-        { "item": "graphite", "amount": 350 }
+		{ "item": "lead", "amount": 500 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "copper", "amount": 500 },
+        { "item": "scalar", "amount": 500 },
+        { "item": "matrix", "amount": 500 },
+        { "item": "graphite", "amount": 500 }
 	],
-	"requirements": [],
 	"category": "turret",
 	"stateRules": "infiniteResources",
     "alwaysUnlocked": true

@@ -8,6 +8,15 @@
 	"targetGround": true,
 	"targetAir": true,
 	"range": 250,
+	"shootSound": "laser",
+	"consumes": {
+		"liquid": {
+			"liquid": "ion-matter", 
+			"amount": 0.1,
+			"optional": false,
+			"booster": false
+		}
+	},
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
