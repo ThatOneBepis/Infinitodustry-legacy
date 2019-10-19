@@ -1,0 +1,15 @@
+{
+	"name": "Armored junction",
+	"description": "Piece of wall what accepts items. Useful when items have to pass over your defensive walls on larger distances.",
+	"type": "junction",
+	"health": 450,
+	"speed": 26,
+	"capacity": 12,
+	"size": 1,
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "silicon", "amount": 12}
+	],
+	"category": "defense",
+	"research": "door"
+}
