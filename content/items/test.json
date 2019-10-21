@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Ohnonium",
+	"description": "Radioactive material so unstable it cannot even load it's textures properly. It is mostly the cause the game crashes... most of the time.",
+	"hardness": 15,
+	"tier": 6,
+	"radioactivity": 6.66666666666666666666666666666666666666666666666666,
+	"color": "ffffff"
+}
