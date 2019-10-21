@@ -23,12 +23,13 @@
 			{
 			"speed": 6,
 			"damage": 5,
-			"color": "ffffff",
+			"backcolor": "ffffff",
+			"frontColor": "ffffff",
 			"bulletWidth": 6,
-			"bulletHeight": 10,
+			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-
+			"StatusEffects": "freezing"
 			},
 		"lead": {
 			"speed": 6,
@@ -37,7 +38,7 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"reload": 0.8
+			"reloadMultiplier": 0.8
 		},
 		"silicon": {
 			"speed": 4.0,
@@ -57,7 +58,7 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"reload": 1.5
+			"reloadMultiplier": 1.5
 	    },
 		"surge-alloy": {
 			"speed": 4.5,
@@ -76,7 +77,7 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"reload": 1.1
+			"reloadMultiplier": 1.1
 		}
 	    },
 	"requirements": [

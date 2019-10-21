@@ -10,6 +10,6 @@
 		{ "item": "vector", "amount": 6 },
 		{ "item": "silicon", "amount": 12}
 	],
-	"category": "defense",
-	"research": "door"
+	"category": "distribution",
+	"research": "junction"
 }

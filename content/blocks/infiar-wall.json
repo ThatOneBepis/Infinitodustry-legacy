@@ -1,9 +1,14 @@
 {
 	"name": "Infiar wall",
 	"description": "Wall made out of digital compound. Has the ability to regenerate it's lost health.",
-	"type": "Wall",
+	"type": "MendProjector",
 	"health": 900,
 	"size": 1,
+	"range": 1.1,
+	"reload": 60,
+	"healPercent": 5,
+	"phaseRangeBoost": 2,
+	"phaseBoost": 1,
 	"requirements": [
 		{ "item": "infiar", "amount": 6 }
 	],

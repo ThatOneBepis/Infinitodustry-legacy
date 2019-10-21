@@ -1,0 +1,13 @@
+{
+	"type": "battery",
+	"name": "Energetic matrix",
+	"description": "Stores a lot of energy. And i do mean A LOT.",
+	"size": 5,
+	"health": 600,
+	"category": "power",
+	"research": "battery-large",
+	"requirements": [
+		{"item": "matrix", "amount": 500}
+	],
+	"consumes": { "powerBuffered": 1000000}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Propaganda tower",
+	"description": "Building what spread the propaganda in an area. It's influence is so strong that you are not even allowed to construct buildings in said area. Can be used alongside Unloaders.",
+	"type": "CoreBlock",
+	"health": 1000,
+	"size": 2,
+	"itemCapacity": 0,
+	"requirements": [],
+	"stateRules": "infiniteResources",
+	"alwaysUnlocked": "false",
+	"category": "effect"
+}

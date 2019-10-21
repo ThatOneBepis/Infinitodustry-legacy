@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Item conduit",
+	"description": "Moves items in semi-encased conduits, protecting them from any harm, which is not fire by the way.",
+	"health": 425,
+	"requirements": [
+		{"item": "titanium", "amount": 6},
+		{"item": "blast-fabric", "amount": 15},
+		{"item": "metaglass", "amount": 6}
+	],
+	"category": "distribution",
+	"reseach": "armored-conveyor",
+	"speed": 0.12
+}

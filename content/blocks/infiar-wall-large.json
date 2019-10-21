@@ -1,9 +1,14 @@
 {
 	"name": "Larger infiar wall",
 	"description": "Larger wall made out of digital compound. Has the ability to regenerate it's lost health.",
-	"type": "Wall",
+	"type": "MendProjector",
 	"health": 3600,
 	"size": 2,
+	"range": 1.5,
+	"reload": 60,
+	"healPercent": 5,
+	"phaseRangeBoost": 2,
+	"phaseBoost": 1,
 	"requirements": [
 		{ "item": "infiar", "amount": 24 }
 	],
