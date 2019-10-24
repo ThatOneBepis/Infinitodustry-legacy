@@ -1,0 +1,40 @@
+{
+	"name": "Panzer IV H",
+	"type": "fortress",
+	"description": "Heavily armored vehicle. Shoots explosive shells. Good for ground troop support.",
+	"health": 1300,
+	"flying": false,
+	"targetAir": false,
+	"hitSize": 25,
+	"speed": 0.025,
+	"mass": 25,
+	"rotatespeed": 0.3,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"reload": 90,
+		"width": 7,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shootBig",
+		"offsetX": 15,
+		"bullet": {
+			"type": "BasicBulletType",
+			"width": 10,
+			"length": 35,
+			"keepVelocity": true,
+			"speed": 5,
+			"lifetime": 450,
+			"range": 195,
+			"drag": 0,
+			"shots": 1,
+			"knockback": 0,
+			"damage": 15,
+			"splashDamage": 85,
+			"splashDamageRadius": 10,
+			"frontColor": "fff5ee",
+			"backColor": "fff5ae",
+			"roundRobin": false
+		},
+		"recoil": 0.1,
+		"shake": 0.3
+	}
+}
