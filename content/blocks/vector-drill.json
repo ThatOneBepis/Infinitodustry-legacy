@@ -4,7 +4,7 @@
 	"type": "Drill",
 	"size": 2,
 	"tier": 7,
-	"drillTime": 215,
+	"drillTime": 175,
 	"consumes": {
 		"power": 0.4,
 		"liquid": {
@@ -16,6 +16,7 @@
 	},
 	"requirements": [
 		{ "item": "scalar", "amount": 45 },
+		{ "item": "stone", "amount": 25}
 		{ "item": "metaglass", "amount": 70 },
 		{ "item": "copper", "amount": 90 },
 		{ "item": "graphite", "amount": 65 },
