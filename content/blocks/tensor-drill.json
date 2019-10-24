@@ -1,6 +1,6 @@
 {
 	"name": "TN4S-R",
-	"description": "Drill specified for mining Tensor. Lead can be consumed for faster mining.",
+	"description": "Drill specified for mining Tensor. Titanium-alloyed bricks can be consumed for faster mining.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 9,
@@ -12,7 +12,7 @@
 		"power": 2.0,
 		"items": {
     "items": [
-        {"item": "lead", "amount": 1},
+        {"item": "tau-plate", "amount": 1},
     ],
     "booster": true,
     "optional": true
@@ -24,7 +24,7 @@
 		{ "item": "graphite", "amount": 100 },
 		{ "item": "lead", "amount": 175 },
 		{ "item": "thorium", "amount": 125 },
-		{ "item": "plastanium", "amount": 130 }
+		{ "item": "toughitinum", "amount": 60 }
 	],
 	"category": "production",
 	"research": "matrix-drill"
