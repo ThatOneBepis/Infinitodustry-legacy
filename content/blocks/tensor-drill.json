@@ -6,7 +6,7 @@
 	"tier": 9,
 	"hasItems": true,
 	"hasLiquids": false,
-	"drillTime": 190,
+	"drillTime": 145,
 	"itemDuration": 60,
 	"consumes": {
 		"power": 2.0,
