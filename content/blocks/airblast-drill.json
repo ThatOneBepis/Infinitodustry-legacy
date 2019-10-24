@@ -1,7 +1,7 @@
 {
 "description": "One of best drills around, not so compact, but economically cheap. Requires large amounts of power.",
 "tier": 6
-	"requirements": [
+	"requirements": 
 	[
 		{ "item": "tensor", "amount": 120 },
 		{ "item": "silicon", "amount": 110 },
