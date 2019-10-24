@@ -1,10 +1,10 @@
 {
 	"name": "IN5-AR",
-	"description": "Drill specified for mining Infiar. Requires molten metals in order to function properly.",
+	"description": "Drill what can mine everything. Requires molten metals in order to function properly.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 30,
-	"drillTime": 175,
+	"drillTime": 375,
 	"hasLiquids": true,
 	"consumes": {
 		"power": 4.0,
