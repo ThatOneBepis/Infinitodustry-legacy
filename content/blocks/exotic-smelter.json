@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Toughitinum Furnace",
+	"description": "Burns coal in order to get Toughitinum. Some may say this is weird cousin of Steel. It's only more exotic version of it.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "toughitinum", "amount": 1.0},
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 140,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.1,
+		"items": {
+        "items": [
+            {"item": "copper", "amount": 5},
+            {"item": "vector", "amount": 2},
+            {"item": "coal", "amount": 1}
+    ]
+    }
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 35 },
+		{ "item": "vector", "amount": 60 },
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

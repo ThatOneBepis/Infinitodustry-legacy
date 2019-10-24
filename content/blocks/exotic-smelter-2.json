@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Tau brick bakery",
+	"description": "Smelts titanium with stone and graphite into basic tau building material.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "tau-plate", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 131,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.4,
+		"items": {
+        "items": [
+            {"item": "stone", "amount": 2},
+            {"item": "titanium", "amount": 2},
+            {"item": "graphite", "amount": 1}
+    ]
+    }
+    },
+	"requirements": [
+		{ "item": "scalar", "amount": 50 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 35 },
+		{ "item": "graphite", "amount": 60 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
