@@ -3,7 +3,7 @@
 	"description": "Drill specified for mining Matrix. Will not output any spoons.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 8,
+	"tier": 6,
 	"drillTime": 175,
 	"consumes": {
 		"power": 1.1,
