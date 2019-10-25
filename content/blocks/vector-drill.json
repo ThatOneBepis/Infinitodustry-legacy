@@ -1,9 +1,9 @@
 {
 	"name": "V2-CTR",
-	"description": "Drill specified for mining Vector.",
+	"description": "Really good dril. Can mine vector, but not any more exotic ores",
 	"type": "Drill",
 	"size": 2,
-	"tier": 7,
+	"tier": 5,
 	"drillTime": 175,
 	"consumes": {
 		"power": 0.4,
