@@ -3,7 +3,7 @@
 	"description": "Drill specified for mining Tensor. Titanium-alloyed bricks can be consumed for faster mining.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 9,
+	"tier": 7,
 	"hasItems": true,
 	"hasLiquids": false,
 	"drillTime": 145,
