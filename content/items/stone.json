@@ -2,5 +2,6 @@
 	"type": "material",
 	"name": "Stone",
 	"description": "Eternal material used in mindustry, ditched off by later generations.",
-	"color": "494949"
+	"color": "494949",
+	"hardness": 1
 }
