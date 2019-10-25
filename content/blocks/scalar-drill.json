@@ -3,7 +3,7 @@
 	"description": "Drill specified for mining Scalar. Runs on Visionary glass",
 	"type": "Drill",
 	"size": 2,
-	"tier": 6,
+	"tier": 4,
 	"hasItems": true,
 	"drillTime": 225,
 	"itemDuration": 300,
