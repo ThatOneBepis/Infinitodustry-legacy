@@ -4,7 +4,7 @@
 	"description": "Powerful single-shot cannon what ionises most enemies. Without ionised fluid, it has quite long reload speed.",
 	"health": 2350,
 	"size": 4,
-	"reload": 3250,
+	"reload": 750,
 	"targetGround": true,
 	"targetAir": true,
 	"range": 250,
