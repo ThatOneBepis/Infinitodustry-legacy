@@ -1,0 +1,22 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Void utiliser",
+	"description": "Uses the dark matter itself to make power.",
+	"size": 3,
+	"hasLiquids": true,
+	"hasItems": true,
+    "powerProduction": 100,
+    "itemDuration" : 15,
+	"updateEffect": "none",
+	"consumes": {
+		"liquid": {"liquid": "dark-matter", "amount": 2.0},
+        "optional": false
+	}
+    },
+	"requirements":[],
+	"stateRules": "infiniteResources",
+	"alwaysUnlocked": "false",
+	"category": "power",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
