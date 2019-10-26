@@ -24,6 +24,7 @@
 		{ "item": "titanium", "amount": 80 },
 		{ "item": "silicon", "amount": 35 },
 		{ "item": "graphite", "amount": 60 },
+		{ "item": "stone", "amount": 95 }
 	],
 	"category": "crafting",
 	"research": "graphite-press",
