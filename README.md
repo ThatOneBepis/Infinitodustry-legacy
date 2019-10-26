@@ -1,2 +1,4 @@
 
-This branch contains extra files what may break the mod in question. Beware, but also suggest stuff here
+## Importing
+
+Simply zip up the contents of this respository, then import them through the `Mods` dialog in Mindustry. Or, place this folder inside Mindustry's `mods/` folder.
