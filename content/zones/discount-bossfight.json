@@ -1,0 +1,39 @@
+{
+	"name": "Scaled forest",
+	"description": "A perfectly untouched forest, on a planet full of moss and deserts. Examine detected misterious resources, and fight the outpost from the unknown group, what does not appear like what we usually fight.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 500},
+    	{"item": "lead", "amount": 350},
+        {"item": "graphite", "amount": 200},
+        {"item": "titanium", "amount": 150},
+        {"item": "metaglass", "amount": 100},
+        {"item": "visionary-glass", "amount": 100},
+        {"item": "silicon", "amount": 200},
+    ],
+    "type": "Launched",
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 10
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "scalar-drill"
+    	},
+        {
+            "type": "Unlock",
+            "block": "optic-klin"
+        },
+        {
+            "type": "Unlock",
+            "block": "titan-factory"
+        },
+    	{
+    		"type": "Unlock",
+    		"block": "pneumatic-drill"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "titanium", "scalar", "vector"]
+}
