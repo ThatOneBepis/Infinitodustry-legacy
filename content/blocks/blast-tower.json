@@ -4,7 +4,7 @@
 	"description": "Structure what releases shockwaves around itself.",
 	"health": 1650,
 	"size": 2,
-	"reload": 450,
+	"reload": 350,
 	"targetGround": true,
 	"targetAir": false,
 	"range": 160,
@@ -20,7 +20,8 @@
 			"damage": 1,
 			"lifetime": 1,
 			"bulletWidth": 1,
-			"bulletHeight": 1
+			"bulletHeight": 1,
+			"knockback": 1.0
 		},
 		"matrix": {
 			"speed": 1,
@@ -29,7 +30,8 @@
 			"bulletHeight": 1,
 			"splashDamage": 45,
 			"splashDamageRadius": 160,
-			"reloadMultiplier": 1.6
+			"reloadMultiplier": 1.6,
+			"knockback": 1.0
 		},
 		"phase-fabric": {
 			"speed": 1,
@@ -37,7 +39,8 @@
 			"bulletWidth": 1,
 			"bulletHeight": 1,
 			"splashDamage": 60,
-			"splashDamageRadius": 320
+			"splashDamageRadius": 320,
+			"knockback": 2.5
 		},
 		"surge-alloy": {
 			"speed": 1,
@@ -46,8 +49,9 @@
 			"bulletHeight": 1,
 			"splashDamage": 75,
 			"splashDamageRadius": 160,
-            "lightining" : 10,
-            "lightningLength" : 150
+           		"lightining" : 10,
+          		"lightningLength" : 150,
+			"knockback": 1.0
 		},
 	    },
 	"requirements": [
