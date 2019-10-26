@@ -22,5 +22,6 @@
 	"requirements": [
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "titanium", "amount": 400 },
-		{ "item": "silicon", "amount": 300 }
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 300}
 	]
