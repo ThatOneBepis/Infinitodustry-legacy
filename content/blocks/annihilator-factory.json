@@ -13,7 +13,8 @@
 				{"item": "silicon", "amount": 300},
 				{"item": "graphite", "amount": 220},
 				{"item": "spore-pod", "amount": 200},
-				{"item": "thorium", "amount": 150}
+				{"item": "thorium", "amount": 150},
+				{"item": "infiar", "amount": 150}
 			]
 		}
 	},
@@ -22,6 +23,8 @@
 	"requirements": [
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "titanium", "amount": 400 },
-		{ "item": "silicon", "amount": 300 }
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 300},
+		{ "item": "infiar", "amount": 300}
 	]
 }
