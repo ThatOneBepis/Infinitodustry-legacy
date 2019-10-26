@@ -1,0 +1,60 @@
+{
+	"type": "ItemTurret",
+	"name": "Blast",
+	"description": "Structure what releases shockwaves around itself.",
+	"health": 1650,
+	"size": 2,
+	"reload": 450,
+	"targetGround": true,
+	"targetAir": false,
+	"range": 160,
+	"shootSound": "explosion",
+	"ammoUseEffect": "explosion",
+	"inaccuracy": 0,
+	"rotatespeed": 1000000000000000,
+	"ammo": {
+		"blast-compound": {
+			"speed": 1,
+			"splashDamage": 80,
+			"splashDamageRadius": 160,
+			"damage": 1,
+			"lifetime": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 1
+		},
+		"matrix": {
+			"speed": 1,
+			"lifetime": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"splashDamage": 45,
+			"splashDamageRadius": 160,
+			"reloadMultiplier": 1.6
+		},
+		"phase-fabric": {
+			"speed": 1,
+			"lifetime": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"splashDamage": 60,
+			"splashDamageRadius": 320
+		},
+		"surge-alloy": {
+			"speed": 1,
+			"lifetime": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"splashDamage": 75,
+			"splashDamageRadius": 160,
+            "lightining" : 10,
+            "lightningLength" : 150
+		},
+	    },
+	"requirements": [
+		{ "item": "blast-fabric", "amount": 90 },
+		{ "item": "matrix", "amount": 110 },
+		{ "item": "stone", "amount": 100 },
+	],
+	"category": "turret",
+	"research": "ripple"
+}
