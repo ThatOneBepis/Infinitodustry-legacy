@@ -1,0 +1,27 @@
+{
+	"type": "unitFactory",
+	"name": "Panzer IV H factory",
+	"description": "Constructs German tanks. Which tanks? Look up at facility's name again.",
+	"unitType": "advanced-brawler",
+	"produceTime": 2000,
+	"size:": 3,
+	"consumes": {
+		"power": 1.45,
+		"items": {
+		"items": [
+            {"item": "scalar", "amount": 12.0},
+            {"item": "silicon", "amount": 12.0},
+            {"item": "toughitinum", "amount": 17.0}
+        ]
+	}
+    },
+	"requirements": [
+		{ "item": "matrix", "amount": 45 },
+		{ "item": "vector", "amount": 75 },
+		{ "item": "silicon", "amount": 65 },
+		{ "item": "copper", "amount": 95 },
+		{ "item": "toughitinum", "amount": 45}
+	],
+	"category": "units",
+	"research": "titan-factory"
+}
