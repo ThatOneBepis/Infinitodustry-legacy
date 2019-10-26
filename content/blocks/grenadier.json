@@ -6,7 +6,7 @@
 	"size": 3,
 	"reload": 200,
 	"targetGround": true,
-	"targetAir": true,
+	"targetAir": false,
 	"range": 180,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 5,
