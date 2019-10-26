@@ -60,7 +60,7 @@
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke"
 		},
-		"metalass": {
+		"metaglass": {
 			"speed": 8,
 			"damage": 45,
 			"bulletWidth": 10,
