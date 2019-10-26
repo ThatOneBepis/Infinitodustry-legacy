@@ -12,8 +12,10 @@
 	"inaccuracy": 5,
 	"rotatespeed": 10,
 	"ammo": {
-		"plastanium": {
-			"speed": 8,
+		"plastanium":{
+			"velocityInaccuracy": 0.2,
+			"speed": 4,
+			"lifetime": 25,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -22,7 +24,7 @@
 			"splashDamageRadius": 5,
 			"splashDamage": 5,
 			"fragBullet":{
-					  "damage": 5,
+					  "damage": 15,
 					  "speed": 8,
 					  "bulletWidth": 5,
 					  "bulletHeight": 3,
@@ -31,13 +33,15 @@
 			"fragBullets": 10
 		},
 		"blast-compound": {
-			"speed": 8,
+			"velocityInaccuracy": 0.2,
+			"speed": 4,
+			"lifetime": 25,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
-			"reloadMultiplier": 1.05,
+			"reloadMultiplier": 1.25,
 			"splashDamageRadius": 15,
 			"splashDamage": 25,
 			 "fragBullet":{
@@ -45,23 +49,27 @@
 					  "bulletWidth": 5,
 					  "bulletHeight": 3,
 					  "splashDamageRadius": 5,
-					  "splashDamage": 5,
+					  "splashDamage": 10,
 					  "lifetime": 25,
 					},
 				  "fragBullets": 5
 		},
 		"tensor": {
-			"speed": 8,
+			"velocityInaccuracy": 0.2,
+			"speed": 4,
+			"lifetime": 25,
 			"damage": 25,
 			"splashDamageRadius": 5,
-			"splashDamage": 25,
+			"splashDamage": 45,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke"
 		},
 		"metaglass": {
-			"speed": 8,
+			"velocityInaccuracy": 0.2,
+			"speed": 4,
+			"lifetime": 25,
 			"damage": 45,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
