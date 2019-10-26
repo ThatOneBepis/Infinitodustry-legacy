@@ -1,17 +1,15 @@
 {
 	"type": "SingleTypeGenerator",
 	"name": "Void utiliser",
-	"description": "Uses the dark matter itself to make power.",
+	"description": "Uses the fabric of dark matter itself to make power.",
 	"size": 3,
 	"hasLiquids": true,
-	"hasItems": true,
-    "powerProduction": 100,
-    "itemDuration" : 15,
+	"hasItems": false,
+    "powerProduction": 45,
+    "liquidDuration" : 15,
 	"updateEffect": "none",
 	"consumes": {
-		"liquid": {"liquid": "dark-matter", "amount": 2.0},
-        "optional": false
-	}
+		"liquid": {"liquid": "dark-matter", "amount": 1.0}
     },
 	"requirements":[],
 	"stateRules": "infiniteResources",
