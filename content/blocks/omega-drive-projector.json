@@ -1,0 +1,22 @@
+{
+  "name": "Omega drive projector",
+  "description": "HEAVILY overdrives nearby buildings.",
+  "type": "OverdriveProjector",
+  "consumes": {
+		"power": 40.0,
+  },
+  "category": "effect",
+	"research": "overdrive-projector",
+  "range": 60,
+  "size": 3,
+  "speedBoost": 10,
+  "speedBoostPhase": 5,
+  "useTime": 120,
+  "phaseRangeBoost": 40,
+  "requirements": [
+		{ "item": "thorium", "amount": 400 },
+		{ "item": "titanium", "amount": 400 },
+		{ "item": "silicon", "amount": 400 }
+    { "item": "surge-alloy", "amount": 400}
+	]
+}
