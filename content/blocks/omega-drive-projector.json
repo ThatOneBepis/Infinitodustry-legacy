@@ -22,6 +22,6 @@
 		{ "item": "toughitinum", "amount": 200 },
 		{ "item": "silicon", "amount": 400 },
 		{ "item": "matrix", "amount": 175},
-		{"item": "stone", "amount": 250}
+		{ "item": "stone", "amount": 250}
 	]
 }
