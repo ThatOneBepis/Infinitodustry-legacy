@@ -1,16 +1,9 @@
 {
-	"type": "Separator",
+	"type": "GenericCrafter",
 	"name": "Multidimensional portal",
 	"description": "Creates Tensor, technically out of thin air. Powered by Ionising fluid.",
 	"itemCapacity": 6,
-	"results": [
-		{"item": "tensor", "amount": 1500},
-		{"item": "test", "amount": 15}
-	],
-	"spinnerLength": 2,
-	"spinnerRadius": 2,
-	"spinnerThickness": 15,
-	"spinnerSpeed": 6,
+	"outputItem": {"item": "tensor", "amount": 1.0}
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -22,7 +15,7 @@
 		"liquid": {
 		"liquid": "ion-matter", 
 		"amount": 0.1
-    },
+    }
     },
 	"requirements": [
 		{ "item": "thorium", "amount": 65 },
