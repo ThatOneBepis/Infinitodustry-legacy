@@ -22,7 +22,7 @@
 			"bulletHeight": 25,
 			"keepVelocity": true,
 			"speed": 5,
-			"lifetime": 100,
+			"lifetime": 25,
 			"damage": 45,
 			"splashDamage": 55,
 			"splashDamageRadius": 10,
