@@ -56,8 +56,6 @@
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"lifetime": 300,
-			"homingPower" : 2,
-            "homingRange" : 50
 		},
 		"titanium": {
 			"speed": 4.5,
