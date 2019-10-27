@@ -1,11 +1,12 @@
 {
-  "name": "Ultimate Overdrive Projector",
-  "description": "Sandbox-only crazy OP overdrive projector. May or may not break the fabrics of time",
+  "name": "Sandbox Overdrive Projector",
+  "description": "Sandbox-only crazy OP overdrive projector.",
   "type": "OverdriveProjector",
   "consumes": {
 		"power": 1.0,
   },
   "category": "effect",
+	"research": "overdrive-projector",
   "buildVisibility": "sandboxOnly",
   "range": 60,
   "size": 1,
