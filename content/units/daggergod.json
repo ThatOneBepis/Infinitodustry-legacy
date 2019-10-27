@@ -1,0 +1,34 @@
+{
+	"type": "groundUnit",
+	"name": "Dagger God",
+	"description": "The god of Daggers.",
+	"maxVelocity": 1.5,
+	"speed": 0.5,
+	"drag": 0.4,
+	"mass": 200,
+	"hitsize": 300,
+	"rotatespeed": 0.1,
+	"health": 299520,
+	"weapon": {
+		"name": "god-blaster",
+		"length": 72,
+    "recoil": 36,
+    "shake": 10,
+    "innacuracy": 10,
+    "shootSound": "shootBig",
+    "ejectEffect": "shellEjectBig",
+		"width": 192,
+		"reload": 28,
+		"alternate": true,
+		"bullet":{
+		  "damage": 7569,
+		  "speed": 25,
+		  "bulletWidth": 192,
+		  "bulletHeight": 276,
+		  "splashDamageRadius": 80,
+		  "splashDamage": 200,
+      "shootEffect": "shootBig",
+		  "lifetime": 120
+		}
+	}
+}
