@@ -1,0 +1,14 @@
+{
+	"name": "Armored sorter",
+	"description": "Piece of wall what accepts selected item type, and outputs the rest on it's sides. Useful if you have to split serveral items near the heat of battle.",
+	"type": "sorter",
+	"health": 450,
+	"size": 1,
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "graphite", "amount": 12},
+		{ "item": "titanium", "amount": 6}
+	],
+	"category": "distribution",
+	"research": "sorter"
+}

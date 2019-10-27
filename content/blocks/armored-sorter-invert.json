@@ -1,0 +1,15 @@
+{
+	"name": "Inverted armored sorter",
+	"description": "Piece of wall what outputs selected item on the sides, and outputs the rest fowards. Useful if you have to split serveral items near the heat of battle. If left unselected, it can serve as Junction.",
+	"type": "sorter",
+	"health": 450,
+	"invert": true,
+	"size": 1,
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "graphite", "amount": 12},
+		{ "item": "titanium", "amount": 6}
+	],
+	"category": "distribution",
+	"research": "armored-sorter"
+}
