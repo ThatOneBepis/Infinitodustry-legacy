@@ -1,0 +1,18 @@
+{
+	"name": "Armored item brigde",
+	"description": "Piece of wall what distribute to other pieces of wall with simmilar properties. Due to it's mechanics, it is superior to any armored distribution block variant, as well as its unarmored variant.",
+	"type": "BufferedItemBridge",
+	"health": 450,
+	"size": 1,
+	"range": 6,
+	"speed": 70,
+	"bufferCapacity": 20,
+	"requirements": [
+		{ "item": "matrix", "amount": 6 },
+		{ "item": "titanium", "amount": 12},
+		{ "item": "graphite", "amount": 12},
+		{ "item": "metaglass", "amount": 15}
+	],
+	"category": "distribution",
+	"research": "bridge-conveyor"
+}

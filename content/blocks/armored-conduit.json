@@ -1,0 +1,13 @@
+{
+	"type": "Conduit",
+	"name": "Silicatic conduit",
+	"description": "Transfers liquids in conduits made out of stone and silicon. Because of this, you are unable to see visually which liquid is in it.",
+	"health": 355,
+	"requirements": [
+		{"item": "silicon", "amount": 10},
+		{"item": "stone", "amount": 15}
+	],
+	"category": "liquid",
+	"reseach": "pulse-conduit",
+	"LiquidCapacity": 0.16
+}

@@ -1,0 +1,17 @@
+{
+	"type": "SolidPump",
+	"name": "Well",
+	"description": "Extracts water by using nature of fluid's flow.",
+	"health": 150,
+	"result": "water",
+	"size": 2,
+	"pumpAmount": 0.15,
+	"requirements": [
+		{"item": "tau-plate", "amount": 45},
+		{"item": "stone", "amount": 95},
+		{"item": "graphite", "amount": 35}
+	],
+	"category": "production",
+	"reseach": "water-extractor",
+	"liquidCapacity": 15
+}
