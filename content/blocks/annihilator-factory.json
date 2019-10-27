@@ -21,7 +21,6 @@
 	},
 	"category": "units",
 	"research": "eradicator-factory",
-	"research": "annihilator-factory",
 	"requirements": [
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "titanium", "amount": 400 },
