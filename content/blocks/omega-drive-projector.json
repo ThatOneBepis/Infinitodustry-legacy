@@ -17,11 +17,11 @@
 		{ "item": "thorium", "amount": 200 },
 		{ "item": "titanium", "amount": 350 },
 		{ "item": "plastanium", "amount": 250 },
-	  	{ "item": "surge-alloy", "amount": 400},
-	 	 { "item": "infiar", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 400},
+		{ "item": "infiar", "amount": 350 },
 		{ "item": "toughitinum", "amount": 200 },
 		{ "item": "silicon", "amount": 400 },
-	  	{ "item": "matrix", "amount": 175},
-		  {"item": "stone", "amount": 250}
+		{ "item": "matrix", "amount": 175},
+		{ "item": "stone", "amount": 250}
 	]
 }
