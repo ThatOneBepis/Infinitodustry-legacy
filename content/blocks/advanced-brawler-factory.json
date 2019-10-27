@@ -12,9 +12,9 @@
             {"item": "scalar", "amount": 12.0},
             {"item": "silicon", "amount": 12.0},
             {"item": "toughitinum", "amount": 17.0}
-        ]
-	}
-    },
+      ]
+		}
+  },
 	"requirements": [
 		{ "item": "matrix", "amount": 45 },
 		{ "item": "vector", "amount": 75 },
@@ -25,3 +25,4 @@
 	"category": "units",
 	"research": "titan-factory"
 }
+
