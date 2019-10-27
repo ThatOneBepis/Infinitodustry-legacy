@@ -18,23 +18,19 @@
 		"offsetX": 15,
 		"bullet": {
 			"type": "BasicBulletType",
-			"width": 10,
-			"length": 35,
+			"bulletWidth": 10,
+			"bulletHeight": 25,
 			"keepVelocity": true,
 			"speed": 5,
-			"lifetime": 450,
-			"range": 195,
-			"drag": 0,
-			"shots": 1,
-			"knockback": 0,
-			"damage": 15,
-			"splashDamage": 85,
+			"lifetime": 100,
+			"damage": 45,
+			"splashDamage": 55,
 			"splashDamageRadius": 10,
 			"frontColor": "fff5ee",
-			"backColor": "fff5ae",
-			"roundRobin": false
+			"backColor": "fff5ae"
 		},
-		"recoil": 0.1,
-		"shake": 0.3
+		"recoil": 0.6,
+		"shake": 0.3,
+		"roundRobin": false
 	}
 }
