@@ -12,9 +12,11 @@
 	"weapon": {
 		"name": "annihilatron",
 		"length": 13,
+		"range": 800,
 		"width": 0,
 		"reload": 420,
 		"alternate": true,
+		"shootSound": "shootBig",
 		"bullet":{
 		  "damage": 200,
 		  "speed": 3,
@@ -28,12 +30,10 @@
 		  "homingRange": 600,
 		  "lifetime": 140,
 		  "fragBullet":{
-			  "type": "BombBulletType",
 			  "damage": 100,
 			  "speed": 4,
 			  "bulletWidth": 20,
 			  "bulletHeight": 14,
-			  "bulletShrink": 0.1,
 			  "splashDamageRadius": 48,
 			  "splashDamage": 80,
 			  "frontColor": "b830c2",
@@ -67,11 +67,11 @@
 					  "homingRange": 240,
 					  "lifetime": 100,
 					},
-				  "fragBullets": 20
+				  "fragBullets": 25
 				},
 			  "fragBullets": 8
 			},
-		  "fragBullets": 4
+		  "fragBullets": 5
 		}
 	}
 }
