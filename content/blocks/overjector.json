@@ -1,3 +1,4 @@
+
 {
   "name": "Ultimate Overdrive Projector",
   "description": "Sandbox-only crazy OP overdrive projector. May or may not break the fabrics of time",
@@ -14,6 +15,6 @@
   "useTime": 60,
   "phaseRangeBoost": 140,
   "requirements": [
-		{ "item": "copper", "amount": 0 }
+		{ "item": "test", "amount": 13 }
 	]
 }
