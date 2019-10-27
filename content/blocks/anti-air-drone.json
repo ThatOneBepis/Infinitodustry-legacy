@@ -1,0 +1,110 @@
+{
+	"type": "BurstTurret",
+	"name": "Sky cleaner",
+	"description": "When Divinity wants their sky crystal clean, he sets up these turrets.",
+	"health": 3000,
+	"size": 4,
+	"reload": 25,
+	"targetGround": false,
+	"range": 250,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 25,
+	"rotatespeed": 20,
+	"burstSpacing":  5,
+	"shots": 5,
+	"ammo": {
+		"tensor": {
+			"speed": 3,
+			"damage": 25,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"fragBullet":{
+					  "damage": 25,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 35
+		},
+		"blast-fabric":
+			{
+			"speed": 5,
+			"damage": 75,
+			"bulletWidth": 6,
+			"bulletHeight": 6,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"fragBullet":{
+					  "damage": 5,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 45,
+					},
+			"fragBullets": 15
+			},
+		"lead": {
+			"speed": 4,
+			"damage": 30,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"reloadMultiplier": 0.8,
+			"fragBullet":{
+					  "damage": 30,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 15
+		},
+		"silicon": {
+			"speed": 5,
+			"damage": 15,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"lifetime": 200,
+			"homingPower" : 2,
+            "homingRange" : 50,
+            "fragBullet":{
+					  "damage": 25,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lifetime": 35,
+					},
+			"fragBullets": 10
+		},
+		"surge-alloy": {
+			"speed": 4.5,
+			"damage": 85,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+            "lightining" : 2,
+            "lightningLength" : 5,
+            "fragBullet":{
+					  "damage": 25,
+					  "speed": 3,
+					  "bulletWidth": 5,
+					  "bulletHeight": 3,
+					  "lightining" : 2,
+          			  "lightningLength" : 5,
+					  "lifetime": 35,
+					},
+			"fragBullets": 10
+		}
+	    },
+	"requirements": [],
+	"stateRules": "infiniteResources",
+	"alwaysUnlocked": false,
+	"category": "turret"
+}
