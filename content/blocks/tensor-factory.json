@@ -3,7 +3,7 @@
 	"name": "Multidimensional portal",
 	"description": "Creates Tensor, technically out of thin air. Powered by Ionising fluid.",
 	"itemCapacity": 6,
-	"outputItem": {"item": "tensor", "amount": 1.0}
+	"outputItem": {"item": "tensor", "amount": 1.0},
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
