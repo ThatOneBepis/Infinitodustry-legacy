@@ -14,9 +14,10 @@
 	"shots": 5,
 	"ammo": {
 		"tensor": {
-			"speed": 3,
+			"speed": 6,
 			"damage": 25,
 			"bulletWidth": 6,
+			"lifetime": 200,
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
@@ -31,9 +32,10 @@
 		},
 		"blast-fabric":
 			{
-			"speed": 5,
+			"speed": 6,
 			"damage": 75,
 			"bulletWidth": 6,
+			"lifetime": 200,
 			"bulletHeight": 6,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
@@ -47,10 +49,11 @@
 			"fragBullets": 15
 			},
 		"lead": {
-			"speed": 4,
+			"speed": 6,
 			"damage": 30,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"lifetime": 200,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"reloadMultiplier": 0.8,
@@ -64,13 +67,13 @@
 			"fragBullets": 15
 		},
 		"silicon": {
-			"speed": 5,
+			"speed": 6,
 			"damage": 15,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
-			"lifetime": 200,
+			"lifetime": 400,
 			"homingPower" : 2,
             "homingRange" : 50,
             "fragBullet":{
@@ -83,8 +86,9 @@
 			"fragBullets": 10
 		},
 		"surge-alloy": {
-			"speed": 4.5,
+			"speed": 6,
 			"damage": 85,
+			"lifetime": 200,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
