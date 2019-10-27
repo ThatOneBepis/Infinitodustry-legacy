@@ -7,15 +7,19 @@
 	"reload": 200,
 	"targetGround": true,
 	"targetAir": false,
+	"collidesTiles": false,
+    "collides": false,
+    "collidesAir": false,
 	"range": 180,
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 5,
 	"rotatespeed": 10,
 	"ammo": {
-		"plastanium":{
+		"plastanium": {
+			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 25,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -33,9 +37,10 @@
 			"fragBullets": 10
 		},
 		"blast-compound": {
+			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 25,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -55,11 +60,12 @@
 				  "fragBullets": 5
 		},
 		"tensor": {
+			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 25,
 			"damage": 25,
-			"splashDamageRadius": 5,
+			"splashDamageRadius": 15,
 			"splashDamage": 45,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -67,9 +73,10 @@
 			"smokeEffect": "shootBigSmoke"
 		},
 		"metaglass": {
+			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 25,
 			"damage": 45,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
