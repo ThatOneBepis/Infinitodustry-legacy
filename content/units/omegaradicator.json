@@ -1,0 +1,37 @@
+{
+	"type": "groundUnit",
+	"name": "Omegaradicator",
+	"description": "The physical form of Anuke's wrath.",
+	"maxVelocity": 1,
+	"speed": 0.14,
+	"drag": 0.4,
+	"mass": 200,
+	"hitsize": 180,
+	"rotatespeed": 0.03,
+	"health": 200000,
+	"weapon": {
+		"name": "omegaradicatron",
+		"length": 130,
+    "recoil": 36,
+    "shake": 24,
+    "innacuracy": 10,
+    "shots": 4,
+    "spacing": 0,
+    "shotDelay": 3,
+    "shootSound": "shootBig",
+    "ejectEffect": "shellEjectBig",
+		"width": 260,
+		"reload": 30,
+		"alternate": true,
+		"bullet":{
+		  "damage": 5000,
+		  "speed": 25,
+		  "bulletWidth": 192,
+		  "bulletHeight": 276,
+		  "splashDamageRadius": 80,
+		  "splashDamage": 200,
+      "shootEffect": "shootBig",
+		  "lifetime": 120
+		}
+	}
+}
