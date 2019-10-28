@@ -1,12 +1,12 @@
 {
 	"name": "TN4S-R",
-	"description": "Drill specified for mining Tensor. Titanium-alloyed bricks can be consumed for faster mining.",
+	"description": "Drills able to mine resources only few drills can also mine. Titanium-alloyed bricks can be consumed for faster mining.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 7,
 	"hasItems": true,
 	"hasLiquids": false,
-	"drillTime": 150,
+	"drillTime": 145,
 	"itemDuration": 60,
 	"consumes": {
 		"power": 2.0,
