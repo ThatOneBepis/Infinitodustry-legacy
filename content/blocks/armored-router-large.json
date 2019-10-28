@@ -2,12 +2,12 @@
 	"name": "Large armored router",
 	"description": "Larger piece of wall what accepts items, and distributes it around itself. Useful for spliting ammo for turrets near defences.",
 	"type": "router",
-	"health": 450,
+	"health": 1800,
 	"size": 2,
 	"requirements": [
-		{ "item": "vector", "amount": 6 },
-		{ "item": "silicon", "amount": 12},
-		{ "item": "graphite", "amount": 12}
+		{ "item": "vector", "amount": 24 },
+		{ "item": "silicon", "amount": 48 },
+		{ "item": "graphite", "amount": 48 }
 	],
 	"category": "distribution",
 	"research": "armored-router"
