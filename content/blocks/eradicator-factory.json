@@ -1,0 +1,30 @@
+
+{
+	"name": "Eradicator Factory",
+	"description": "Makes Eradicator boss units.",
+	"type": "UnitFactory",
+	"unitType": "eradicator",
+	"size": 5,
+	"produceTime": 7200,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 15.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 300},
+				{"item": "graphite", "amount": 220},
+				{"item": "titanium", "amount": 300},
+				{"item": "thorium", "amount": 150}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+
+	"requirements": [
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "titanium", "amount": 400 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 300}
+	]
+}

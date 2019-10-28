@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "Vector",
-	"description": "Very fammiliar and with direction.",
+	"description": "Very fammiliar and with direction. Used for more advanced blocks when something has to go somewhere.",
 	"cost": 1.5,
 	"hardness": 5,
 	"tier": 7,

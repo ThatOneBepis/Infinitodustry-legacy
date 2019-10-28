@@ -1,0 +1,20 @@
+
+{
+  "name": "Ultimate Overdrive Projector",
+  "description": "Sandbox-only crazy OP overdrive projector. May or may not break the fabrics of time",
+  "type": "OverdriveProjector",
+  "consumes": {
+		"power": 1.0,
+  },
+  "category": "effect",
+  "buildVisibility": "sandboxOnly",
+  "range": 60,
+  "size": 1,
+  "speedBoost": 999999,
+  "speedBoostPhase": 999999,
+  "useTime": 60,
+  "phaseRangeBoost": 140,
+  "requirements": [
+		{ "item": "test", "amount": 13 }
+	]
+}

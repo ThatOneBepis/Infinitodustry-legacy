@@ -1,0 +1,19 @@
+{
+	"name": "Omegaradicator Summoner",
+	"description": "Summons Anuke's wrath...
+  Nobody knows what the symbols mean.",
+	"type": "UnitFactory",
+	"unitType": "omegaradicator",
+	"size": 1,
+	"produceTime": 9000,
+  "buildVisibility": "sandboxOnly",
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 1.0
+  },
+	"category": "units",
+	"research": "eradicator-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	]
+}

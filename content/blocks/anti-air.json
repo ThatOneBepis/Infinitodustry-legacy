@@ -16,6 +16,8 @@
 			"damage": 20,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 		},
@@ -27,15 +29,19 @@
 			"frontColor": "ffffff",
 			"bulletWidth": 6,
 			"bulletHeight": 6,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"StatusEffects": "freezing"
+			"freezing": 15,
 			},
 		"lead": {
 			"speed": 6,
 			"damage": 30,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"reloadMultiplier": 0.8
@@ -45,17 +51,19 @@
 			"damage": 15,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"lifetime": 300,
-			"homingPower" : 2,
-            "homingRange" : 50
 		},
 		"titanium": {
 			"speed": 4.5,
 			"damage": 15,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"reloadMultiplier": 1.5
@@ -65,6 +73,8 @@
 			"damage": 35,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
             "lightining" : 2,
@@ -75,9 +85,26 @@
 			"damage": 20,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
+			"homingPower": 100,
+			"homingRange": 800,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"reloadMultiplier": 1.1
+		},
+		"pyratite":
+		{
+			"speed": 5,
+			"damage": 25,
+			"bulletHeight": 10,
+			"bulletWidth": 6,
+			"homingPower": 100,
+			"homingRange": 800,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"incendAmount": 15,
+			"splashDamageRadius": 20,
+			"splashDamage": 20,
+			"lifetime": 100
 		}
 	    },
 	"requirements": [

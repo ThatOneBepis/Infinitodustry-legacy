@@ -1,6 +1,6 @@
 {
 	"name": "SCL1-R",
-	"description": "Drill specified for mining Scalar. Runs on Visionary glass",
+	"description": "A drill what can mine thorium and scalar. Doesn't need power, but it runs on Visionary glass.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 4,
@@ -18,7 +18,8 @@
 		{ "item": "metaglass", "amount": 35 },
 		{ "item": "visionary-glass", "amount": 45},
 		{ "item": "copper", "amount": 70 },
-		{ "item": "silicon", "amount": 30 }
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "titanium", "amount": 5}
 	],
 	"category": "production",
 	"research": "optic-klin"

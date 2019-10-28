@@ -1,4 +1,2 @@
 
-## Importing
-
-Simply zip up the contents of this respository, then import them through the `Mods` dialog in Mindustry. Or, place this folder inside Mindustry's `mods/` folder.
+For adding custom sprites, use mindustry pallete, along infinity pallete spotted in this branch
