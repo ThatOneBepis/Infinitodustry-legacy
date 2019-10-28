@@ -1,0 +1,19 @@
+{
+	"name": "Supreme Lich Summoner",
+	"description": "Summons Supreme Lich.
+  Nobody knows what the symbols mean.",
+	"type": "UnitFactory",
+	"unitType": "supreme-lich",
+	"size": 1,
+	"produceTime": 6000,
+  "buildVisibility": "sandboxOnly",
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 1.0
+  },
+	"category": "units",
+	"research": "eradicator-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	]
+}
