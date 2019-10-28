@@ -4,6 +4,8 @@
 	"description": "Extracts water by using nature of fluid's flow.",
 	"health": 150,
 	"result": "water",
+	"hasPower": false,
+	"hasLiquids": true,
 	"size": 2,
 	"pumpAmount": 0.15,
 	"requirements": [
@@ -12,6 +14,6 @@
 		{"item": "graphite", "amount": 35}
 	],
 	"category": "production",
-	"reseach": "water-extractor",
+	"research": "water-extractor",
 	"liquidCapacity": 15
 }

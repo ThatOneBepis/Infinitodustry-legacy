@@ -9,6 +9,6 @@
 		{"item": "metaglass", "amount": 6}
 	],
 	"category": "distribution",
-	"reseach": "armored-conveyor",
+	"research": "titanium-conveyor",
 	"speed": 0.12
 }
