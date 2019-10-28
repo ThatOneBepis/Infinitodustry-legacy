@@ -15,6 +15,7 @@ Exceptional deadliness.",
 	"engineSize": 15,
 	"rotatespeed": 0.01,
 	"baseRotateSpeed": 0.04,
+	"shootCone": 60,
 	"weapon": {
 		"name": "supreme-missiles",
 		"length": 4,
