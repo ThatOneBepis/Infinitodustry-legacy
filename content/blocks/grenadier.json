@@ -4,7 +4,7 @@
 	"description": "Bomb-tossing turret, with mediocre range",
 	"health": 1650,
 	"size": 3,
-	"reload": 200,
+	"reload": 70,
 	"targetGround": true,
 	"targetAir": false,
 	"collidesTiles": false,
