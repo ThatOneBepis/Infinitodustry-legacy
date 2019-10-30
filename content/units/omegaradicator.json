@@ -8,7 +8,7 @@
 	"mass": 8640,
 	"hitsize": 240,
 	"rotatespeed": 0.03,
-	"health": 1296000,
+	"health": 15552000,
 	"weapon": {
 		"name": "omegaradicatron",
 		"length": 130,
