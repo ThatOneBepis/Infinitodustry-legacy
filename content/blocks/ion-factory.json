@@ -1,0 +1,35 @@
+{
+	"type": "genericSmelter",
+	"name": "Ionising machine",
+	"description": "Building what takes pyratite and slag, and converts it into Plasma state of matter.",
+	"outputLiquid": {"liquid": "ion-matter", "amount": 6.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"updateEffect": "smeltsmoke",
+	"consumes":
+	{
+		"power": 1.5,
+		"items": {
+		"items": [
+            {"item": "pyratite" , "amount": 1.0}
+        ]
+	},
+	"liquid": {
+			"liquid": "slag", 
+			"amount": 0.05
+    },
+    },
+	"requirements": [
+		{ "item": "tensor", "amount": 65 },
+		{ "item": "vector", "amount": 65 },
+		{ "item": "silicon", "amount": 95 },
+		{ "item": "graphite", "amount": 35 },
+		{ "item": "tau-plate", "amount": 65},
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

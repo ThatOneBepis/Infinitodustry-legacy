@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Particle accelerator",
+	"description": "Uses Vector in order to accelerate sand particles, creating Phase fabric",
+	"itemCapacity": 6,
+	"outputItem": {"item": "phase-fabric", "amount": 1.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 140,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.0,
+		"items": {
+		"items": [
+            {"item": "vector", "amount": 5.0},
+            {"item": "sand", "amount": 3.0}
+        ]
+	}
+    },
+	"requirements": [
+		{ "item": "thorium", "amount": 65 },
+		{ "item": "tensor", "amount": 25 },
+		{ "item": "vector", "amount": 135 },
+		{ "item": "phase-fabric", "amount": 130 },
+		{ "item": "lead", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

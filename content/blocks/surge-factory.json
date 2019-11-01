@@ -8,8 +8,9 @@
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 120,
+	"craftTime": 131,
 	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
 	"consumes": {
 		"power": 2.3,
 		"items": {

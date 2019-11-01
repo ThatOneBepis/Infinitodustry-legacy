@@ -9,6 +9,7 @@
 	"hasLiquids": false,
 	"craftTime": 131,
 	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
 	"consumes": {
 		"power": 1.4,
 		"items": {
@@ -24,7 +25,6 @@
 		{ "item": "titanium", "amount": 80 },
 		{ "item": "silicon", "amount": 35 },
 		{ "item": "graphite", "amount": 60 },
-		{ "item": "stone", "amount": 95 }
 	],
 	"category": "crafting",
 	"research": "graphite-press",
