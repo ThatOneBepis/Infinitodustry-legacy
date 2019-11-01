@@ -1,18 +1,26 @@
 {
 	"name": "IN5-AR",
-	"description": "Drill what can mine everything. Requires molten metals in order to function properly.",
+	"description": "Drill what can mine everything. Requires molten metals in order to function properly. It appears that it performs a lot better if it contains traces of Infiar.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 30,
-	"drillTime": 125,
+	"drillTime": 95,
 	"hasLiquids": true,
 	"consumes": {
 		"power": 4.0,
 		"liquid": {
 			"liquid": "slag", 
 			"amount": 0.1,
-			"booster": false
-		}
+			"booster": false,
+			"optional": false
+		},
+		"items": {
+    "items": [
+        {"item": "infiar", "amount": 1},
+    ],
+    "booster": true,
+    "optional": true
+}
 	},
 	"requirements": [
 		{ "item": "tensor", "amount": 135 },
