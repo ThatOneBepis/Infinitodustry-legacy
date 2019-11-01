@@ -1,6 +1,6 @@
 {
 	"name": "Crusader drone",
-	"type": "renevant",
+	"type": "spirit",
 	"description": "More advanced version of knight drone, designed to protect the holy land. Has a cannon which shoots 3 lasers, much like Fuse.",
 	"health": 750,
 	"flying": true,
