@@ -1,0 +1,29 @@
+{
+	"type": "unitFactory",
+	"name": "Crusader drone factory",
+	"description": "Constructs Crusader patrol drones.",
+	"unitType": "Patrol-drone-mk2",
+	"produceTime": 3200,
+	"size:": 3,
+	"maxUnits": 1,
+	"consumes": {
+		"power": 3.25,
+		"items": {
+		"items": [
+            {"item": "toughitinum", "amount": 45.0},
+            {"item": "silicon", "amount": 85.0},
+            {"item": "plastanium", "amount": 65.0},
+            {"item": "surge-alloy", "amount": 45.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "matrix", "amount": 85 },
+		{ "item": "copper", "amount": 145 },
+		{ "item": "silicon", "amount": 105 },
+		{ "item": "surge-alloy", "amount": 95 },
+		{ "item": "plastanium", "amount": 125}
+	],
+	"category": "units",
+	"research": "patrol-drone-factory-1"
+}

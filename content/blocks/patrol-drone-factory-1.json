@@ -1,0 +1,28 @@
+{
+	"type": "unitFactory",
+	"name": "Knight drone factory",
+	"description": "Constructs Knight patrol drones.",
+	"unitType": "Patrol-drone-mk1",
+	"produceTime": 1800,
+	"size:": 2,
+	"maxUnits": 1,
+	"consumes": {
+		"power": 2.25,
+		"items": {
+		"items": [
+            {"item": "tau-plate", "amount": 45.0},
+            {"item": "silicon", "amount": 65.0},
+            {"item": "titanium", "amount": 50.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "scalar", "amount": 65 },
+		{ "item": "stone", "amount": 65 },
+		{ "item": "silicon", "amount": 105 },
+		{ "item": "graphite", "amount": 75 },
+		{ "item": "titanium", "amount": 75}
+	],
+	"category": "units",
+	"research": "spirit-factory"
+}
