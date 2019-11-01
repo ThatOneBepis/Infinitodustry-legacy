@@ -12,10 +12,10 @@
 	"maxVelocity": 0.9,
 	"weapon":{
 		"reload": 90,
-		"width": 7,
+		"width": 0,
 		"ejectEffect": "shellEjectSmall",
 		"shootSound": "shootBig",
-		"offsetX": 15,
+		"alternate": true,
 		"bullet": {
 			"type": "BasicBulletType",
 			"bulletWidth": 10,
