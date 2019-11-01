@@ -1,7 +1,7 @@
 
 For adding custom sprites, use mindustry pallete, along infinity pallete spotted in this branch
 
-##CHANGELOG
+#CHANGELOG
 
 -Stuff is logged now
 -To be exact, new changes are following
