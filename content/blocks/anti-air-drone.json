@@ -93,15 +93,15 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
-            "lightining" : 2,
-            "lightningLength" : 5,
+            "lightining" : 10,
+            "lightningLength" : 35,
             "fragBullet":{
 					  "damage": 25,
 					  "speed": 3,
 					  "bulletWidth": 5,
 					  "bulletHeight": 3,
 					  "lightining" : 2,
-          			  "lightningLength" : 5,
+          			  "lightningLength" : 10,
 					  "lifetime": 35,
 					},
 			"fragBullets": 10
