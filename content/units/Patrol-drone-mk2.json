@@ -1,0 +1,30 @@
+{
+	"name": "Crusader drone",
+	"type": "renevant",
+	"description": "More advanced version of knight drone, designed to protect the holy land. Has a cannon which shoots 3 lasers, much like Fuse.",
+	"health": 750,
+	"flying": true,
+	"hitSize": 35,
+	"targetAir": true,
+	"speed": 0.065,
+	"mass": 75,
+	"rotatespeed": 8,
+	"maxVelocity": 0.4,
+	"drag": 0.1,
+	"rotateWeapon": false,
+	"weapon":
+	{
+		"name": "fusion-cannon",
+		"width": 0,
+		"recoil": 3,
+		"alternate": true,
+		"reload": 75,
+		"spread": 20,
+		"shootCone": 30,
+		"restitution": 0.1,
+		"shots": 3,
+		"shootSound": "shotgun",
+		"shootEffect": "lightningShoot",
+		"bullet": "lancerLaser"
+	}
+}

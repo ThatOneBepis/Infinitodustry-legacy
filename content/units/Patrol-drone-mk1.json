@@ -1,0 +1,34 @@
+{
+	"name": "Knight drone",
+	"type": "renevant",
+	"description": "Modified Phantom drone with built-in lancer turret. Patrols around your base, looking for enemy threat.",
+	"health": 450,
+	"flying": true,
+	"hitSize": 25,
+	"targetAir": true,
+	"speed": 0.1,
+	"mass": 45,
+	"rotatespeed": 5,
+	"maxVelocity": 0.5,
+	"drag": 0.05,
+	"rotateWeapon": false,
+	"weapon":
+	{
+		"name": "lancer",
+		"width": 0,
+		"recoil": 3,
+		"alternate": true,
+		"reload": 100,
+		"cooldown": 0.05,
+		"chargeTime": 25,
+		"chargeMaxDelay": 45,
+		"chargeEffects": 7,
+		"shootSound": "laser",
+		"shootEffect": "lancerLaserShoot",
+		"smokeEffect": "lancerLaserShootSmoke",
+		"chargeEffect": "lancerLaserCharge",
+		"chargeBeginEffect": "lancerLaserChargeBegin",
+		"heatColor": "red",
+		"bullet": "lancerLaser"
+	}
+}
