@@ -3,7 +3,7 @@
 	"description": "Drills able to mine resources only few drills can also mine. Titanium-alloyed bricks can be consumed for faster mining.",
 	"type": "Drill",
 	"size": 2,
-	"tier": 7,
+	"tier": 8,
 	"hasItems": true,
 	"hasLiquids": false,
 	"drillTime": 145,
