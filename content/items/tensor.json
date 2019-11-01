@@ -3,7 +3,7 @@
 	"name": "Tensor",
 	"description": "Multidimensional thing",
 	"cost": 1.7,
-	"hardness": 7,
+	"hardness": 8,
 	"tier": 9,
 	"color": "ff7c00"
 }
