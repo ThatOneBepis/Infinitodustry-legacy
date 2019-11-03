@@ -14,3 +14,5 @@ UPCOMING
 -Lich and Reaper factory
 
 -Description for Lich, Reaper and Revenant
+
+-Sprite directory reorganisation
