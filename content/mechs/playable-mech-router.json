@@ -1,0 +1,30 @@
+{
+	"name": "Router mech",
+	"description": "Mech what looks like it is made out of routers, or what looks like it's shell. Shoots shotgun pellets, mostly to refference it's shell. But what about the inside? No one knows.",
+	"health": 400,
+	"mass": 21,
+	"flying": false,
+	"speed": 0.1,
+	"weapon": 
+	{
+		"name": "router-gun",
+		"length": 10,
+		"width": 10,
+		"reload": 65,
+		"shots": 4,
+		"shootCone": 45,
+		"inaccuracy": 25,
+		"shootSound": "shotgun",
+		"bullet": 
+		{
+			"speed": 3,
+			"damage": 35,
+			"lifetime": 60,
+			"bulletHeight": 7,
+			"bulletWidth": 3
+		},
+		"keepVelocity": false
+	},
+	"buildPower": 1.15,
+	"itemCapacity": 65
+}
