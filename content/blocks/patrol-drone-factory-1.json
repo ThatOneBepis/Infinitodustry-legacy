@@ -4,7 +4,7 @@
 	"description": "Constructs Knight patrol drones.",
 	"unitType": "Patrol-drone-mk1",
 	"produceTime": 1800,
-	"size:": 2,
+	"size": 2,
 	"maxUnits": 1,
 	"consumes": {
 		"power": 2.25,
