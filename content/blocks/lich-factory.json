@@ -23,8 +23,7 @@
 		{ "item": "plastanium", "amount": 185 },
 		{ "item": "silicon", "amount": 325 },
 		{ "item": "copper", "amount": 245 },
-		{ "item": "thorium", "amount": 195},
-		{ "item": "tau-plate", "amount": 100}
+		{ "item": "thorium", "amount": 195}
 	],
 	"category": "units",
 	"research": "revenant-factory"
