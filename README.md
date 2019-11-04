@@ -16,3 +16,5 @@ UPCOMING
 -Description for Lich, Reaper and Revenant
 
 -Sprite directory reorganisation
+
+-Arc MK2, internally called "Edison"
