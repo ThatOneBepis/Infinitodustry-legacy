@@ -1,0 +1,31 @@
+{
+	"type": "unitFactory",
+	"name": "Lich battleship factory",
+	"description": "Constructs missile-bombarding Lich battleships.",
+	"unitType": "lich",
+	"produceTime": 8060,
+	"size": 5,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 12.0,
+		"items": {
+		"items": [
+            {"item": "plastanium", "amount": 95.0},
+            {"item": "silicon", "amount": 115.0},
+            {"item": "pyratite", "amount": 30.0},
+            {"item": "copper", "amount": 65.0},
+            {"item": "thorium", "amount": 105.0},
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "tensor", "amount": 95 },
+		{ "item": "plastanium", "amount": 185 },
+		{ "item": "silicon", "amount": 325 },
+		{ "item": "copper", "amount": 245 },
+		{ "item": "thorium", "amount": 195},
+		{ "item": "tau-plate", "amount": 100}
+	],
+	"category": "units",
+	"research": "revenant-factory"
+}
