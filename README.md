@@ -13,9 +13,9 @@ UPCOMING
 
 -Lich and Reaper factory
 
--Description for Lich, Reaper and Revenant
+-Description for Lich, Reaper and Revenant (delayed until further notice)
 
--Sprite directory reorganisation
+-Sprite directory reorganisation (because github, most sprites have duplicates)
 
 -Arc MK2, internally called "Edison"
 
