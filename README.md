@@ -18,3 +18,7 @@ UPCOMING
 -Sprite directory reorganisation
 
 -Arc MK2, internally called "Edison"
+
+-Liquid distributor
+
+-Armored liquid bridge
