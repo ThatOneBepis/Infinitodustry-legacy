@@ -4,6 +4,5 @@
 	"speedMultiplier": 1,
 	"isLiquid": true,
 	"liquidDrop": "oil",
-	"blendGroup": "tau-floor",
-	"variants": 1
+	"variants": 0
 }

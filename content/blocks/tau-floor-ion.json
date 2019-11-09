@@ -1,9 +1,8 @@
 {
 	"type": "Floor",
 	"name": "Ion-flowing Floor",
-	"blendGroup": "tau-floor",
 	"speedMultiplier": 1,
 	"isLiquid": true,
 	"liquidDrop": "ion-matter",
-	"variants": 1
+	"variants": 0
 }
