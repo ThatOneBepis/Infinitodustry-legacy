@@ -1,0 +1,19 @@
+{
+	"type": "LiquidExtendingBridge",
+	"name": "Armored liquid bridge",
+	"description": "Piece of wall what can transport liquids to other pieces of wall with simmilar properties.",
+	"health": 725,
+	"hasPower": false,
+	"requirements": [
+		{"item": "silicon", "amount": 6},
+		{"item": "stone", "amount": 12},
+		{"item": "matrix", "amount": 6},
+		{"item": "vector", "amount": 6},
+		{"item": "titanium", "amount": 15}
+	],
+	"category": "liquid",
+	"research": "bridge-conduit",
+	"LiquidCapacity": 16,
+	"range": 6,
+	"speed": 70,
+}

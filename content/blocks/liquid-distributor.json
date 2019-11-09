@@ -1,0 +1,14 @@
+{
+	"type": "LiquidTank",
+	"name": "Liquid distributor",
+	"description": "Median between liquid router and liquid tank.",
+	"health": 100,
+	"size": 2,
+	"requirements": [
+		{"item": "metaglass", "amount": 10},
+		{"item": "titanium", "amount": 5}
+	],
+	"category": "liquid",
+	"research": "liquid-router",
+	"liquidCapacity": 400
+}
