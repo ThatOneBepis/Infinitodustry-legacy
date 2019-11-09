@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"name": "Cybertron silicon fabricator",
+	"description": "Uses Matrix (for transformers known as Energon) and stone to make a decent chunk of silicon.",
+	"itemCapacity": 12,
+	"outputItem": {"item": "silicon", "amount": 6.0},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 162,
+	"updateEffect": "smeltsmoke",
+	"flameColor": "3617e4",
+	"consumes": {
+		"power": 3.0,
+		"items": {
+		"items": [
+            {"item": "matrix", "amount": 4.0},
+            {"item": "stone", "amount": 4.0}
+        ]
+	}
+    },
+	"requirements": [
+		{ "item": "titanium", "amount": 105 },
+		{ "item": "silicon", "amount": 95 },
+		{ "item": "scalar", "amount": 125 },
+		{ "item": "matrix", "amount": 45 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
