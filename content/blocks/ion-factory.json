@@ -5,7 +5,7 @@
 	"outputLiquid": {"liquid": "ion-matter", "amount": 6.0},
 	"size": 2,
 	"hasPower": true,
-	"hasLiquids": false,
+	"hasLiquids": true,
 	"hasItems": true,
 	"updateEffect": "smeltsmoke",
 	"consumes":
