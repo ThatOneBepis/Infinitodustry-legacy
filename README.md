@@ -15,10 +15,14 @@ UPCOMING
 
 -Description for Lich, Reaper and Revenant (delayed until further notice)
 
--Sprite directory reorganisation (because github, most sprites have duplicates)
+-Sprite directory reorganisation (done, but it took a while)
 
--Arc MK2, internally called "Edison"
+-Arc MK2, internally called "Edison" (idk if this is gonna be done soon)
 
 -Liquid distributor
 
 -Armored liquid bridge
+
+-Drill sprites (technicall difficulties made tensor drill sprites a bit unaviable)
+
+-Wiki
