@@ -22,3 +22,9 @@ CHANGELOG
 -Drill sprites (technicall difficulties made tensor drill sprites a bit unaviable)
 
 -Wiki (semi-working one)
+
+ NEXT VERSION CONTENT
+ 
+ -Arc MK2, internally called "Edison"
+ 
+ -Usage of critter box, and a way to craft it
