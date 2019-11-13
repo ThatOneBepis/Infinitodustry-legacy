@@ -7,7 +7,7 @@
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
-	"hasItems": false,
+	"hasItems": true,
 	"craftTime": 81,
 	"updateEffect": "shellEjectBig",
 	"consumes": {
@@ -24,7 +24,7 @@
 		{ "item": "tensor", "amount": 35 }
 	],
 	"category": "crafting",
-	"research": "incinerator",
+	"research": "ion-factory",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
