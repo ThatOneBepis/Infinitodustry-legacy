@@ -1,0 +1,33 @@
+{
+	"name": "Critter",
+	"type": "crawler",
+	"description": "Little annoying bots, supporting your beachhead assault.",
+	"health": 90,
+	"flying": false,
+	"targetAir": false,
+	"hitSize": 5,
+	"speed": 1,
+	"mass": 2,
+	"rotatespeed": 6,
+	"maxVelocity": 2.3,
+	"cargoSize": 1,
+	"weapon":{
+		"reload": 85,
+		"width": 0,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shotgun",
+		"alternate": true,
+		"name": "Crit",
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 3,
+			"bulletHeight": 6,
+			"keepVelocity": true,
+			"speed": 10,
+			"lifetime": 5,
+			"damage": 15
+		},
+		"recoil": 3,
+		"roundRobin": false
+	}
+}
