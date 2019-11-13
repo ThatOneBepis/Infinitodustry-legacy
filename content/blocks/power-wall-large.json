@@ -1,0 +1,14 @@
+{
+	"name": "Large toughitinum wall",
+	"description": "Solid wall which is also a power conductor. Solution to messy power supplies in the defensive frontline. Can accept one power laser at the time. Spans multiple tiles.",
+	"type": "PowerNode",
+	"maxNodes": 1,
+	"laserRange": 0,
+	"health": 3320,
+	"size": 2,
+	"requirements": [
+		{ "item": "toughitinum", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "power-wall"
+}
