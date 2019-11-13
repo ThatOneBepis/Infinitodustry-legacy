@@ -1,0 +1,24 @@
+{
+	"type": "unitFactory",
+	"name": "Critter box opener",
+	"description": "Opens Critter boxes. Releases 4 critters from one critter box.",
+	"unitType": "boomer-droid",
+	"produceTime": 20,
+	"size": 2,
+	"maxSpawn": 24,
+	"consumes": {
+		"power": 0.15,
+		"items": {
+		"items": [
+            {"item": "CRITTERS", "amount": 0.25}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "silicon", "amount": 45 },
+		{ "item": "tau-plate", "amount": 25},
+		{ "item": "vector", "amount": 25}
+	],
+	"category": "units",
+  "buildVisibility": "sandboxOnly"
+}
