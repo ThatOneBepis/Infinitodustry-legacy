@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Critter factory",
+	"description": "Creates critters, and puts them into a protective toughitinum box.",
+	"itemCapacity": 20,
+	"outputItem": {"item": "CRITTERS", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"craftTime": 200,
+	"consumes": {
+		"power": 1.4,
+		"items": {
+        "items": [
+            {"item": "silicon", "amount": 10},
+            {"item": "toughitinum", "amount": 3}
+    ]
+    }
+    },
+	"requirements": [
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "silicon", "amount": 45 },
+		{ "item": "tau-plate", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "crawler-factory"
+}
