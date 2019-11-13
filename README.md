@@ -23,8 +23,18 @@ CHANGELOG
 
 -Wiki (semi-working one)
 
- NEXT VERSION CONTENT
+ UPCOMING CONTENT
  
  -Arc MK2, internally called "Edison"
  
  -Usage of critter box, and a way to craft it
+
+-Toughitinum walls
+
+-Metaphor in it's young phase
+
+-More sprites
+
+-Relatively working Multidimensional portal (finally?)
+
+-Snowball yeeter
