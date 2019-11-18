@@ -1,7 +1,7 @@
 
 For adding custom sprites, use mindustry pallete, along infinity pallete spotted in this branch
 
-Considering im running out of Source moddingn't stuff ideas, at one point i might shift this into source version, and that will probably end up before b-f
+Considering im running out of Source moddingn't stuff ideas, at one point i might shift this into source version, and that will probably end up before build 100, because that seems delayed too
 
 CHANGELOG
 
