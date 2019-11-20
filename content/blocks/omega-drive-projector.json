@@ -4,15 +4,22 @@
   "type": "OverdriveProjector",
   "consumes": {
 		"power": 40.0,
+        "items": {
+    "items": [
+        {"item": "infiar", "amount": 1},
+    ],
+    "booster": true,
+    "optional": true
+  }
   },
   "category": "effect",
 	"research": "overdrive-projector",
-  "range": 60,
+  "range": 100,
   "size": 3,
   "speedBoost": 10,
   "speedBoostPhase": 5,
-  "useTime": 120,
-  "phaseRangeBoost": 40,
+  "useTime": 60,
+  "phaseRangeBoost": 50,
   "requirements": [
 		{ "item": "thorium", "amount": 200 },
 		{ "item": "titanium", "amount": 350 },

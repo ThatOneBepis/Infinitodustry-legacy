@@ -3,7 +3,7 @@
 	"name": "Ionising machine",
 	"description": "Building what takes pyratite and slag, and converts it into Plasma state of matter.",
 	"outputLiquid": {"liquid": "ion-matter", "amount": 6.0},
-	"size": 2,
+	"size": 3,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,

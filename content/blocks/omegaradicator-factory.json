@@ -1,7 +1,6 @@
 {
 	"name": "Omegaradicator Summoner",
-	"description": "Summons Anuke's wrath...
-  Nobody knows what the symbols mean.",
+	"description": "Summons Anuke's wrath...                                Nobody knows what the symbols mean.",
 	"type": "UnitFactory",
 	"unitType": "omegaradicator",
 	"size": 1,
