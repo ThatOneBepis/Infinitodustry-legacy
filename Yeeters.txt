@@ -4,3 +4,4 @@ TNT yeeter: Standard version, uses Blast compound as un-optional booster. Uses f
 Carbon yeeter: Uses flammable items as ammo at higher rate, incinerates enemies in it's radius
 Radioactive yeeter: Uses Phase, Thorium and Ohnonium as ammo, deals unimplemented type of damage
 Multi-dimensional yeeter: Uses Tensor as un-optional booster, Metaglass, Plastanium and Blast fabric as ammo, has v e r y f a s t f r a g m e n t s
+Swarm yeeter: Uses Critter box and Spore pods as ammo, summons a lot of units
