@@ -3,9 +3,10 @@
 
 ##Sprites
 
-"big-boy-battery" - @D I O#4882 
-"ion-cannon-drone" - @TrinityXyz#0624 
-"Patrol-drone-mk1" and "Patrol-drone-mk2" - @Mega777#1778 
+"big-boy-battery" - D I O#4882 
+"ion-cannon-drone" - TrinityXyz#0624 
+"Patrol-drone-mk1" and "Patrol-drone-mk2" - Mega777#1778 
+"Sky cleaner" - Seedlilly#6008 
 
 ##Maps
 
