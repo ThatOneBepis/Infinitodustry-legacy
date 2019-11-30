@@ -19,7 +19,7 @@ CHANGELOG
 
 -Armored liquid bridge
 
--Drill sprites (technicall difficulties made tensor drill sprites a bit unaviable)
+-Drill sprites 
 
 -Wiki (semi-working one)
 
