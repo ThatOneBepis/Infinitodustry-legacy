@@ -3,6 +3,8 @@ For adding custom sprites, use mindustry pallete, along infinity pallete spotted
 
 Considering im running out of Source moddingn't stuff ideas, at one point i might shift this into source version, and that will probably end up before b-f
 
+SERIOUSLY SOMEONE HELP ME WITH THESE SPRITES
+
 CHANGELOG
 
 -Sprites of patrol drone factories
@@ -27,7 +29,7 @@ CHANGELOG
  
  -Arc MK2, internally called "Edison"
  
- -Usage of critter box, and a way to craft it
+ -Way to craft critter boxes, their factories are currently broken
 
 -Toughitinum walls
 
@@ -38,3 +40,5 @@ CHANGELOG
 -Relatively working Multidimensional portal (finally?)
 
 -Snowball yeeter
+
+-Matrix update
