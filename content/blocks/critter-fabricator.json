@@ -12,8 +12,8 @@
 		"power": 1.4,
 		"items": {
         "items": [
-            {"item": "silicon", "amount": 10},
-            {"item": "toughitinum", "amount": 3}
+            {"item": "silicon", "amount": 4},
+            {"item": "toughitinum", "amount": 1}
     ]
     }
     },
