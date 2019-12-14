@@ -1,0 +1,32 @@
+{
+	"name": "Experimental Spider",
+	"type": "fortress",
+	"description": "Large machine able to walk along water. Planned to have repair point too.",
+	"health": 8000,
+	"flying": false,
+	"targetAir": true,
+	"hitSize": 35,
+	"speed": 0.015,
+	"mass": 65,
+	"cargoSize": 65,
+	"rotatespeed": 0.2,
+	"maxVelocity": 0.4,
+	"weapon":{
+		"reload": 85,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shootBig",
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 12,
+			"bulletHeight": 26,
+			"keepVelocity": true,
+			"speed": 7,
+			"lifetime": 30,
+			"damage": 100,
+		},
+		"recoil": 1,
+		"shake": 0.4,
+		"alternate": true,
+		"roundRobin": false
+	}
+}

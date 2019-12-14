@@ -1,0 +1,36 @@
+{
+	"name": "Metaphor",
+	"type": "GroundUnit",
+	"description": "Massive spider, which attacks by biting it's foes. Has an EMP roar, which is currently in development",
+	"health": 10293,
+	"flying": false,
+	"targetAir": true,
+	"hitSize": 45,
+	"speed": 0.165,
+	"mass": 45,
+	"cargoSize": 60,
+	"rotatespeed": 0.6,
+	"maxVelocity": 0.5,
+	"weapon":{
+		"reload": 195,
+		"width": 0,
+		"height": 10,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shootBig",
+		"name": "Head",
+		"bullet": {
+			"type": "BasicBulletType",
+			"bulletWidth": 2,
+			"bulletHeight": 1,
+			"keepVelocity": true,
+			"speed": 6,
+			"lifetime": 8,
+			"damage": 180,
+			"frontColor": "fff5ee",
+			"backColor": "fff5ae"
+		},
+		"recoil": -20,
+		"shake": 0.3,
+		"roundRobin": false
+	}
+}
