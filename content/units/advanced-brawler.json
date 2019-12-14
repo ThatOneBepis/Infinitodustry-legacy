@@ -8,6 +8,7 @@
 	"hitSize": 25,
 	"speed": 0.025,
 	"mass": 25,
+	"cargoSize": 15,
 	"rotatespeed": 0.3,
 	"maxVelocity": 0.9,
 	"weapon":{
@@ -18,14 +19,17 @@
 		"alternate": true,
 		"bullet": {
 			"type": "BasicBulletType",
+			"name": "75-mm-KwK-40-L-48",
 			"bulletWidth": 10,
 			"bulletHeight": 25,
 			"keepVelocity": true,
 			"speed": 5,
-			"lifetime": 25,
+			"lifetime": 45,
 			"damage": 45,
 			"splashDamage": 55,
 			"splashDamageRadius": 10,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
 			"frontColor": "fff5ee",
 			"backColor": "fff5ae"
 		},
