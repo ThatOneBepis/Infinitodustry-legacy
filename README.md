@@ -18,3 +18,5 @@ CHANGELOG
 -Relatively working Multidimensional portal (not how it was planned, i gotta leave it of sorts)
 
 -Matrix update
+
+-Pilotable eradicator
