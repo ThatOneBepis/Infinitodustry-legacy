@@ -1,11 +1,11 @@
 {
 	"name": "Toughitinum wall",
-	"description": "Solid wall which is also a power conductor. Solution to messy power supplies in the defensive frontline. Can accept one power laser at the time",
+	"description": "Solid wall which is also a power conductor. Solution to messy power supplies in the defensive frontline.",
 	"type": "PowerNode",
-	"maxNodes": 1,
 	"laserRange": 0,
 	"health": 830,
 	"size": 1,
+	"BlockGroup": "walls",
 	"requirements": [
 		{ "item": "toughitinum", "amount": 6 }
 	],

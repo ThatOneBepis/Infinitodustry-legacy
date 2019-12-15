@@ -4,6 +4,7 @@
 	"type": "DeflectorWall",
 	"health": 2000,
 	"size": 2,
+	"BlockGroup": "walls",
 	"requirements": [
 		{ "item": "blast-fabric", "amount": 24 }
 	],

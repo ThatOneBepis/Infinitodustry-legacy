@@ -9,6 +9,7 @@
 	"range": 200,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0,
+	"BlockGroup": "turrets",
 	"rotatespeed": 20,
 	"ammo": {
 		"copper": {
@@ -29,7 +30,8 @@
 			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"freezing": 15,
+			"freezing": 5,
+			"bulletType": "LiquidBulletType"
 			},
 		"lead": {
 			"speed": 6,

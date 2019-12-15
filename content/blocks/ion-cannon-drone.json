@@ -11,6 +11,8 @@
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
+	"shootSound": "corexplode",
+	"BlockGroup": "turrets",
 	"ammo": {
 		"infiar": {
 			"speed": 20,
@@ -58,6 +60,6 @@
         { "item": "graphite", "amount": 500 }
 	],
 	"category": "turret",
-	"stateRules": "infiniteResources",
+	"buildVisibility": "sandboxOnly",
 	"alwaysUnlocked": false
 }

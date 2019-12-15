@@ -6,6 +6,7 @@
 	"speed": 26,
 	"capacity": 12,
 	"size": 1,
+	"BlockGroup": "transportation",
 	"requirements": [
 		{ "item": "vector", "amount": 6 },
 		{ "item": "silicon", "amount": 12}

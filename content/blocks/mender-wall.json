@@ -1,0 +1,22 @@
+{
+	"name": "Mending wall",
+	"description": "Wall block what can repair blocks next to it, making it useful in conjuction with other walls.",
+	"type": "MendProjector",
+	"health": 670,
+	"size": 1,
+	"range": 10,
+	"consumes": {"power": 0.25},
+	"buildCostMultiplier": 5,
+	"reload": 150,
+	"healPercent": 1,
+	"phaseRangeBoost": 0,
+	"BlockGroup": "walls",
+	"phaseBoost": 0,
+	"requirements": [
+		{ "item": "silicon", "amount": 6 },
+		{ "item": "surge-alloy", "amount": 3 },
+		{ "item": "toughitinum", "amount": 3 }
+	],
+	"category": "defense",
+	"research": "power-wall"
+}

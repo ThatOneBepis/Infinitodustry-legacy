@@ -13,10 +13,11 @@
 		"liquid": {
 			"liquid": "ion-matter", 
 			"amount": 0.12,
-			"optional": true,
+			"optional": false,
 			"booster": true
 		}
 	},
+	"BlockGroup": "turrets",
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,

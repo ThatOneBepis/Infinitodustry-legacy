@@ -1,0 +1,30 @@
+{
+    "type": "ChargeTurret",
+    "name": "Tesla",
+    "description": "An improved Arc turret. Denser coiling and a better transformer allow this turret to launch attacks against air units.",
+    "targetAir": true,
+    "targetGround": true,
+    "hasPower": true,
+    "hasLiquids": true, 
+    "shootType": "lightning",
+    "health": 225,
+    "size": 2,
+    "inaccuracy": 0.1,
+    "reload": 10,
+    "shots": 2,
+    "BlockGroup": "turrets",
+    "recoil": 2,
+    "heatColor": "#00ffff",
+    "shootCone": 40,
+    "rotateSpeed": 30,
+    "range": 100,
+    "shootEffect": "lightningShoot",
+    "requirements": [
+        { "item": "plastanium", "amount": 20 },
+        { "item": "metaglass", "amount": 30 },
+        { "item": "scalar", "amount": 20 },
+        { "item": "silicon", "amount": 10 }
+    ],
+    "category": "turret",
+    "shootSound": "spark"
+}

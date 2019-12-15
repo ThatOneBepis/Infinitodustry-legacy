@@ -12,6 +12,7 @@
 	"rotatespeed": 20,
 	"burstSpacing":  5,
 	"shots": 5,
+	"BlockGroup": "turrets",
 	"ammo": {
 		"tensor": {
 			"speed": 6,
@@ -108,7 +109,6 @@
 		}
 	    },
 	"requirements": [],
-	"stateRules": "infiniteResources",
-	"alwaysUnlocked": false,
+	"buildVisibility": "sandboxOnly",
 	"category": "turret"
 }

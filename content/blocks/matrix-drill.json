@@ -5,6 +5,7 @@
 	"size": 2,
 	"tier": 6,
 	"drillTime": 175,
+	"BlockGroup": "drills",
 	"consumes": {
 		"power": 1.1,
 		"liquid": {

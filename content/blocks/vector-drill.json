@@ -4,6 +4,7 @@
 	"type": "Drill",
 	"size": 2,
 	"tier": 5,
+	"BlockGroup": "drills",
 	"drillTime": 175,
 	"consumes": {
 		"power": 0.4,

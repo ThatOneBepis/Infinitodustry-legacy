@@ -1,5 +1,5 @@
 {
-	"type": "Conveyor",
+	"type": "conveyor",
 	"name": "Item conduit",
 	"description": "Moves items in semi-encased conduits, protecting them from any harm, which is not fire by the way.",
 	"health": 425,
@@ -10,5 +10,6 @@
 	],
 	"category": "distribution",
 	"research": "titanium-conveyor",
+	"BlockGroup": "transportation",
 	"speed": 0.12
 }

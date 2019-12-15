@@ -1,10 +1,10 @@
 {
-	"type": "ItemTurret",
+	"type": "ArtilleryTurret",
 	"name": "Grenadier",
 	"description": "Bomb-tossing turret, with mediocre range",
 	"health": 1650,
 	"size": 3,
-	"reload": 200,
+	"reload": 60,
 	"targetGround": true,
 	"targetAir": false,
 	"collidesTiles": false,
@@ -14,12 +14,13 @@
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 5,
 	"rotatespeed": 10,
+	"BlockGroup": "turrets",
 	"ammo": {
 		"plastanium": {
 			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 100,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -34,7 +35,7 @@
 					  "speed": 8,
 					  "bulletWidth": 5,
 					  "bulletHeight": 3,
-					  "lifetime": 65,
+					  "lifetime": 15,
 					},
 			"fragBullets": 10
 		},
@@ -42,7 +43,7 @@
 			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 100,
 			"damage": 65,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -59,7 +60,7 @@
 					  "bulletHeight": 3,
 					  "splashDamageRadius": 5,
 					  "splashDamage": 10,
-					  "lifetime": 25,
+					  "lifetime": 5,
 					},
 				  "fragBullets": 5
 		},
@@ -67,7 +68,7 @@
 			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 100,
 			"damage": 25,
 			"splashDamageRadius": 15,
 			"splashDamage": 45,
@@ -82,7 +83,7 @@
 			"type": "ArtilleryBulletType",
 			"velocityInaccuracy": 0.2,
 			"speed": 4,
-			"lifetime": 50,
+			"lifetime": 100,
 			"damage": 45,
 			"bulletWidth": 10,
 			"bulletHeight": 15,
@@ -97,7 +98,7 @@
 				"bulletHeight": 3,
 				"lifetime": 65,
 					},
-				  "fragBullets": 15
+				  "fragBullets": 10
 		}
 	    },
 	"requirements": [

@@ -6,7 +6,8 @@
 	"tier": 4,
 	"hasItems": true,
 	"drillTime": 225,
-	"itemDuration": 300,
+	"itemUseTime": 300,
+	"BlockGroup": "drills",
 	"consumes": {
 		"items": {
 	"items": [

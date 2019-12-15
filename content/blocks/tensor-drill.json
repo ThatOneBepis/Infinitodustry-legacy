@@ -7,7 +7,8 @@
 	"hasItems": true,
 	"hasLiquids": false,
 	"drillTime": 145,
-	"itemDuration": 60,
+	"itemUseTime": 60,
+	"BlockGroup": "drills",
 	"consumes": {
 		"power": 2.0,
 		"items": {

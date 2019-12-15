@@ -4,6 +4,7 @@
 	"description": "Median between liquid router and liquid tank.",
 	"health": 100,
 	"size": 2,
+	"BlockGroup": "liquids",
 	"requirements": [
 		{"item": "metaglass", "amount": 10},
 		{"item": "titanium", "amount": 5}

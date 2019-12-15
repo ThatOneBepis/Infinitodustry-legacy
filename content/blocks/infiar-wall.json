@@ -1,17 +1,14 @@
 {
 	"name": "Infiar wall",
-	"description": "Wall made out of digital compound. Has the ability to regenerate it's lost health.",
-	"type": "MendProjector",
+	"description": "Wall made out of digital compound. Can repair blocks next to it, making it useful in conjuction with other walls.",
+	"type": "Wall",
 	"health": 900,
 	"size": 1,
-	"range": 1.1,
-	"reload": 60,
-	"healPercent": 5,
-	"phaseRangeBoost": 2,
-	"phaseBoost": 1,
+	"update": true,
+	"BlockGroup": "walls",
 	"requirements": [
 		{ "item": "infiar", "amount": 6 }
 	],
 	"category": "defense",
-	"research": "thorium-wall"
+	"research": "surge-wall"
 }
