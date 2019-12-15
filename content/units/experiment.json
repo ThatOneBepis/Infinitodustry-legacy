@@ -1,0 +1,32 @@
+{
+	"name": "Cyclcler",
+	"type": "flyingUnit",
+	"description": "A fighter unit wielding tiny cyclone turrets.",
+	"health": 5000,
+	"flying": true,
+	"speed": 0.35,
+	"mass": 25,
+	"rotatespeed": 0.6,
+	"maxVelocity": 1,
+	"drag": 3,
+	"rotateWeapons": true,
+	"weapon":{
+		"name": "mini-cyclone",
+		"bullet":
+		{
+			"type": "BasicBulletType",
+			"lifetime": 60,
+			"speed": 4,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"damage": 45,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"splashDamageRadius": 5,
+			"splashDamage": 10
+		},
+		"shootSound": "shootBig",
+		"reload": 20,
+		"width": 10
+	}
+}

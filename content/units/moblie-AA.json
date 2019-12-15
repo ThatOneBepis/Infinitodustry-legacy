@@ -1,0 +1,39 @@
+{
+	"name": "Dominion flak tank",
+	"type": "fortress",
+	"description": "Anti-air support tank. Technologically superior, in regards of anti-air technology.",
+	"health": 800,
+	"flying": false,
+	"targetAir": true,
+	"hitSize": 25,
+	"speed": 0.06,
+	"mass": 20,
+	"cargoSize": 12,
+	"rotatespeed": 0.5,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"reload": 120,
+		"width": 0,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "bang",
+		"shotDelay" : 3,
+		"shots": 150,
+		"alternate": true,
+		"bullet": {
+			"type": "BasicBulletType",
+			"name": "anti-air",
+			"bulletWidth": 8,
+			"bulletHeight": 15,
+			"keepVelocity": true,
+			"speed": 8,
+			"lifetime": 20,
+			"damage": 5,
+			"frontColor": "fff5ee",
+			"backColor": "fff5ae"
+		},
+		"shootcone": 30,
+		"recoil": 0.6,
+		"shake": 0.3,
+		"roundRobin": false
+	}
+}
