@@ -19,7 +19,6 @@
 		"alternate": true,
 		"bullet": {
 			"type": "BasicBulletType",
-			"name": "75-mm-KwK-40L-48",
 			"bulletWidth": 10,
 			"bulletHeight": 25,
 			"keepVelocity": true,
