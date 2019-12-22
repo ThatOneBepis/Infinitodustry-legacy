@@ -1,11 +1,12 @@
 {
 	"name": "Infiar wall",
-	"description": "Wall made out of digital compound. Can repair blocks next to it, making it useful in conjuction with other walls.",
-	"type": "Wall",
+	"description": "Wall made out of digital compound. Can regain it's lost health.",
 	"health": 900,
 	"size": 1,
 	"update": true,
 	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 5,
 	"requirements": [
 		{ "item": "infiar", "amount": 6 }
 	],
