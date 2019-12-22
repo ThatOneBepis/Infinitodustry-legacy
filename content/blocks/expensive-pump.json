@@ -1,0 +1,30 @@
+{
+	"type": "Fracker",
+	"name": "Dark matter harverster",
+	"description": "Quite expensive way to get to dark matter. Not advised to build it, unless there is no other way to obtain it.",
+	"health": 600,
+	"result": "dark-matter",
+	"consumes":
+	{
+		"power": 20,
+		"items": {
+		"items": [
+            {"item": "coal", "amount": 1.0}
+        ]
+	}
+	},
+	"size": 4,
+	"pumpAmount": 0.05,
+	"requirements": [
+		{"item": "tau-plate", "amount": 325},
+		{"item": "matrix", "amount": 400},
+		{"item": "metaglass", "amount": 235},
+		{"item": "phase-fabric", "amount": 350},
+		{"item": "tensor", "amount": 335},
+		{"item": "silicon", "amount": 250},
+		{"item": "toughitinum", "amount": 350}
+	],
+	"category": "production",
+	"research": "free-water",
+	"liquidCapacity": 10
+}
