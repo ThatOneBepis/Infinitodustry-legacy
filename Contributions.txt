@@ -15,7 +15,10 @@
 
 amione#0663
 
+##Scripts
+
+
 ##Developers
 
-Nope.avi#4037
-Ilya246.exe#9193 
+Nope.avi#4037 (Lead developer, meh at Json, sucks at Scripting, but does good spriting if in mood)
+Ilya246.exe#9193 (That one guy what adds most funky stuff, skills are [REDACTED])
