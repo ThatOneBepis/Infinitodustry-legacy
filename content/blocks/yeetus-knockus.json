@@ -9,7 +9,7 @@
     "targetAir": true,
     "range": 135,
     "ammoUseEffect": "shellEjectSmall",
-    "shootSound": "yeet"
+    "shootSound": "yeet",
     "inaccuracy": 0,
     "rotatespeed": 10,
     "ammo": {
