@@ -9,6 +9,7 @@
     "targetAir": true,
     "range": 135,
     "ammoUseEffect": "shellEjectSmall",
+    "shootSound": "yeet"
     "inaccuracy": 0,
     "rotatespeed": 10,
     "ammo": {
@@ -22,7 +23,9 @@
             "frontColor": "dbdbdb",
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke",
-            "knockback": 600000
+            "knockback": 600000,
+	    "status": "freezing",
+	    "statusDuration": 300
         },
         "snowball-but-colder": {
             "speed": 5,
@@ -35,7 +38,8 @@
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke",
             "reloadMultiplier": 1.9,
-            "knockback": 600000
+            "knockback": 600000,
+	    "status": "freezing"
         }
     },
 	"requirements": [
