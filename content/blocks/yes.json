@@ -1,0 +1,12 @@
+{
+	"name": "Erad drop pod",
+	"description": "Massive building what drops down pilotable Eradicator.",
+	"type": "CoreBlock",
+	"mech": "pilotable-eradicator",
+	"health": 450,
+	"size": 5,
+	"itemCapacity": 0,
+	"requirements": [],
+	"buildVisibility": "sandboxOnly",
+	"category": "effect"
+}

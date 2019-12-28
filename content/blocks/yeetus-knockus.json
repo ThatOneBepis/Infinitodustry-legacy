@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "name": "Snowball yeeter",
+    "description": "Yeets snowballs, which upon hit, yeets the enemy away.",
+    "health": 250,
+    "size": 1,
+    "reload": 50,
+    "targetGround": true,
+    "targetAir": true,
+    "range": 135,
+    "ammoUseEffect": "shellEjectSmall",
+    "inaccuracy": 0,
+    "rotatespeed": 10,
+    "ammo": {
+        "snowball": {
+            "speed": 5,
+            "lifetime": 60,
+            "damage": 5,
+            "bulletWidth": 10,
+            "bulletHeight": 10,
+            "backColor": "ffffff",
+            "frontColor": "dbdbdb",
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "knockback": 600000
+        },
+        "snowball-but-colder": {
+            "speed": 5,
+            "lifetime": 60,
+            "damage": 5,
+            "bulletWidth": 10,
+            "bulletHeight": 10,
+            "backColor": "67c1e1",
+            "frontColor": "55b2d2",
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "reloadMultiplier": 1.9,
+            "knockback": 600000
+        }
+    },
+	"requirements": [
+		{ "item": "titanium", "amount": 45 },
+		{ "item": "vector", "amount": 30 },
+		{ "item": "tau-plate", "amount": 6 },
+        { "item": "silicon", "amount": 15 }
+	],
+	"category": "turret",
+	"research": "ripple"
+}
