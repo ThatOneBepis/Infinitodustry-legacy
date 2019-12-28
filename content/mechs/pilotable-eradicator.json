@@ -1,0 +1,31 @@
+{
+	"name": "Eradicator",
+	"description": "Powerful pilotable beast, with jetpacks attached to it. Cannot build or mine.",
+	"health": 9000,
+	"mass": 5,
+	"flying": false,
+	"hitsize": 20,
+	"maxSpeed": 0.68,
+	"speed": 0.12,
+	"boostSpeed": 0.5,
+	"drag": 0.4,
+	"weapon": {
+		"name": "player-eradication",
+		"width": 13,
+        "reload": 30,
+        "nimPlayerDist": 50,
+        "length": 22,
+        "alternate": true,
+        "recoil": 3,
+        "shake": 2,
+        "inaccuracy": 3,
+        "shots": 4,
+        "spacing": 0,
+        "shotDelay": 3,
+        "ejectEffect": "shellEjectMedium",
+        "bullet": "standardThoriumBig",
+        "shootSound": "shootBig"
+            },
+	"buildPower": 0,
+	"itemCapacity": 0
+}
