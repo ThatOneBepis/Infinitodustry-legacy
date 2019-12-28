@@ -11,7 +11,10 @@
         {"item": "visionary-glass", "amount": 100},
         {"item": "silicon", "amount": 200},
     ],
-    "type": "Launched",
+    "configureObjective": {
+        "type": "launched",
+        "zone": "Discount-bossfight"
+    },
     "requirements": [
     	{
     		"type": "ZoneWave",
