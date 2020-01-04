@@ -28,3 +28,5 @@ CHANGELOG
 UPCOMING
 
 -More sprites
+
+-Plastanium ore
