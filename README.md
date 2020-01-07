@@ -31,6 +31,8 @@ UPCOMING
 
 -Drone hiearchy list
 
+-Tinyrads
+
 -Plastanium ore
 
 -3.5 "Tribal" expansion
