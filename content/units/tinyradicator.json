@@ -1,0 +1,32 @@
+{
+	"type": "groundUnit",
+	"name": "Tinyradicator",
+	"description": "Eradicator scaled down to Dagger size.",
+	"maxVelocity": 1,
+	"speed": 0.2,
+	"drag": 0.4,
+	"mass": 4,
+	"hitsize": 10,
+	"health": 600,
+	"weapon": {
+		"name": "tinyradication",
+		"length": 5,
+    "recoil": 1,
+    "shots": 4,
+    "spacing": 0,
+    "shotDelay": 3,
+    "shootSound": "shoot",
+    "ejectEffect": "shellEjectSmall",
+		"width": 9,
+		"reload": 30,
+		"alternate": true,
+		"bullet": {
+		  "damage": 6,
+		  "speed": 4,
+		  "bulletWidth": 10,
+		  "bulletHeight": 13,
+      "shootEffect": "shootSmall",
+		  "lifetime": 30
+		}
+	}
+}
