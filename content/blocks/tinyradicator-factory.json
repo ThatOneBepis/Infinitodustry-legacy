@@ -1,0 +1,19 @@
+{
+	"name": "Tinyradicator Factory",
+	"description": "Builds downscaled eradicators.",
+	"type": "UnitFactory",
+	"unitType": "tinyradicator",
+	"size": 2,
+	"produceTime": 2000,
+	"maxSpawn": 4,
+	"consumes": {
+		"power": 20
+  },
+	"category": "units",
+	"research": "dagger-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "titanium", "amount": 50 }
+	]
+}
