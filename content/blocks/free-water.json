@@ -1,7 +1,7 @@
 {
 	"type": "SolidPump",
 	"name": "Well",
-	"description": "Extracts water by using nature of fluid's flow.",
+	"description": "Extracts water by using the nature of fluid's flow.",
 	"health": 150,
 	"result": "water",
 	"hasPower": false,
