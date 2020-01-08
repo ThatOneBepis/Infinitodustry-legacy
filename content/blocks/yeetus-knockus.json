@@ -1,7 +1,7 @@
 {
     "type": "ItemTurret",
     "name": "Snowball yeeter",
-    "description": "Yeets snowballs, which upon hit, yeets the enemy away.",
+    "description": "Yeets snowballs, which upon hit, yeet the enemy away.",
     "health": 250,
     "size": 1,
     "reload": 50,
