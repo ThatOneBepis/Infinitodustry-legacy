@@ -1,6 +1,6 @@
 {
 	"name": "Armored router",
-	"description": "Piece of wall what accepts items, and distributes it around itself. Useful for spliting ammo for turrets near defences.",
+	"description": "A wall capable of distributing items. Useful for defenses.",
 	"type": "router",
 	"health": 450,
 	"size": 1,
