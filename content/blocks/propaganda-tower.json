@@ -1,6 +1,6 @@
 {
 	"name": "Propaganda tower",
-	"description": "Spreads propaganda. It's influence is so strong that enemies can't gain enough confidence to construct buildings in a radius around it. Can be used alongside Unloaders.",
+	"description": "Spreads propaganda. Its influence is so strong that enemies can't gain enough confidence to construct buildings in a radius around it. Can be used alongside Unloaders.",
 	"type": "CoreBlock",
 	"health": 1000,
 	"size": 2,
