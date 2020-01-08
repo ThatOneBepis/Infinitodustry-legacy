@@ -1,7 +1,7 @@
 {
 	"type": "DoubleTurret",
-	"name": "Anti-air",
-	"description": "More spammy cousin of Scatter.",
+	"name": "Anti Air",
+	"description": "The more spammy cousin of Scatter.",
 	"health": 860,
 	"size": 2,
 	"reload": 15,
