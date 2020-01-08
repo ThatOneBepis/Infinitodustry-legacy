@@ -1,6 +1,6 @@
 {
 	"name": "Armored sorter",
-	"description": "Piece of wall what accepts selected item type, and outputs the rest on it's sides. Useful if you have to split serveral items near the heat of battle.",
+	"description": "Makes the specified item pass through it without direction change, while other items make a 90-turn. If an item is not specified, all items passing through do a 90-turn. Armored.",
 	"type": "sorter",
 	"health": 450,
 	"size": 1,
