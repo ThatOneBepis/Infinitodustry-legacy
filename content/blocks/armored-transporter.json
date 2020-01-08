@@ -1,6 +1,6 @@
 {
 	"name": "Armored item brigde",
-	"description": "Piece of wall what distribute to other pieces of wall with simmilar properties. Due to it's mechanics, it is superior to any armored distribution block variant, as well as its unarmored variant.",
+	"description": "An armored item bridge. Is superior to any armored distribution block variant, as well as it's own unarmored variant.",
 	"type": "BufferedItemBridge",
 	"health": 725,
 	"size": 1,
