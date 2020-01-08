@@ -1,6 +1,6 @@
 {
-	"name": "Inverted armored sorter",
-	"description": "Piece of wall what outputs selected item on the sides, and outputs the rest fowards. Useful if you have to split serveral items near the heat of battle. If left unselected, it can serve as Junction.",
+	"name": "Armored inverted sorter",
+	"description": "A block which lets the specified item pass without direction change, but makes other items go to the sides. Armored. If left unselected, serves as a junction.",
 	"type": "sorter",
 	"health": 450,
 	"invert": true,
