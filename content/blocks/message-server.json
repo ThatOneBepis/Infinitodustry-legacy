@@ -1,7 +1,7 @@
 {
 	"type": "MessageBlock",
 	"name": "Message server",
-	"description": "Message block made out of infiar, which contains nearly infinite text limit. Can be used by mappers, to fit all backstory into one block.",
+	"description": "A message block made out of infiar. Contains a nearly infinite text limit. Can be used by mappers, to fit all the backstory into one block.",
 	"health": 50,
 	"maxTextLength": 100000000000000000000000000000000000,
 	"maxNewlines": 100000000000000000000000,
