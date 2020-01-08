@@ -2,7 +2,7 @@
     "type": "MechPad",
     "mech": "playable-mech-router",
     "name": "Router mech pad",
-    "description": "Upgrades to misterious creature using routers as it's vessel.",
+    "description": "Upgrades to a mysterious creature using routers as it's vessel.",
     "size": 3,
     "consumes":
     {"power": 1.5},
