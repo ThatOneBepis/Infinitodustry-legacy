@@ -1,7 +1,7 @@
 {
 	"type": "Conduit",
 	"name": "Silicatic conduit",
-	"description": "Transfers liquids in conduits made out of stone and silicon. Because of this, you are unable to see visually which liquid is in it.",
+	"description": "Transfers liquids in encased conduits. This makes the conduit very armored, but it blocks visibility of the liquid inside.",
 	"health": 355,
 	"BlockGroup": "liquids",
 	"requirements": [
