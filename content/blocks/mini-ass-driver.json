@@ -1,6 +1,6 @@
 {
 	"name": "Mini-ass driver",
-	"description": "More compact, but short-ranged version of Mass driver.",
+	"description": "A more compact but also a more short-ranged version of the Mass driver.",
 	"type": "massDriver",
 	"health": 150,
 	"size": 1,
