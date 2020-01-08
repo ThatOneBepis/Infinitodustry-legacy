@@ -1,7 +1,7 @@
 {
 	"type": "Separator",
 	"name": "De-ioniser",
-	"description": "Uses a lot of energy and cryofluid, which is glazed on extremely cold snowballs, in order to release quite vast selection of items from seemingly inreversible Plasma state of matter. With snowballs escaping the de-ionising capsule the same way resources should come from, usage of inverted sorter is advised.",
+	"description": "Uses a lot of energy and cryofluid, which is glazed on extremely cold snowballs, in order to release a quite vast selection of items from a seemingly inreversible plasma state of matter. With snowballs escaping the de-ionising capsule the same way resources do it, usage of inverted sorter is advised.",
 	"itemCapacity": 50,
 	"results": [
             {"item": "matrix", "amount": 45},
