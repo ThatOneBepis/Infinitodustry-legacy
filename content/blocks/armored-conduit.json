@@ -1,6 +1,6 @@
 {
 	"type": "Conduit",
-	"name": "Silicatic conduit",
+	"name": "Silicatic Conduit",
 	"description": "Transfers liquids in encased conduits. This makes the conduit very armored, but it blocks visibility of the liquid inside.",
 	"health": 355,
 	"BlockGroup": "liquids",
