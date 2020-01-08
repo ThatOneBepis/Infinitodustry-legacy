@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Hammerhead cannon",
-	"description": "Powerful single-shot cannon capable of ionising most enemies. Needs ionising fluid for proper firerate.",
+	"description": "A powerful single-shot cannon capable of ionising most enemies. Needs ionising fluid for proper firerate.",
 	"health": 2350,
 	"size": 4,
 	"reload": 450,
