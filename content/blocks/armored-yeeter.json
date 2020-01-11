@@ -1,7 +1,7 @@
 {
 	"type": "LiquidExtendingBridge",
 	"name": "Armored liquid bridge",
-	"description": "Piece of wall what can transport liquids to other pieces of wall with simmilar properties.",
+	"description": "Self-explanatory. Is better than the non-armored liquid bridge.",
 	"health": 725,
 	"hasPower": false,
 	"BlockGroup": "liquids",

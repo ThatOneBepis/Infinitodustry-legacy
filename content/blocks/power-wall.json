@@ -1,6 +1,6 @@
 {
 	"name": "Toughitinum wall",
-	"description": "Solid wall which is also a power conductor. Solution to messy power supplies in the defensive frontline.",
+	"description": "An armored power node.",
 	"type": "PowerNode",
 	"laserRange": 0,
 	"health": 830,

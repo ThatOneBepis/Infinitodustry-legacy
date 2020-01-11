@@ -1,6 +1,6 @@
 {
 	"name": "Large toughitinum wall",
-	"description": "Solid wall which is also a power conductor. Solution to messy power supplies in the defensive frontline. Spans multiple tiles.",
+	"description": "An armored power node. Spans multiple tiles.",
 	"type": "PowerNode",
 	"laserRange": 0,
 	"health": 3320,

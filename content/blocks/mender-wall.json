@@ -1,6 +1,6 @@
 {
 	"name": "Mending wall",
-	"description": "Wall block what can repair blocks next to it, making it useful in conjuction with other walls.",
+	"description": "A wall block capabe of repairing blocks next to it, making it useful in a conjunction with other walls.",
 	"type": "MendProjector",
 	"health": 670,
 	"size": 1,

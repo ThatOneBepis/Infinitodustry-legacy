@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Vectoriser",
-	"description": "Turns Matrix into Vector. We do are not guilty if your spoon ends up being vectorised",
+	"description": "Turns Matrix into Vector. We are not guilty if your spoon ends up being vectorised",
 	"itemCapacity": 6,
 	"outputItem": {"item": "vector", "amount": 1.0},
 	"size": 3,

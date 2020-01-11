@@ -1,7 +1,7 @@
 {
 	"type": "conveyor",
 	"name": "Item conduit",
-	"description": "Moves items in semi-encased conduits, protecting them from any harm, which is not fire by the way.",
+	"description": "Moves items in semi-encased conduits, protecting them from any harm. Fire still does not care, though.",
 	"health": 425,
 	"requirements": [
 		{"item": "titanium", "amount": 6},

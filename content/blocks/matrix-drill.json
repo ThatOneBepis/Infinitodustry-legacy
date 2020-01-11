@@ -1,6 +1,6 @@
 {
 	"name": "MTRX-3",
-	"description": "Drill specified for more exotic resources. Will not output any spoons.",
+	"description": "A drill specified for more exotic resources. Will not output any spoons.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 6,

@@ -1,6 +1,6 @@
 {
 	"name": "Erad drop pod",
-	"description": "Massive building what drops down pilotable Eradicator.",
+	"description": "A massive building capable of dropping down a pilotable Eradicator.",
 	"type": "CoreBlock",
 	"mech": "pilotable-eradicator",
 	"health": 450,

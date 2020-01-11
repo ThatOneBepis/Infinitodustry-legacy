@@ -1,6 +1,6 @@
 {
 	"name": "Large mending wall",
-	"description": "Wall block what can repair blocks next to it, making it useful in conjuction with other walls. Spans multiple tiles.",
+	"description": "A wall block capabe of repairing blocks next to it, making it useful in conjunction with other walls. Spans multiple tiles.",
 	"type": "MendProjector",
 	"health": 2680,
 	"size": 2,

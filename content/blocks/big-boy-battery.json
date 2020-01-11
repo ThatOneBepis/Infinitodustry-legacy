@@ -1,7 +1,7 @@
 {
 	"type": "battery",
 	"name": "Energetic matrix",
-	"description": "Stores a lot of energy. And i do mean A LOT.",
+	"description": "Look, we don't have to pay electricity bills anymore!",
 	"size": 5,
 	"health": 600,
 	"category": "power",

@@ -1,7 +1,7 @@
 {
 	"type": "genericSmelter",
 	"name": "Ionising machine",
-	"description": "Building what takes pyratite and slag, and converts it into Plasma state of matter.",
+	"description": "Takes pyratite and slag, converting them into plasma.",
 	"outputLiquid": {"liquid": "ion-matter", "amount": 6.0},
 	"size": 3,
 	"hasPower": true,

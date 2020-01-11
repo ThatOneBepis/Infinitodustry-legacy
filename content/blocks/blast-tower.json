@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Blast",
-	"description": "Structure what releases shockwaves around itself.",
+	"description": "A tower which uses shockwaves as a weapon. Damages all enemies in a radius.",
 	"health": 1650,
 	"size": 2,
 	"reload": 350,
