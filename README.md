@@ -5,6 +5,8 @@ Considering im running out of Source moddingn't stuff ideas, at one point i migh
 
 People who know scripting, i would like to help me implement a l o t o f s t u f f
 
+ And no, i neither have time nor the nerves to study scripting all day
+
 CHANGELOG
  
  -Arc MK2, internally called "Edison"
@@ -31,13 +33,18 @@ UPCOMING
 
 -Drone hiearchy list
 
--Tinyrads
+-Tinyrads (up to the debate)
 
 -Plastanium ore
 
 -3.5 "Tribal" expansion
+
 --Drills
+
 --Turrets
+
 --Dirium, Uranium, Iron and Steel
+
 --Lava
+
 --Some other forgotten technology
