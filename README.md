@@ -31,11 +31,11 @@ UPCOMING
 
 -More sprites
 
--Drone hiearchy list
-
--Tinyrads (up to the debate)
+-Informational texts
 
 -Plastanium ore
+
+-Divinity but i did not uploaded it because its quite literally broken
 
 -3.5 "Tribal" expansion
 
