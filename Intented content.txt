@@ -1,7 +1,7 @@
 Classification A, entity type: U is for units, M for mechs, G for planetary/campgaign/enviormental aspect, B for blocks, T for deployable turrets (hybrid of U and B entities) and I for items
 Classification B, release plans: P for planned, partially complete or ready to release content, Q is for questionable, H is for something i doubt it will be implemented by myself (if at all) and R is for currently released content, and have no reason for them to be here
 Classification C, limitations in terms "where can it be built": A if available in any gamemode, E for expansion content, C if campagin-exclusive, S for Sandbox-only (reffered to most drone union technology) and n/a for non-expansion G or I class entities what can mainly appear as an ore
-Classification C for U or M class entities: A if it's factory can be acsessed in normal gameplay, E for expansion content, C if their factory is campagin-exclusive (but can also be placed in the editor), S for Sandbox-only factories, or can be spawned only by "Enemy spawn" and F for units spawned not from blocks, but rather other units
+Classification C for U or M class entities: A if it's factory can be acsessed in normal gameplay, E for expansion content, C if their factory is campagin-exclusive (but can also be placed in the editor) and S for Sandbox-only factories, spawned not from blocks, but rather other units or can be spawned only by "Enemy spawn"
 Futher content is getting based off where their idea or concept originated from. And there is "Undefined" category because why not
 Anything with "?" in place of it's respective classification means that its uncertain how exactly ic dould be classifed with
 Stuff may be added, changed or removed if i deem that needed
@@ -15,7 +15,7 @@ Boom beach: Critters (U/IPA), Scorchers (UPA), Cannons/Boom cannons/Doom cannons
 Undertale: Laser-based weapon Sans tends to use, but more "experimental" and violative (MPA)
 Something-whats-owned-by-Disney-right?: Attention-seeking ship (MPA), Silicon factory powered by Energon (BQA)
 Rusted warfare: The most superior unit in that game, and currently the only one over here (UPA)
-Crossout: Deployable turret as a concept (cannot be defined with current categorisation), Mandrake (TPA), Sidekick (TPF), Firebug (TQA)
+Crossout: Deployable turret as a concept (cannot be defined with current categorisation), Mandrake (TPA), Sidekick (TPS), Firebug (TQA)
 [DATA EXPUNGED]: Nothing? (?Q?) 
 IRL (and history): A literral well (BRA), Panzer IV H (URA), Black widow (UQA), Ground rover (UPA), Item conduit (BPA), Silicatic conduit (BRA) with a sink (BPA), Lamp and a campfire (BPA), Optic glass and it's klin (I/BRA), Particle accelerator (BRA), Propaganda tower (BRS), Snow and it's related products (I/BQ?)
 Expanded from mindustry, for the sake of the mod: Grenadier (BRA), Drone union's finest turrets (BRS), Divinity (UPS) and his drones (Depends on which drone is talked about), Dark matter and a way to use it, along it's extraction paths (?P?), Pilotable Eradicator (MRA), Something what can rekt Eradicator by using the power of moss (URA), Bigger, more badass version of Eradicator (URS), Pilotable Wraith (MRA), Centrifuge (BQA), More badass overdrive projectors (BR?), Ohnonium (IR), Message server (BQA), Wall but its a mender (BQA), Middle ground between liquid tank and liquid distributor (BRA), Armored distribution blocks (BRA), Terran command tank (MQA), Moss hive as a faction (?P?)
