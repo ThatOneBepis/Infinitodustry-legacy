@@ -5,7 +5,7 @@ Considering im running out of Source moddingn't stuff ideas, at one point i migh
 
 People who know scripting, i would like to help me implement a l o t o f s t u f f
 
- And no, i neither have time nor the nerves to study scripting all day
+ And no, i neither have time nor the nerves to study scripting all day... LIKE SERIOUSLY I NEED HELP
 
 CHANGELOG
  
