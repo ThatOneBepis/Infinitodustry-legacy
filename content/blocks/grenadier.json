@@ -1,7 +1,7 @@
 {
 	"type": "ArtilleryTurret",
 	"name": "Grenadier",
-	"description": "Bomb-tossing turret, with mediocre range",
+	"description": "Bomb-tossing turret. Mediocre range",
 	"health": 1650,
 	"size": 3,
 	"reload": 60,

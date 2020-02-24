@@ -1,7 +1,7 @@
 {
 	"type": "unitFactory",
 	"name": "Panzer IV H factory",
-	"description": "Constructs German tanks. Which tanks? Look up at facility's name again.",
+	"description": "Constructs German tanks. Which tanks? Look at the facility's name again.",
 	"unitType": "advanced-brawler",
 	"produceTime": 2000,
 	"size": 3,

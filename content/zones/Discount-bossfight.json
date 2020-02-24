@@ -18,9 +18,13 @@
     "requirements": [
     	{
     		"type": "ZoneWave",
-    		"zone": "groundZero", 
-    		"wave": 10
+    		"zone": "tarFields", 
+    		"wave": 20
     	},
+        {
+            "type": "launched",
+            "zone": "fungalPass"
+        }
     	{
     		"type": "Unlock",
     		"block": "scalar-drill"

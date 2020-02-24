@@ -1,6 +1,6 @@
 {
 	"name": "V2-CTR",
-	"description": "Drill which can mine Vector.",
+	"description": "A drill capable of mining Vector.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 5,

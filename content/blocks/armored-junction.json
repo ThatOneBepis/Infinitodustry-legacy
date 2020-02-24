@@ -1,6 +1,6 @@
 {
 	"name": "Armored junction",
-	"description": "Piece of wall what accepts items. Useful when items have to pass over your defensive walls on larger distances.",
+	"description": "A piece of wall which acts like junctions. Useful if you need to pass items through your walls.",
 	"type": "junction",
 	"health": 450,
 	"speed": 26,

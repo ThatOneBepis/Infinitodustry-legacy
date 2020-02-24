@@ -1,0 +1,16 @@
+{
+    "requirements": [
+        {
+            "type": "launched",
+            "zone": "Discount-bossfight"
+        },
+        {
+            "type": "Unlock",
+            "block": "thorium-reactor"
+        },
+    	{
+    		"type": "Unlock",
+    		"block": "thermal-generator"
+    	}
+    ]
+}

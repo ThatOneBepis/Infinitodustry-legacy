@@ -1,7 +1,7 @@
 {
 	"type": "Separator",
 	"name": "Centrifuge",
-	"description": "Puts stone under hidraulic pressure in order to extract metals contained within. Due to unexplained curcumstances, usage of inverted sorter is advised.",
+	"description": "Puts stone under hydraulic pressure in order to extract metals contained within. Due to unexplained curcumstances, usage of inverted sorters is advised.",
 	"itemCapacity": 15,
 	"results": [
             {"item": "copper", "amount": 85},
