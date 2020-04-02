@@ -4,7 +4,7 @@
 	"type": "UnitFactory",
 	"unitType": "omegaradicator",
 	"size": 1,
-	"produceTime": 9000,
+	"produceTime": 1,
   "buildVisibility": "sandboxOnly",
 	"maxSpawn": 1,
 	"consumes": {
