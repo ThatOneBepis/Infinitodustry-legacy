@@ -1,16 +1,16 @@
 {
-	"name": "Omegaradicator Summoner",
-	"description": "Summons Anuke's wrath...                                Nobody knows what the symbols mean.",
+	"name": "Derelict artifact",
+	"description": "An artifact recovered from ancient derelict ruins. We decided that you'll be the one to try it out. Luckily, all it costs to deliver it to you is 1 copper.",
 	"type": "UnitFactory",
 	"unitType": "omegaradicator",
 	"size": 1,
-	"produceTime": 9000,
+	"produceTime": 1,
   "buildVisibility": "sandboxOnly",
 	"maxSpawn": 1,
 	"consumes": {
-		"power": 1.0
+		"power": 0.1
   },
-	"category": "units",
+	"category": "special",
 	"research": "eradicator-factory",
 	"requirements": [
 		{ "item": "copper", "amount": 1 }
