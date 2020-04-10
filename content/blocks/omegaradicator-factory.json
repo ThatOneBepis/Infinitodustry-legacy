@@ -1,6 +1,6 @@
 {
 	"name": "Derelict artifact",
-	"description": "An artifact recovered from ancient derelict ruins. We decided that you'll be the one to try it out. Luckily, all it costs to deliver it to you is 1 copper.",
+	"description": "An artifact recovered from ancient derelict ruins.\nWe decided that you'll be the one to try it out.\nLuckily, all it costs to deliver it to you is 1 copper.",
 	"type": "UnitFactory",
 	"unitType": "omegaradicator",
 	"size": 1,
