@@ -10,7 +10,7 @@
 	"consumes": {
 		"power": 0.1
   },
-	"category": "special",
+	"category": "effect",
 	"research": "eradicator-factory",
 	"requirements": [
 		{ "item": "copper", "amount": 1 }
