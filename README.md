@@ -33,20 +33,6 @@ UPCOMING
 
 -Informational texts
 
--Plastanium ore
+-I don't even know
 
--Divinity but i did not uploaded it because its quite literally broken
-
--Mapping shenaniganning
-
--3.5 "Tribal" expansion
-
---Drills
-
---Turrets
-
---Dirium, Uranium, Iron and Steel
-
---Lava
-
---Some other forgotten technology
+-Balancing

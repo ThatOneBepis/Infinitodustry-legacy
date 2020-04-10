@@ -1,10 +1,11 @@
 {
 	"name": "Unblastable wall",
-	"description": "A wall made out of rubber. Deflects bullets and absorbs splash damage. It's often subject to burning down.",
+	"description": "Rubber wall which beside deflecting bullets, can absorb splash damage. It's often subject to burning down.",
 	"type": "DeflectorWall",
 	"health": 500,
 	"BlockGroup": "walls",
 	"size": 1,
+	"insulated": true,
 	"requirements": [
 		{ "item": "blast-fabric", "amount": 6 }
 	],
