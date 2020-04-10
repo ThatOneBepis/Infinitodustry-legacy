@@ -1,0 +1,16 @@
+{
+	"name": "Armored underflower",
+	"description": "Piece of wall what accepts items, and distributes fowards if items cannot be transported to either side. Useful for turret prioritization.",
+	"type": "OverflowGate",
+	"health": 450,
+	"size": 1,
+	"BlockGroup": "transportation",
+	"invert": true,
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "silicon", "amount": 12},
+		{ "item": "graphite", "amount": 12}
+	],
+	"category": "distribution",
+	"research": "underflow-gate"
+}

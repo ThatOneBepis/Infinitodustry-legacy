@@ -1,4 +1,3 @@
-
 {
 	"name": "Eradicator Factory",
 	"description": "Makes Eradicator boss units.",
@@ -13,18 +12,18 @@
 			"items": [
 				{"item": "silicon", "amount": 300},
 				{"item": "graphite", "amount": 220},
-				{"item": "titanium", "amount": 300},
-				{"item": "thorium", "amount": 150}
+				{"item": "toughitinum", "amount": 300},
+				{"item": "thorium", "amount": 250}
 			]
 		}
 	},
 	"category": "units",
-	"research": "fortress-factory",
-
+	"research": "chaos-array-factory",
 	"requirements": [
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "titanium", "amount": 400 },
 		{ "item": "silicon", "amount": 300 },
-		{ "item": "surge-alloy", "amount": 300}
+		{ "item": "surge-alloy", "amount": 300},
+		{ "item": "toughitinum", "amount": 400}
 	]
 }

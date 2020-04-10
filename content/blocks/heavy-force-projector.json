@@ -1,0 +1,33 @@
+{
+	"type": "ForceProjector",
+	"name": "Everest force projector",
+	"description": "Projects a forcefield in a larger area.",
+	"itemCapacity": 20,
+	"size": 5,
+	"radius": 173.2,
+	"breakage": 1700,
+	"consumes":
+	{
+		"power": 2.6,
+		"items": {
+		"items": [{"item": "tensor" , "amount": 1.0}],
+        "optional": true,
+        "booster": true
+		}
+	},
+	"cooldownNormal": 2.16,
+	"cooldownLiquid": 1.72,
+	"cooldownBrokenBase": 1,
+	"basePowerDraw": 2,
+	"phaseRadiusBoost": 100,
+	"phaseUseTime": 120,
+	"requirements": [
+		{ "item": "titanium", "amount": 275},
+		{ "item": "lead", "amount": 310 },
+		{ "item": "phase-fabric", "amount": 185 },
+		{ "item": "silicon", "amount": 435 },
+		{ "item": "surge-alloy", "amount": 250 }
+	],
+	"category": "effect",
+	"research": "force-projector"
+}

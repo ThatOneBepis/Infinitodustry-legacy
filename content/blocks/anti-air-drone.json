@@ -1,6 +1,6 @@
 {
 	"type": "BurstTurret",
-	"name": "Sky Cleaner",
+	"name": "Sky cleaner",
 	"description": "When Divinity wants their sky crystal clean, he sets up these turrets.",
 	"health": 3000,
 	"size": 4,
@@ -18,7 +18,7 @@
 			"speed": 6,
 			"damage": 25,
 			"bulletWidth": 6,
-			"lifetime": 200,
+			"lifetime": 85,
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
@@ -34,9 +34,9 @@
 		"blast-fabric":
 			{
 			"speed": 6,
-			"damage": 75,
+			"damage": 85,
 			"bulletWidth": 6,
-			"lifetime": 200,
+			"lifetime": 75,
 			"bulletHeight": 6,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
@@ -54,7 +54,7 @@
 			"damage": 30,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
-			"lifetime": 200,
+			"lifetime": 85,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"reloadMultiplier": 0.8,
@@ -74,7 +74,7 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
-			"lifetime": 400,
+			"lifetime": 110,
 			"homingPower" : 2,
             "homingRange" : 50,
             "fragBullet":{
@@ -89,7 +89,7 @@
 		"surge-alloy": {
 			"speed": 6,
 			"damage": 85,
-			"lifetime": 200,
+			"lifetime": 85,
 			"bulletWidth": 6,
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",

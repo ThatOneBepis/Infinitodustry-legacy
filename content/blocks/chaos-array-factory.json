@@ -1,0 +1,29 @@
+{
+	"name": "Chaos array Factory",
+	"description": "Makes Chaos array mechs. [red]BRING IN THE CHAOS.",
+	"type": "UnitFactory",
+	"unitType": "chaos-array",
+	"size": 4,
+	"produceTime": 5000,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 85},
+				{"item": "graphite", "amount": 60},
+				{"item": "surge-alloy", "amount": 15},
+				{"item": "thorium", "amount": 35}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+		{ "item": "thorium", "amount": 215 },
+		{ "item": "metaglass", "amount": 120 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "surge-alloy", "amount": 200},
+		{ "item": "scalar", "amount": 75}
+	]
+}

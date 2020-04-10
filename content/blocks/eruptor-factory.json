@@ -1,0 +1,25 @@
+{
+	"name": "Eruptor Factory",
+	"description": "Makes Eruptor mechs.",
+	"type": "UnitFactory",
+	"unitType": "eruptor",
+	"size": 3,
+	"produceTime": 1450,
+	"maxSpawn": 3,
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 22},
+				{"item": "scrap", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+		{ "item": "lead", "amount": 115 },
+		{ "item": "metaglass", "amount": 75 },
+		{ "item": "silicon", "amount": 95 }
+	]
+}

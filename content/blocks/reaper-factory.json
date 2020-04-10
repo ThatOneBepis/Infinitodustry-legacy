@@ -3,33 +3,29 @@
 	"name": "Reaper capital ship factory",
 	"description": "Constructs massive Reaper capital ships.",
 	"unitType": "reaper",
-	"produceTime": 11500,
+	"produceTime": 8400,
 	"size": 6,
 	"maxSpawn": 1,
 	"consumes": {
 		"power": 18.35,
 		"items": {
 		"items": [
-            {"item": "infiar", "amount": 15.0},
             {"item": "silicon", "amount": 225.0},
             {"item": "blast-fabric", "amount": 70.0},
             {"item": "toughitinum", "amount": 175.0},
             {"item": "thorium", "amount": 105.0},
             {"item": "titanium", "amount": 115.0},
-            {"item": "plastanium", "amount": 95.0},
-            {"item": "surge-alloy", "amount": 40.0}
+            {"item": "plastanium", "amount": 95.0}
           ]
 		}
   },
 	"requirements": [
-		{ "item": "infiar", "amount": 65 },
-		{ "item": "titanium", "amount": 215 },
-		{ "item": "silicon", "amount": 535 },
-		{ "item": "toughitinum", "amount": 400 },
-		{ "item": "thorium", "amount": 245},
-		{ "item": "surge-alloy", "amount": 300},
-		{ "item": "blast-fabric", "amount": 150},
-		{ "item": "visionary-glass", "amount": 200}
+		{"item": "titanium", "amount": 215},
+		{"item": "silicon", "amount": 535},
+		{"item": "toughitinum", "amount": 400},
+		{"item": "thorium", "amount": 245},
+		{"item": "blast-fabric", "amount": 150},
+		{"item": "visionary-glass", "amount": 200}
 	],
 	"category": "units",
 	"research": "lich-factory"

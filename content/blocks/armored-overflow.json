@@ -1,0 +1,15 @@
+{
+	"name": "Armored overflower",
+	"description": "Piece of wall what accepts items, and distributes to the sides if items cannot be transported fowards. Useful for turret prioritization.",
+	"type": "OverflowGate",
+	"health": 450,
+	"size": 1,
+	"BlockGroup": "transportation",
+	"requirements": [
+		{ "item": "vector", "amount": 6 },
+		{ "item": "silicon", "amount": 12},
+		{ "item": "graphite", "amount": 12}
+	],
+	"category": "distribution",
+	"research": "overflow-gate"
+}

@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Erradication cannon",
-	"description": "Powerful single-shot cannon capable of eradicating most of Divinity's advesaries. It's designer, TrinityXyz, was executed by drones with it.",
+	"description": "Powerful single-shot cannon what erradicates most Divinity's advesaries. It's designer, TrinityXyz, was executed by drones with it.",
 	"health": 2350,
 	"size": 4,
 	"reload": 135,
@@ -16,6 +16,7 @@
 	"ammo": {
 		"infiar": {
 			"speed": 20,
+			"lifetime": 15,
 			"damage": 1400,
 			"bulletWidth": 10,
 			"bulletHeight": 100,
@@ -24,6 +25,7 @@
 		},
 		"blast-compound": {
 			"speed": 20,
+			"lifetime": 15,
 			"damage": 2000,
 			"bulletWidth": 10,
 			"bulletHeight": 100,
@@ -34,6 +36,7 @@
 		"phase-fabric": {
 			"speed": 20,
 			"damage": 1000,
+			"lifetime": 15,
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "shootBig",
@@ -43,6 +46,7 @@
 		"surge-alloy": {
 			"speed": 20,
 			"damage": 1000,
+			"lifetime": 15,
 			"bulletWidth": 10,
 			"bulletHeight": 100,
 			"shootEffect": "shootBig",
