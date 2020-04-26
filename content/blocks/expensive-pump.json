@@ -1,9 +1,10 @@
 {
 	"type": "Fracker",
 	"name": "Dark matter harverster",
-	"description": "An expensive way to get dark matter. Building it is not advised, unless there is no other way to obtain dark matter.",
+	"description": "Quite expensive way to get to dark matter. Not advised to build it, unless there is no other way to obtain it.",
 	"health": 600,
 	"result": "dark-matter",
+	"hasShadow": false,
 	"consumes":
 	{
 		"power": 20,
