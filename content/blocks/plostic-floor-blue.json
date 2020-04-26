@@ -1,0 +1,8 @@
+{
+	"type": "Floor",
+	"itemDrop": "plastanium",
+	"name": "Plastanium blue panel",
+	"variants": 0,
+	"playerUnmineable": true,
+	"attributes": {"array":[0,0,0,0.25]}
+}
