@@ -1,0 +1,33 @@
+{
+  "name": "Omega mend projector",
+  "description": "HEAVILY heals nearby buildings.",
+  "type": "MendProjector",
+  "consumes": {
+		"power": 40.0,
+        "items": {
+    "items": [
+        {"item": "infiar", "amount": 1},
+    ],
+    "booster": true,
+    "optional": true
+  }
+  },
+  "category": "effect",
+	"research": "mend-projector",
+  "range": 150,
+  "size": 3,
+  "reload": 60,
+  "healPercent": 10,
+  "phaseBoost": 5,
+  "useTime": 60,
+  "phaseRangeBoost": 100,
+  "requirements": [
+		{ "item": "titanium", "amount": 350 },
+		{ "item": "plastanium", "amount": 250 },
+		{ "item": "surge-alloy", "amount": 400},
+		{ "item": "infiar", "amount": 350 },
+		{ "item": "toughitinum", "amount": 200 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "blast-fabric", "amount": 175}
+	]
+}
