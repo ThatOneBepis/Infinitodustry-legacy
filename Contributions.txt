@@ -17,6 +17,7 @@ amione#0663
 
 ##Scripts
 
+younggam#1086 - Helped with multi-crafters, because i mainly used his code
 
 ##Developers
 
