@@ -15,7 +15,7 @@
 		"items": {
         "items": [
             {"item": "sand", "amount": 5},
-            {"item": "lead", "amount": 2},
+            {"item": "lead", "amount": 5},
             {"item": "coal", "amount": 2}
     ]
     },
