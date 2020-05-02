@@ -1,0 +1,11 @@
+{
+	"requirements": [
+		{ "item": "tau-plate", "amount": 115 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "metaglass", "amount": 150 },
+		{ "item": "graphite", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "optic-klin"
+}
