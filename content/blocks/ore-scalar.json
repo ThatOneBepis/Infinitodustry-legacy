@@ -1,5 +1,8 @@
 {
 	"type": "OreBlock",
 	"itemDrop": "scalar",
-	"playerUnmineable": true
+	"playerUnmineable": true,
+	"oreDefault": true,
+	"oreThreshold": 0.885,
+	"oreScale": 24.436374
 }

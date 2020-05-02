@@ -1,9 +1,6 @@
 {
 	"type": "material",
-	"name": "Infiar",
-	"description": "Diamond-like data substance. Used as a cryptocurrency",
 	"cost": 2,
 	"hardness": 10,
-	"tier": 10,
 	"color": "00ffff"
 }

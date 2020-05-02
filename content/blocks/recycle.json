@@ -1,0 +1,10 @@
+{
+	"requirements": [
+		{ "item": "scalar", "amount": 5 },
+		{ "item": "copper", "amount": 15 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "metaglass", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "pulverizer"
+}

@@ -1,12 +1,13 @@
 {
-"description": "One of best drills around, not so compact, but economically cheap. Requires large amounts of power.",
-"tier": 9,
-"requirements": [
-		{ "item": "tensor", "amount": 120 },
-		{ "item": "silicon", "amount": 110 },
-		{ "item": "copper", "amount": 95 },
-        { "item": "scalar", "amount": 85 },
-        { "item": "thorium", "amount": 135 },
-        { "item": "titanium", "amount": 65 }
-	]
+"description": "A specialised drill capable of drilling most of conventional ores.",
+"tier": 6,
+"size": 3,
+"drillTime": 195,
+"requirements":[
+	{"item": "stone", "amount": 65},
+	{"item": "vector", "amount": 50},
+	{"item": "thorium", "amount": 75},
+	{"item": "silicon", "amount": 60},
+	{"item": "plastanium", "amount": 55}
+]
 }

@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"name": "Multi-mixer",
+	"description": "Makes Blast compound with items required for pyratite and oil, while skipping the step involving with pyratite itself.",
+	"itemCapacity": 20,
+	"liquidCapacity": 20,
+	"outputItem": {"item": "blast-compound", "amount": 2.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 40,
+	"health": 120,
+	"consumes": {
+		"power": 3.1,
+		"items": {
+        "items": [
+            {"item": "sand", "amount": 5},
+            {"item": "lead", "amount": 2},
+            {"item": "coal", "amount": 2}
+    ]
+    },
+    		"liquid": {
+			"liquid": "oil", 
+			"amount": 0.225
+		},
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 220 },
+		{ "item": "silicon", "amount": 230 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "tau-plate", "amount": 225 },
+		{ "item": "surge-alloy", "amount": 120 }
+	],
+	"category": "crafting",
+	"research": "blast-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,33 @@
+{
+"name": "Plasma drill",
+"description": "Drill that extracts resources by power of plasma. Requires constant water cooling.",
+"tier": 8,
+"type": "drill",
+"drillTime": 110,
+"size": 4,
+"drawRim": true,
+"hasPower": true,
+"category": "production",
+"updateEffect": "pulverizeRed",
+"updateEffectChance": 0.04,
+"drillEffect": "mineHuge",
+"rotateSpeed": 9,
+"warmupSpeed": 0.005,
+"consumes": {
+		"power": 5.0,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.13,
+			"booster": false,
+			"optional": false
+		}
+	},
+"requirements": [
+		{ "item": "tensor", "amount": 120 },
+		{ "item": "silicon", "amount": 110 },
+		{ "item": "copper", "amount": 95 },
+        { "item": "scalar", "amount": 85 },
+        { "item": "thorium", "amount": 135 },
+        { "item": "titanium", "amount": 65 }
+	]
+}

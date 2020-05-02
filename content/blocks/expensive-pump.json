@@ -1,9 +1,10 @@
 {
 	"type": "Fracker",
 	"name": "Dark matter harverster",
-	"description": "An expensive way to get dark matter. Building it is not advised, unless there is no other way to obtain dark matter.",
+	"description": "An expensive way to get dark matter. Building it is not advised, unless there is no other way to obtain dark matter",
 	"health": 600,
 	"result": "dark-matter",
+	"hasShadow": false,
 	"consumes":
 	{
 		"power": 20,
@@ -13,7 +14,7 @@
         ]
 	}
 	},
-	"size": 4,
+	"size": 3,
 	"pumpAmount": 0.05,
 	"requirements": [
 		{"item": "tau-plate", "amount": 325},
