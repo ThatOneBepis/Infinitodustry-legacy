@@ -7,32 +7,4 @@ People who know scripting, i would like to help me implement a l o t o f s t u f
 
  And no, i neither have time nor the nerves to study scripting all day... LIKE SERIOUSLY I NEED HELP
 
-CHANGELOG
- 
- -Arc MK2, internally called "Edison"
- 
- -Way to craft critter boxes, their factories are currently broken
-
--Toughitinum walls
-
--Metaphor in it's young phase
-
--More sprites
-
--Relatively working Multidimensional portal (not how it was planned, i gotta leave it of sorts)
-
--Matrix update
-
--Pilotable eradicator
-
--Infiar wall mitosis
-
-UPCOMING
-
--More sprites
-
--Informational texts
-
--I don't even know
-
--Balancing
+changelog is rendered useless
