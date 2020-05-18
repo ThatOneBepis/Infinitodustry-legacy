@@ -1,0 +1,16 @@
+
+{
+	"type": "liquid",
+	"temperature": 0.6,
+    "viscosity": 0.6,
+    "flammability": 0.7,
+    "explosiveness": 0.5,
+    "status":{
+    "effect": "tarred",
+    "speedMultiplier": 0.6,
+    "color": "16264c"
+	},
+    "color": "16264c",
+    "statusDuration": 240,
+    "lightColor": "16264c"
+}
