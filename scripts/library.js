@@ -5,6 +5,9 @@ const _body={
   //for dump
   dumpToggle:true,
   //display when cursor is on block
+  outputsItems(){
+    return this.hasOutputItem;
+  },
   drawSelect(tile){
     if(!this.enableInv){
       return;
@@ -29,51 +32,49 @@ const _body={
   //custom function that checks item and liquid  is enough
   checkinput(tile,i){
     const entity=tile.ent();
-    var bs=false;
     //items
     if(this.input[i][0][0]!=null){
       for(var j=0;j<this.input[i][0].length;j++){
-        bs|=entity.items.get(this.input[i][0][j].item)<this.input[i][0][j].amount;
+        if(entity.items.get(this.input[i][0][j].item)<this.input[i][0][j].amount) return true;
       }
     }
     //liquids
     if(this.input[i][1][0]!=null){
       for(var j=0;j<this.input[i][1].length;j++){
-        bs|=entity.liquids.get(this.input[i][1][j].liquid)<this.input[i][1][j].amount;
+        if(entity.liquids.get(this.input[i][1][j].liquid)<this.input[i][1][j].amount) return true;
       }
     }
-    return bs;
+    return false;
   },
   //custom function that checks space for item and liquid
   checkoutput(tile,i){
     const entity=tile.ent();
-    var bs_=false;
     //items
     if(this.output[i][0][0]!=null){
       for(var j=0;j<this.output[i][0].length;j++){
-        bs_|=entity.items.get(this.output[i][0][j].item)+this.output[i][0][j].amount>this.itemCapacity;
+        if(entity.items.get(this.output[i][0][j].item)+this.output[i][0][j].amount>this.itemCapacity) return true;
       }
     }
     //liquids
     if(this.output[i][1][0]!=null){
       for(var j=0;j<this.output[i][1].length;j++){
-        bs_|=entity.liquids.get(this.output[i][1][j].liquid)+this.output[i][1][j].amount>this.liquidCapacity;
+        if(entity.liquids.get(this.output[i][1][j].liquid)+this.output[i][1][j].amount>this.liquidCapacity) return true;
       }
     }
-    return bs_;
+    return false;
   },
   //custom function that decides whether to produce
   checkCond(tile,i){
     const entity=tile.ent();
     if(entity.getToggle()==i){
-      if(this.checkoutput(tile,i)){
+      if(this.hasPower==true&&entity.power.status<=0&&this.input[i][2]!=null){
         return false;
       }
       else if(this.checkinput(tile,i)){
         return false;
       }
       //check power
-      else if(this.hasPower==true&&entity.power.status<=0&&this.input[i][2]!=null){
+      else if(this.checkoutput(tile,i)){
         return false;
       }else{
         return true;
@@ -99,37 +100,32 @@ const _body={
       }
 
     }else{
-
       entity.warmup=Mathf.lerp(entity.warmup,0,0.02);
     }
-
-
   },
   //decides which item to accept
   acceptItem(item,tile,source){
     const entity=tile.ent();
-    var _bs=false;
-    for(var i=0;i<this.input.length;i++){
-      if(this.input[i][0][0]!=null){
-        for(var j=0;j<this.input[i][0].length;j++){
-          _bs|=item==this.input[i][0][j].item?true:false;
-        }
+    if(entity==null) return false;
+    if(entity.items.get(item)>=this.itemCapacity) return false;
+    for(var i in this.inputItemList){
+      if(item==this.inputItemList[i]){
+        return true;
       }
     }
-    return _bs&&entity.items.get(item)<this.itemCapacity;
+    return false;
   },
   //decides which liquid to accept
   acceptLiquid(tile,source,liquid,amount){
     const entity=tile.ent();
-    var _Bs=false;
-    for(var i=0;i<this.input.length;i++){
-      if(this.input[i][1][0]!=null){
-        for(var j=0;j<this.input[i][1].length;j++){
-          _Bs|=liquid==this.input[i][1][j].liquid?true:false;
-        }
+    if(entity==null) return false;
+    if(entity.liquids.get(liquid)+amount>this.liquidCapacity) return false;
+    for(var i in this.inputLiquidList){
+      if(liquid==this.inputLiquidList[i]){
+        return true;
       }
     }
-    return _Bs&&entity.liquids.get(liquid)+amount<this.liquidCapacity;
+    return false;
   },
   //displays whether input is enough
   displayConsumption(tile,table){
@@ -297,7 +293,7 @@ const _body={
     if(powerBarO){
       this.outputsPower=true;
       this.bars.add("poweroutput",func(entity=>
-        new Bar(prov(()=>Core.bundle.format("bar.poweroutput",entity.block.getPowerProduction(entity.tile)*60)),prov(()=>Pal.powerBar),floatp(()=>entity.tile.entity!=null?entity.tile.entity.getPowerStat():0))
+        new Bar(prov(()=>Core.bundle.format("bar.poweroutput",entity.block.getPowerProduction(entity.tile)*60*entity.timeScale)),prov(()=>Pal.powerBar),floatp(()=>entity!=null?entity.getPowerStat():0))
       ));
     }else if(!powerBarI){
       this.outputsPower=true;
@@ -308,7 +304,7 @@ const _body={
     if(this.itemList[0]!=null){
       (function(itemCapacity,itemList,bars){
         bars.add("items",func(entity=>
-          new Bar(prov(()=>Core.bundle.format("bar.items",entity.tile.entity.getItemStat().join('/')))
+          new Bar(prov(()=>Core.bundle.format("bar.items",entity.getItemStat().join('/')))
           ,prov(()=>Pal.items)
           ,floatp(()=>entity.items.total()/(itemCapacity*itemList.length)))
         ));
@@ -327,32 +323,30 @@ const _body={
   },
   //for progress
   getProgressIncrease(entity,baseTime){
-    for(var i=0;i<this.input.length;i++){
-      //when use power
-      if(baseTime==this.craftTimes[i]&&this.input[i][2]!=null){
-        return this.super$getProgressIncrease(entity,baseTime);
-      }
-      //
-      else if(baseTime==this.craftTimes[i]){
-        return 1/baseTime*entity.delta();
-      }
+    //when use power
+    if(this.input[entity.getToggle()][2]!=null){
+      return this.super$getProgressIncrease(entity,baseTime);
+    }
+    //
+    else{
+      return 1/baseTime*entity.delta();
     }
   },
   //acutal power prodcution
   getPowerProduction(tile){
     const entity=tile.ent();
-    for(var i=0;i<this.output.length;i++){
-      if(entity.getToggle()==i&&this.output[i][2]!=null&&entity.getCond()){
-        //when use power
-        if(this.input[i][2]!=null){
-          entity.setPowerStat(entity.efficiency());
-          return this.output[i][2]*entity.efficiency();
-        }
-        //
-        else{
-          entity.setPowerStat(1);
-          return this.output[i][2];
-        }
+    var i=entity.getToggle();
+    if(i<0||i>=this.input.length) return 0;
+    if(this.output[i][2]!=null&&entity.getCond()){
+      //when use power
+      if(this.input[i][2]!=null){
+        entity.setPowerStat(entity.efficiency());
+        return this.output[i][2]*entity.efficiency();
+      }
+      //
+      else{
+        entity.setPowerStat(1);
+        return this.output[i][2];
       }
     }
     entity.setPowerStat(0);
@@ -386,7 +380,7 @@ const _body={
     if(this.output[i][1][0]!=null){
       for(var j=0;j<this.output[i][1].length;j++){
         this.useContent(tile,this.output[i][1][j].liquid);
-        this.handleLiquid(tile,tile,this.output[i][1][j].liquid,this.output[i][1][j].amount);
+        this.handleLiquid(tile,tile,this.output[i][1][j].liquid,Math.min(this.output[i][1][j].amount,this.liquidCapacity-entity.liquids.get(this.output[i][1][j].liquid)));
       }
     }
     Effects.effect(this.craftEffect,tile.drawx(),tile.drawy());
@@ -398,54 +392,49 @@ const _body={
   //update. called every tick
   update(tile){
     const entity=tile.ent();
+    //to not rewrite whole update
+    if(typeof this["customUpdate"]==="function") this.customUpdate(tile);
     for(var i=0;i<this.itemList.length;i++){
       entity.getItemStat()[i]=entity.items.get(this.itemList[i]);
     }
     //calls customCons and customProd
-    for(var z=0;z<this.input.length;z++){
-      if(entity.getToggle()==z){
-        this.customCons(tile,z);
-        if(entity.getToggle()==z&&entity.progress>=1){
-          this.customProd(tile,z);
-        }
-        break;
-      }
+    if(entity.getToggle()>=0&&entity.getToggle()<this.input.length) {
+      this.customCons(tile,entity.getToggle());
+      if(entity.progress>=1) this.customProd(tile,entity.getToggle());
     }
     //dump
-    var exitI=false;
-    var exitL=false;
+    var itemTimer=entity.timer.get(this.timerDump,this.dumpTime);
     //when normal button checked
     if(entity.getToggle()!=this.input.length){
-      if(entity.timer.get(this.timerDump,this.dumpTime)){
-        //dump items in order
-        for(var ii=0;ii<this.output.length;ii++){
-          if(this.output[ii][0][0]!=null){
-            for(var ij=0;ij<this.output[ii][0].length;ij++){
-              if(entity.items.get(this.output[ii][0][ij].item)>0&&((!this.dumpToggle)||entity.getToggle()==ii)){
-                this.tryDump(tile,this.output[ii][0][ij].item);
-                exitI=true;
-                break;
-              }
-            }
-            if(exitI){
-              exitI=false;
+      if(this.dumpToggle&&entity.getToggle()!=-1){
+        if(itemTimer&&this.output[entity.getToggle()][0][0]!=null){
+          for(var ij=0;ij<this.output[entity.getToggle()][0].length;ij++){
+            if(entity.items.get(this.output[entity.getToggle()][0][ij].item)>0){
+              this.tryDump(tile,this.output[entity.getToggle()][0][ij].item);
               break;
             }
           }
         }
-      }
-      //dump liquids in order
-      for(var jj=0;jj<this.output.length;jj++){
-        if(this.output[jj][1][0]!=null){
-          for(var i=0;i<this.output[jj][1].length;i++){
-            if(entity.liquids.get(this.output[jj][1][i].liquid)>0.001&&((!this.dumpToggle)||entity.getToggle()==jj)){
-              this.tryDumpLiquid(tile,this.output[jj][1][i].liquid);
-              exitL=true;
+        if(this.output[entity.getToggle()][1][0]!=null){
+          for(var i=0;i<this.output[entity.getToggle()][1].length;i++){
+            if(entity.liquids.get(this.output[entity.getToggle()][1][i].liquid)>0.001){
+              this.tryDumpLiquid(tile,this.output[entity.getToggle()][1][i].liquid);
               break;
             }
           }
-          if(exitL){
-            exitL=false;
+        }
+      }else{
+        if(itemTimer){
+          for(var i in this.outputItemList){
+            if(entity.items.get(this.outputItemList[i])>0){
+              this.tryDump(tile,this.outputItemList[i]);
+              break;
+            }
+          }
+        }
+        for(var i in this.outputLiquidList){
+          if(entity.liquids.get(this.outputLiquidList[i])>0.001){
+            this.tryDumpLiquid(tile,this.outputLiquidList[i]);
             break;
           }
         }
@@ -457,7 +446,7 @@ const _body={
       if(entity.timer.get(this.timerDump,this.dumpTime)&&entity.items.total()>0){
         this.tryDump(tile);
       }
-      if(entity.liquids.total()>0){
+      if(entity.liquids.total()>0.01){
         for(var i=0;i<this.liquidList.length;i++){
           if(entity.liquids.get(this.liquidList[i])>0.01){
             this.tryDumpLiquid(tile,this.liquidList[i]);
@@ -486,7 +475,8 @@ const _body={
         var index=0;
         for(var j=0;j<this._output[i][0].length;j++){
           if(this._output[i][0][j]!=null){
-            this.output[i][0][index]=ItemStack(Vars.content.getByName(ContentType.item,this._output[i][0][j][0]),this._output[i][0][j][1]);
+            this.outputItemList[Vars.content.getByName(ContentType.item,this._output[i][0][j][0]).id]=Vars.content.getByName(ContentType.item,this._output[i][0][j][0]);
+            this.output[i][0][index]=new ItemStack(Vars.content.getByName(ContentType.item,this._output[i][0][j][0]),this._output[i][0][j][1]);
             index++;
           }
         }
@@ -496,7 +486,8 @@ const _body={
         var index=0;
         for(var j=0;j<this._output[i][1].length;j++){
           if(this._output[i][1][j]!=null){
-            this.output[i][1][index]=LiquidStack(Vars.content.getByName(ContentType.liquid,this._output[i][1][j][0]),this._output[i][1][j][1]);
+            this.outputLiquidList[Vars.content.getByName(ContentType.liquid,this._output[i][1][j][0]).id]=Vars.content.getByName(ContentType.liquid,this._output[i][1][j][0]);
+            this.output[i][1][index]=new LiquidStack(Vars.content.getByName(ContentType.liquid,this._output[i][1][j][0]),this._output[i][1][j][1]);
             index++;
           }
         }
@@ -510,7 +501,8 @@ const _body={
         var index=0;
         for(var j=0;j<this._input[i][0].length;j++){
           if(this._input[i][0][j]!=null){
-            this.input[i][0][index]=ItemStack(Vars.content.getByName(ContentType.item,this._input[i][0][j][0]),this._input[i][0][j][1]);
+            this.input[i][0][index]=new ItemStack(Vars.content.getByName(ContentType.item,this._input[i][0][j][0]),this._input[i][0][j][1]);
+            this.inputItemList[Vars.content.getByName(ContentType.item,this._input[i][0][j][0]).id]=Vars.content.getByName(ContentType.item,this._input[i][0][j][0]);
             index++;
           }
         }
@@ -520,7 +512,8 @@ const _body={
         var index=0;
         for(var j=0;j<this._input[i][1].length;j++){
           if(this._input[i][1][j]!=null){
-            this.input[i][1][index]=LiquidStack(Vars.content.getByName(ContentType.liquid,this._input[i][1][j][0]),this._input[i][1][j][1]);
+            this.input[i][1][index]=new LiquidStack(Vars.content.getByName(ContentType.liquid,this._input[i][1][j][0]),this._input[i][1][j][1]);
+            this.inputLiquidList[Vars.content.getByName(ContentType.liquid,this._input[i][1][j][0]).id]=Vars.content.getByName(ContentType.liquid,this._input[i][1][j][0]);
             index++;
           }
         }
@@ -642,6 +635,12 @@ const _body={
     }
     this.isSameOutput=c;
     this.super$init();
+    var bools=false;
+    for(var i=0;i<this.output.length;i++) bools|=this.output[i][1][0]!=null;
+    if(bools) this.outputsLiquid=true;
+    var hasOutputItem=false;
+    for(var i=0;i<this.output.length;i++) hasOutputItem|=this.output[i][0][0]!=null;
+    this.hasOutputItem=hasOutputItem;
   },
   //custom function that decides which button should be checked.
   setCheckButton(a,z,tile){
@@ -682,7 +681,7 @@ const _body={
       (function (i,tile){
         var button=table.addImageButton(Tex.whiteui,Styles.clearToggleTransi,40,run(()=>tile.configure(button.isChecked()?i:-1))).group(group).get();
         button.getStyle().imageUp=new TextureRegionDrawable(i!=output.length?output[i][0][0]!=null?output[i][0][0].item.icon(Cicon.small):output[i][1][0]!=null?output[i][1][0].liquid.icon(Cicon.small):output[i][2]!=null?Icon.power:Icon.cancel:Icon.trash);
-        button.update(run(()=>button.setChecked(!tile.block().hasEntity()?false:tile.block().setCheckButton(entity.getToggle(),i,tile))));
+        button.update(run(()=>button.setChecked(typeof tile.block()["setCheckButton"]==="function"?tile.block().setCheckButton(entity.getToggle(),i,tile):false)));
       })(i,tile)
     }
     table.row();
@@ -692,11 +691,11 @@ const _body={
     for(var l=0;l<this.output.length;l++){
       if(lengths[l]==null) lengths[l]=[0,0,0];
       if(this.output[l][0][0]!=null) lengths[l][0]=this.output[l][0].length-1;
-      if(this.output[l][1][0]!=null) lengths[l][1]=this.output[l][1].length;
-       if(this.output[l][1][0]!=null){
+      if(this.output[l][1][0]!=null){
         if(this.output[l][0][0]!=null) lengths[l][1]=this.output[l][1].length;
         else lengths[l][1]=this.output[l][1].length-1;
       }
+      if(this.output[l][2]!=null) lengths[l][2]=1;
     }
     for(var i=0;i<lengths.length;i++){
       max=max<lengths[i][0]+lengths[i][1]+lengths[i][2]?lengths[i][0]+lengths[i][1]+lengths[i][2]:max;
@@ -724,15 +723,11 @@ const _body={
   //save which buttons is pressed
   configured(tile,player,value){
     const entity=tile.ent();
-    for(var i=0;i<this.input.length;i++){
-      //save current progress.
-      if(entity.getToggle()==i){
-        entity.saveProgress(entity.getToggle(),entity.progress);
-
-        break;
-      }
+    //save current progress.
+    if(entity.getToggle()>=0&&entity.getToggle()<this.input.length){
+      entity.saveProgress(entity.getToggle(),entity.progress);
     }
-
+    if(value==-1||value==this.input.length) entity.saveCond(false);
     entity.progress=0;
     entity.modifyToggle(value);
   }

@@ -89,8 +89,6 @@ hasPower=true;
 
 */
 //using this without json. not recommended because can cause error.
-recycle.localizedName="Pulverize labs";
-recycle.description="Version of pulveriser with multiple settings.";
 recycle.itemCapacity= 30;
 recycle.liquidCapacity= 20;
 recycle.size= 3;

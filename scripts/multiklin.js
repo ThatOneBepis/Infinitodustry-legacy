@@ -77,8 +77,6 @@ hasPower=true;
 
 */
 //using this without json. not recommended because can cause error.
-multiklin.localizedName="Multi-klin";
-multiklin.description="Klin that can use slag and mix it with sand for it to create glass. Can create both glass variants.";
 multiklin.itemCapacity= 15
 multiklin.liquidCapacity= 20;
 multiklin.size= 3;
