@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Blast Press",
-	"description": "Infuses Plastanium with Blast Compound, making blast-resistant fabric as the result.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "blast-fabric", "amount": 2.0},
 	"size": 3,

@@ -1,6 +1,4 @@
 {
-	"name": "Unblastable wall",
-	"description": "Rubber wall which beside deflecting bullets, can absorb splash damage. It's often subject to burning down.",
 	"type": "DeflectorWall",
 	"health": 500,
 	"BlockGroup": "walls",

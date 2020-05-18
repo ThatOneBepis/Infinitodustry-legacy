@@ -1,6 +1,4 @@
 {
-	"name": "Unblastable wall^2",
-	"description": "Rubber wall which beside deflecting bullets, can absorb splash damage. Due to its larger size, it's even more often subject to burning down.",
 	"type": "DeflectorWall",
 	"health": 2000,
 	"size": 2,

@@ -1,13 +1,12 @@
 {
 	"type": "ItemTurret",
-	"name": "Blast",
-	"description": "A tower which uses shockwaves as a weapon. Damages all enemies in a radius.",
 	"health": 1650,
 	"size": 2,
-	"reload": 350,
+	"reload": 450,
 	"targetGround": true,
 	"targetAir": false,
 	"range": 160,
+	"BlockGroup": "turrets",
 	"shootSound": "explosion",
 	"ammoUseEffect": "explosion",
 	"inaccuracy": 0,
@@ -21,7 +20,7 @@
 			"lifetime": 1,
 			"bulletWidth": 1,
 			"bulletHeight": 1,
-			"knockback": 1.0
+			"despawnEffect": "explosion"
 		},
 		"matrix": {
 			"speed": 1,
@@ -31,7 +30,7 @@
 			"splashDamage": 45,
 			"splashDamageRadius": 160,
 			"reloadMultiplier": 1.6,
-			"knockback": 1.0
+			"despawnEffect": "explosion"
 		},
 		"phase-fabric": {
 			"speed": 1,
@@ -40,7 +39,7 @@
 			"bulletHeight": 1,
 			"splashDamage": 60,
 			"splashDamageRadius": 320,
-			"knockback": 2.5
+			"despawnEffect": "explosion"
 		},
 		"surge-alloy": {
 			"speed": 1,
@@ -49,9 +48,9 @@
 			"bulletHeight": 1,
 			"splashDamage": 75,
 			"splashDamageRadius": 160,
-           		"lightining" : 10,
-          		"lightningLength" : 150,
-			"knockback": 1.0
+            "lightining" : 10,
+            "lightningLength" : 150,
+            "despawnEffect": "explosion"
 		},
 	    },
 	"requirements": [
