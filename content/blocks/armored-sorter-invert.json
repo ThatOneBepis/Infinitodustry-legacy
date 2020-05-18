@@ -1,6 +1,4 @@
 {
-	"name": "Armored inverted sorter",
-	"description": "A block making the specified item make a 90-turn when passing through it, while other items pass without direction change. Armored. If item left unspecified, serves as a junction.",
 	"type": "sorter",
 	"health": 450,
 	"invert": true,

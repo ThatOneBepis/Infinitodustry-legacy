@@ -1,6 +1,4 @@
 {
-	"name": "Large armored router",
-	"description": "A big wall capable of distributing items. Useful for defenses.",
 	"type": "router",
 	"health": 1800,
 	"size": 2,

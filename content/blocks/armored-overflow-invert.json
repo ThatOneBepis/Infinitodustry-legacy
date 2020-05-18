@@ -1,6 +1,4 @@
 {
-	"name": "Armored underflower",
-	"description": "Piece of wall what accepts items, and distributes fowards if items cannot be transported to either side. Useful for turret prioritization.",
 	"type": "OverflowGate",
 	"health": 450,
 	"size": 1,

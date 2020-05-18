@@ -1,7 +1,5 @@
 {
 	"type": "BurstTurret",
-	"name": "Sky cleaner",
-	"description": "When Divinity wants their sky crystal clean, he sets up these turrets.",
 	"health": 3000,
 	"size": 4,
 	"reload": 10,

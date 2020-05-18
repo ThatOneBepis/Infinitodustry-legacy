@@ -1,6 +1,4 @@
 {
-	"name": "Armored sorter",
-	"description": "Makes the specified item pass through it without direction change, while other items make a 90-turn. If an item is not specified, all items passing through do a 90-turn. Armored.",
 	"type": "sorter",
 	"health": 450,
 	"size": 1,
