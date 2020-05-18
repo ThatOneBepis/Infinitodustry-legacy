@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "Blast fabric",
-	"description": "Piece of Plastanium which has undergone pressing under Blast compound. You can say that it got vaccinated.",
 	"cost": 1,
 	"color": "3a3a3a",
 	"flammability": 1,
