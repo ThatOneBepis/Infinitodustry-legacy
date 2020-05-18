@@ -1,0 +1,34 @@
+{
+	"type": "GroundUnit",
+	"health": 100,
+	"targetAir": true,
+	"hitSize": 8,
+	"speed": 0.5,
+	"mass": 1,
+	"immunities": ["tarred"],
+	"cargoSize": 4,
+	"rotatespeed": 0.9,
+	"maxVelocity": 0.9,
+	"weapon":{
+		"name": "blaster-2-long-name-bogallo",
+		"reload": 25,
+		"width": 3,
+		"weaponOffsetX": 3,
+		"lenght": 0,
+		"ejectEffect": "shellEjectSmall",
+		"alternate": true,
+		"bullet": {
+			"type": "basicBulletType",
+			"lifetime": 90,
+			"damage": 5,
+			"fragBullets": 10,
+			"fragBullet":
+			{
+				"liquid": "ink",
+				"type": "LiquidBulletType",
+				"lifetime": 5,
+				"statusDuration": 300
+			}
+		}
+	}
+}
