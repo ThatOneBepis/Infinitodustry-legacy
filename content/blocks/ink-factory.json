@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter",
+	"name": "Ink mixer",
+	"description": "Saturates oil with snowballs in order to produce ink",
+	"itemCapacity": 10,
+	"liquidCapacity": 30,
+	"outputLiquid": {"liquid": "ink", "amount": 15.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 132,
+	"health": 200,
+	"consumes": {
+		"power": 0.7,
+		"items": {
+        "items": [
+            {"item": "snowball", "amount": 10}
+    ]
+    },
+    		"liquid": {
+			"liquid": "oil", 
+			"amount": 0.09
+		},
+    },
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 175 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "graphite", "amount": 125 },
+		{ "item": "tau-plate", "amount": 145 }
+	],
+	"category": "crafting",
+	"research": "oil-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

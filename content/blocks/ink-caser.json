@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "Ink encaser",
+	"description": "Puts ink into plastanium catriges for processing purposes",
+	"itemCapacity": 10,
+	"liquidCapacity": 10,
+	"outputItem": {"item": "catrige", "amount": 1.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 176,
+	"health": 200,
+	"consumes": {
+		"power": 0.7,
+		"items": {
+        "items": [
+            {"item": "plastanium", "amount": 5}
+    ]
+    },
+    		"liquid": {
+			"liquid": "ink", 
+			"amount": 0.2
+		},
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 180 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "plastanium", "amount": 105 }
+	],
+	"category": "crafting",
+	"research": "ink-swarmer-factory",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
