@@ -1,0 +1,29 @@
+{
+	"type": "HoverUnit",
+	"health": 5000,
+	"flying": true,
+	"speed": 0.35,
+	"mass": 5,
+	"maxVelocity": 1,
+	"drag": 1,
+	"rotateWeapons": true,
+	"weapon":{
+		"name": "mini-cyclone",
+		"bullet":
+		{
+			"type": "BasicBulletType",
+			"lifetime": 60,
+			"speed": 4,
+			"bulletWidth": 6,
+			"bulletHeight": 10,
+			"damage": 45,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"splashDamageRadius": 5,
+			"splashDamage": 10
+		},
+		"shootSound": "shootBig",
+		"reload": 20,
+		"width": 10
+	}
+}
