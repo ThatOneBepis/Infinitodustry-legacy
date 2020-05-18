@@ -19,6 +19,10 @@ amione#0663
 
 younggam#1086 - Helped with multi-crafters, because i mainly used his code
 
+##Translators
+
+Luka108 (discord syntax unknown)
+
 ##Developers
 
 Nope.avi#4037 (Lead developer, meh at Json, sucks at Scripting, but does good spriting if in mood)

@@ -48,15 +48,26 @@ module.exports={
       },
       _itemStat:[],
       //
+      config(){
+        return this._toggle;
+      },
+      write(stream){
+        this.super$write(stream);
+        stream.writeShort(this._toggle);
+      },
+      read(stream,revision){
+        this.super$read(stream,revision);
+        this._toggle=stream.readShort();
+      }
     }));
     //power request change every recipe
     multi.consumes.add(extend(ConsumePower,{
       requestedPower(entity){
-        if(entity.tile.entity==null){
+        if(entity==null){
           return 0;
         }
         for(var i=0;i<multi.input.length;i++){
-          if(entity.tile.entity.getToggle()==i&&multi.input[i][2]!=null&&entity.tile.entity.getCond()){
+          if(entity.getToggle()==i&&multi.input[i][2]!=null&&entity.getCond()){
             return multi.input[i][2];
           }
         }
@@ -64,10 +75,16 @@ module.exports={
       }
     }));
     //don't modify these
+    //6.0되면 밖에잇는 값들 다 여기로 옮기기
     multi.configurable=true;
     multi.hasItems=true;
     multi.hasLiquids=true;
     multi.hasPower=true;
+    multi.hasOutputItem=false;
+    multi.inputItemList=[];
+    multi.inputLiquidList=[];
+    multi.outputItemList=[];
+    multi.outputLiquidList=[];
     return multi;
   }
 }
