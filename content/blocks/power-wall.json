@@ -1,6 +1,4 @@
 {
-	"name": "Toughitinum wall",
-	"description": "An armored power node.",
 	"type": "PowerNode",
 	"laserRange": 0,
 	"health": 830,

@@ -1,7 +1,4 @@
 {
-"name": "Plasma drill",
-"description": "Drill that extracts resources by power of plasma. Requires constant water cooling.",
-"tier": 8,
 "type": "drill",
 "drillTime": 110,
 "size": 4,

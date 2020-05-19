@@ -1,6 +1,4 @@
 {
-  "name": "Omega mend projector",
-  "description": "HEAVILY heals nearby buildings.",
   "type": "MendProjector",
   "consumes": {
 		"power": 40.0,

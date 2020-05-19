@@ -1,6 +1,4 @@
 {
-  "name": "Ultimate Mend Projector",
-  "description": "Tired of having your blocks destroyed? Try this block! For only [red]a lot[] of power, heal your buildings fully in less than a frame! [scarlet]We are not guilty if you cause the game to crash by using our products",
   "type": "MendProjector",
   "consumes": {
 		"power": 1000.0,

@@ -1,9 +1,7 @@
 {
-  "name": "Omega drive projector",
-  "description": "HEAVILY overdrives nearby buildings.",
   "type": "OverdriveProjector",
   "consumes": {
-		"power": 40.0,
+    "power": 40.0,
         "items": {
     "items": [
         {"item": "infiar", "amount": 1},
@@ -13,7 +11,7 @@
   }
   },
   "category": "effect",
-	"research": "overdrive-projector",
+  "research": "overdrive-projector",
   "range": 100,
   "size": 3,
   "speedBoost": 10,
@@ -21,14 +19,13 @@
   "useTime": 60,
   "phaseRangeBoost": 50,
   "requirements": [
-		{ "item": "thorium", "amount": 200 },
-		{ "item": "titanium", "amount": 350 },
-		{ "item": "plastanium", "amount": 250 },
-		{ "item": "surge-alloy", "amount": 400},
-		{ "item": "infiar", "amount": 350 },
-		{ "item": "toughitinum", "amount": 200 },
-		{ "item": "silicon", "amount": 400 },
-		{ "item": "matrix", "amount": 175},
-		{ "item": "stone", "amount": 250}
-	]
+    { "item": "thorium", "amount": 200 },
+    { "item": "titanium", "amount": 350 },
+    { "item": "plastanium", "amount": 250 },
+    { "item": "surge-alloy", "amount": 400},
+    { "item": "infiar", "amount": 350 },
+    { "item": "toughitinum", "amount": 200 },
+    { "item": "silicon", "amount": 400 },
+    { "item": "matrix", "amount": 175}
+  ]
 }

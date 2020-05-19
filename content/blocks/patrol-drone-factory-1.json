@@ -1,11 +1,9 @@
 {
 	"type": "unitFactory",
-	"name": "Knight drone factory",
-	"description": "Constructs Knight patrol drones.",
 	"unitType": "Patrol-drone-mk1",
 	"produceTime": 1800,
 	"size": 2,
-	"maxUnits": 1,
+	"maxSpawn": 2,
 	"consumes": {
 		"power": 2.25,
 		"items": {
