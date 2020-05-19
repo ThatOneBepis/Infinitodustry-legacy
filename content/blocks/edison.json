@@ -24,5 +24,6 @@
         { "item": "silicon", "amount": 10 }
     ],
     "category": "turret",
-    "shootSound": "spark"
+    "shootSound": "spark",
+    "research": "arc"
 }
