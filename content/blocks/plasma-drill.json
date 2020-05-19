@@ -26,5 +26,6 @@
         { "item": "scalar", "amount": 85 },
         { "item": "thorium", "amount": 135 },
         { "item": "titanium", "amount": 65 }
-	]
+	],
+"research": "blast-drill"
 }

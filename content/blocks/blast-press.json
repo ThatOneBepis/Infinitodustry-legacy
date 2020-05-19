@@ -19,7 +19,7 @@
 	"requirements": [
 		{ "item": "lead", "amount": 200 },
 		{ "item": "plastanium", "amount": 120 },
-		{ "item": "tensor", "amount": 35 },
+		{ "item": "phase-fabric", "amount": 35 },
 		{ "item": "silicon", "amount": 120 },
 	],
 	"category": "crafting",
