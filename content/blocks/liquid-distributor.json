@@ -1,7 +1,5 @@
 {
 	"type": "LiquidTank",
-	"name": "Liquid distributor",
-	"description": "Median between liquid router and liquid tank.",
 	"health": 100,
 	"size": 2,
 	"BlockGroup": "liquids",

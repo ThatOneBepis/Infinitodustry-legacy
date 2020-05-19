@@ -1,0 +1,14 @@
+{
+	"type": "Unloader",
+	"health": 200,
+	"consumes": {
+		"power": 0.15
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 45},
+		{"item": "infiar", "amount": 50}
+	],
+	"category": "effect",
+	"research": "unloader",
+	"speed": 3
+}

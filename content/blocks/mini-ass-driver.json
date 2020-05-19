@@ -1,24 +1,22 @@
 {
-	"name": "Mini-ass driver",
-	"description": "A more compact but also a more short-ranged version of the Mass driver.",
 	"type": "massDriver",
-	"health": 150,
+	"health": 450,
 	"size": 1,
-	"range": 6,
-	"speed": 70,
-	"ItemCapacity": 45,
+	"speed": 100,
+	"itemCapacity": 15,
+	"minDistribute": 5,
 	"reloadTime": 100,
-	"range": 135,
+	"range": 90,
 	"consumes":
 	{
-		"power": 0.1
+		"power": 0.45
 	},
 	"requirements": [
-		{ "item": "tensor", "amount": 35 },
-		{ "item": "titanium", "amount": 35},
-		{ "item": "graphite", "amount": 65},
-		{ "item": "thorium", "amount": 65},
-		{ "item": "silicon", "amount": 40}
+		{ "item": "tau-plate", "amount": 35 },
+		{ "item": "lead", "amount": 35 },
+		{ "item": "thorium", "amount": 40 },
+		{ "item": "blast-fabric", "amount": 25 },
+		{ "item": "silicon", "amount": 50 }
 	],
 	"category": "distribution",
 	"research": "mass-driver"

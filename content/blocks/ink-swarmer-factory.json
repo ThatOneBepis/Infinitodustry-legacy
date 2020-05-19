@@ -1,7 +1,5 @@
 {
 	"type": "unitFactory",
-	"name": "Pigment printer",
-	"description": "Produces ink-based units.",
 	"unitType": "ink-swarmer",
 	"produceTime": 900,
 	"size": 2,

@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Toughitinum Furnace",
-	"description": "Burns coal in order to get Toughitinum. Some may say this is the weird cousin of Steel. It's just a more exotic version of it.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "toughitinum", "amount": 1.0},
 	"size": 1,

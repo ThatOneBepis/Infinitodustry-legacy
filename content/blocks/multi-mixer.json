@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Multi-mixer",
-	"description": "Makes Blast compound with items required for pyratite and oil, while skipping the step involving with pyratite itself.",
 	"itemCapacity": 20,
 	"liquidCapacity": 20,
 	"outputItem": {"item": "blast-compound", "amount": 2.0},

@@ -1,7 +1,5 @@
 {
 	"type": "unitFactory",
-	"name": "Ink inflator",
-	"description": "Produces ink-based artillery mechs.",
 	"unitType": "ink-brawler",
 	"produceTime": 3900,
 	"maxSpawn": 2,

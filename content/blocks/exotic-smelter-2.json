@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Tau brick bakery",
-	"description": "Smelts titanium with stone and graphite into basic tau building material.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "tau-plate", "amount": 1.0},
 	"size": 2,

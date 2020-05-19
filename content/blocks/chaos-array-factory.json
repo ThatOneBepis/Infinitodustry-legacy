@@ -1,6 +1,4 @@
 {
-	"name": "Chaos array Factory",
-	"description": "Makes Chaos array mechs. [red]BRING IN THE CHAOS.",
 	"type": "UnitFactory",
 	"unitType": "chaos-array",
 	"size": 4,

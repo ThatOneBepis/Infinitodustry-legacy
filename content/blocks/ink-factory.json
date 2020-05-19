@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Ink mixer",
-	"description": "Saturates oil with snowballs in order to produce ink",
 	"itemCapacity": 10,
 	"liquidCapacity": 30,
 	"outputLiquid": {"liquid": "ink", "amount": 15.0},

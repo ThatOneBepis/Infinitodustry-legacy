@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Ink encaser",
-	"description": "Puts ink into plastanium catriges for processing purposes",
 	"itemCapacity": 10,
 	"liquidCapacity": 10,
 	"outputItem": {"item": "catrige", "amount": 1.0},

@@ -1,12 +1,10 @@
 {
 	"type": "SingleTypeGenerator",
-	"name": "Infiar matter shifter",
-	"description": "Uses a constant flow of infiar for energy. Nobody yet knows where does it go.",
 	"itemCapacity": 25,
 	"size": 3,
 	"hasLiquids": false,
 	"hasItems": true,
-    "powerProduction": 100,
+    "powerProduction": 150,
     "itemDuration" : 15,
 	"updateEffect": "none",
 	"consumes": {

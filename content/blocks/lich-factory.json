@@ -1,7 +1,5 @@
 {
 	"type": "unitFactory",
-	"name": "Lich battleship factory",
-	"description": "Constructs missile-bombarding Lich battleships.",
 	"unitType": "lich",
 	"produceTime": 6000,
 	"size": 5,
