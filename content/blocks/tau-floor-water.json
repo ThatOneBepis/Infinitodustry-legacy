@@ -1,8 +1,8 @@
 {
 	"type": "Floor",
-	"name": "Water-flowing floor",
 	"speedMultiplier": 1,
 	"isLiquid": true,
 	"liquidDrop": "water",
-	"variants": 0
+	"variants": 0,
+	"attributes": {"array": [ 0, 0, 1.25, 0]}
 }

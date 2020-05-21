@@ -1,6 +1,5 @@
 {
 	"type": "Floor",
-	"name": "Lighter tau floor plating",
 	"blendGroup": "tau-floor",
 	"variants": 0
 }
