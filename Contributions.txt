@@ -1,5 +1,6 @@
 ##Blocks
 
+Garmundo/Extended-unit-arsenal - Found out how to code Blast properly with this
 
 ##Sprites
 
@@ -13,7 +14,7 @@
 
 ##General
 
-amione#0663
+amione#0663 - The ancient json mod guy
 
 ##Scripts
 
