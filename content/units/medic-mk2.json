@@ -23,7 +23,7 @@
 			{
 				"type": "BasicBulletType",
 				"splashDamage": 50,
-				"splashDamageRadius": 5,
+				"splashDamageRadius": 10,
 				"drag": -0.05,
 				"canHeal": true,
 				"healPercent": 5,

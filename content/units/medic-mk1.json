@@ -15,9 +15,9 @@
   		"length": 5,
  		"reload": 20,
 		"alternate": true,
-		"shootSound": "spark",
+		"shootSound": "none",
  		"recoil": 0,
 		"width": 0,
-		"bullet": "arc"
+		"bullet": {"instantDisappear": true, "lifetime": 30, "despawnEffect": "none"}
 		}
 }
