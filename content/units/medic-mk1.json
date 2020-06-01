@@ -1,0 +1,23 @@
+{
+	"type": "HoverUnit",
+	"health": 100,
+	"update": true,
+	"flying": true,
+	"speed": 0.5,
+	"mass": 5,
+	"drag": 0.25,
+	"rotateSpeed": 0.3,
+	"rotateWeapons": false,
+	"shootCone": 1,
+	"retreatPercent": 1,
+	"weapon":{
+		"name": "clear",
+  		"length": 5,
+ 		"reload": 20,
+		"alternate": true,
+		"shootSound": "spark",
+ 		"recoil": 0,
+		"width": 0,
+		"bullet": "arc"
+		}
+}
