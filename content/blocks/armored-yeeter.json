@@ -1,7 +1,5 @@
 {
 	"type": "LiquidExtendingBridge",
-	"name": "Armored liquid bridge",
-	"description": "Self-explanatory. Is better than the non-armored liquid bridge.",
 	"health": 725,
 	"hasPower": false,
 	"BlockGroup": "liquids",

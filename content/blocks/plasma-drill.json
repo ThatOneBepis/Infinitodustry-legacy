@@ -1,7 +1,4 @@
 {
-"name": "Plasma drill",
-"description": "Drill that extracts resources by power of plasma. Requires constant water cooling.",
-"tier": 8,
 "type": "drill",
 "drillTime": 110,
 "size": 4,
@@ -29,5 +26,6 @@
         { "item": "scalar", "amount": 85 },
         { "item": "thorium", "amount": 135 },
         { "item": "titanium", "amount": 65 }
-	]
+	],
+"research": "blast-drill"
 }

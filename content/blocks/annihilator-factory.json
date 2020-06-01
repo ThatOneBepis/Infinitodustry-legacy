@@ -1,30 +1,29 @@
 {
-	"name": "Annihilator Factory",
-	"description": "Makes Annihilator boss units.",
 	"type": "UnitFactory",
 	"unitType": "annihilator",
-	"size": 5,
+	"size": 6,
 	"produceTime": 7200,
 	"maxSpawn": 1,
 	"consumes": {
 		"power": 15.0,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 300},
-				{"item": "graphite", "amount": 220},
-				{"item": "spore-pod", "amount": 200},
-				{"item": "thorium", "amount": 150},
-				{"item": "infiar", "amount": 150}
+				{"item": "silicon", "amount": 120},
+				{"item": "graphite", "amount": 100},
+				{"item": "spore-pod", "amount": 80},
+				{"item": "thorium", "amount": 50},
+				{"item": "infiar", "amount": 85}
 			]
 		}
 	},
 	"category": "units",
 	"research": "eradicator-factory",
 	"requirements": [
-		{ "item": "thorium", "amount": 300 },
-		{ "item": "titanium", "amount": 400 },
-		{ "item": "silicon", "amount": 300 },
-		{ "item": "surge-alloy", "amount": 300},
-		{ "item": "infiar", "amount": 300}
+		{ "item": "thorium", "amount": 325 },
+		{ "item": "lead", "amount": 350 },
+		{ "item": "metaglass", "amount": 350 },
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "tensor", "amount": 250 },
+		{ "item": "infiar", "amount": 250 }
 	]
 }

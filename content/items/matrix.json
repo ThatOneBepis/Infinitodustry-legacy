@@ -1,10 +1,8 @@
 {
 	"type": "material",
-	"name": "Matrix",
-	"description": "Spoon is not here. Keep scrolling",
 	"cost": 1.6,
 	"hardness": 6,
-	"tier": 8,
-	"flammability": 0.6,
+	"flammability": 1.15,
+	"explosiveness": 0.35,
 	"color": "b83fb8"
 }

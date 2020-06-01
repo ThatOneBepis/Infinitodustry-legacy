@@ -1,0 +1,28 @@
+{
+	"type": "unitFactory",
+	"unitType": "Patrol-drone-mk3",
+	"produceTime": 4000,
+	"size": 3,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 4.65,
+		"items": {
+		"items": [
+            {"item": "tensor", "amount": 65.0},
+            {"item": "silicon", "amount": 95.0},
+            {"item": "titanium", "amount": 45.0},
+            {"item": "visionary-glass", "amount": 25.0},
+            {"item": "scalar", "amount": 50.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "tensor", "amount": 75 },
+		{ "item": "titanium", "amount": 145 },
+		{ "item": "silicon", "amount": 105 },
+		{ "item": "scalar", "amount": 95 },
+		{ "item": "lead", "amount": 115 }
+	],
+	"category": "units",
+	"research": "patrol-drone-factory-2"
+}

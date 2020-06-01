@@ -1,6 +1,5 @@
 {
 	"type": "Floor",
-	"name": "Ion-flowing Floor",
 	"speedMultiplier": 1,
 	"isLiquid": true,
 	"liquidDrop": "ion-matter",

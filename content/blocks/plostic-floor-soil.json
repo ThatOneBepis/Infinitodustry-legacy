@@ -1,7 +1,6 @@
 {
 	"type": "Floor",
 	"itemDrop": "plastanium",
-	"name": "Plastanium soil",
 	"playerUnmineable": true,
 	"attributes": {"array":[0,0,0,0.25]}
 }

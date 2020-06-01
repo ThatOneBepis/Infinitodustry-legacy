@@ -1,6 +1,4 @@
 {
-	"name": "Eradicator Factory",
-	"description": "Makes Eradicator boss units.",
 	"type": "UnitFactory",
 	"unitType": "eradicator",
 	"size": 5,

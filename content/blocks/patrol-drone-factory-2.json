@@ -1,11 +1,9 @@
 {
 	"type": "unitFactory",
-	"name": "Crusader drone factory",
-	"description": "Constructs Crusader patrol drones.",
 	"unitType": "Patrol-drone-mk2",
 	"produceTime": 3200,
 	"size": 3,
-	"maxUnits": 1,
+	"maxSpawn": 2,
 	"consumes": {
 		"power": 3.25,
 		"items": {

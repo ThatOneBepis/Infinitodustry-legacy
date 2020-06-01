@@ -1,7 +1,5 @@
 {
 	"type": "DoubleTurret",
-	"name": "Anti Air",
-	"description": "The more spammy cousin of Scatter.",
 	"health": 860,
 	"size": 2,
 	"reload": 15,
@@ -30,8 +28,7 @@
 			"bulletHeight": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"freezing": 5,
-			"bulletType": "LiquidBulletType"
+			"status": "freezing"
 			},
 		"lead": {
 			"speed": 6,

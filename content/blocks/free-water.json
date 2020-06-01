@@ -1,13 +1,12 @@
 {
 	"type": "SolidPump",
-	"name": "Well",
-	"description": "Extracts water by using the nature of fluid's flow.",
 	"health": 150,
 	"result": "water",
 	"hasPower": false,
 	"hasLiquids": true,
+	"hasShadow": false,
 	"size": 2,
-	"pumpAmount": 0.15,
+	"pumpAmount": 0.05,
 	"requirements": [
 		{"item": "tau-plate", "amount": 45},
 		{"item": "stone", "amount": 95},

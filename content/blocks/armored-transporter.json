@@ -1,6 +1,4 @@
 {
-	"name": "Armored item brigde",
-	"description": "An armored item bridge. Is superior to any armored distribution block variant, as well as it's own unarmored variant.",
 	"type": "BufferedItemBridge",
 	"health": 725,
 	"size": 1,

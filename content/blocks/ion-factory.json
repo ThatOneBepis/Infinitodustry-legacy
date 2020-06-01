@@ -1,7 +1,5 @@
 {
 	"type": "genericSmelter",
-	"name": "Ionising machine",
-	"description": "Takes pyratite and slag, converting them into plasma.",
 	"outputLiquid": {"liquid": "ion-matter", "amount": 6.0},
 	"size": 3,
 	"hasPower": true,
@@ -22,7 +20,7 @@
     },
     },
 	"requirements": [
-		{ "item": "tensor", "amount": 65 },
+		{ "item": "thorium", "amount": 65 },
 		{ "item": "vector", "amount": 65 },
 		{ "item": "silicon", "amount": 95 },
 		{ "item": "graphite", "amount": 35 },

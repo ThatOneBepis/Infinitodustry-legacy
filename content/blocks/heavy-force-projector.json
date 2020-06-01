@@ -1,7 +1,5 @@
 {
 	"type": "ForceProjector",
-	"name": "Everest force projector",
-	"description": "Projects a forcefield in a larger area.",
 	"itemCapacity": 20,
 	"size": 5,
 	"radius": 173.2,

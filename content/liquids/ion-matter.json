@@ -1,11 +1,19 @@
 
 {
 	"type": "liquid",
-	"name": "Ionising fluid",
 	"temperature": 10,
-    "viscosity": 0.5,
+    "viscosity": 0,
+    "heatCapacity": 1.5,
     "explosiveness": 0,
-    "effect": "burning",
+    "status":{
+    "effect": "melting",
+    "name": "Evaporating",
+    "damage": 0.5,
+    "damageMultiplier": 0.9,
+    "armorMultiplier": 0.9,
+    "speedMultiplier": 0.9,
+    "color": "00ffff"
+	},
     "color": "00ffff",
-    "description": "Taus are majestic for inventing this, change my mind"
+    "lightColor": "vaffff"
 }

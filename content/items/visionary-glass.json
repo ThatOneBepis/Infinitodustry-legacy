@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "Visionary glass",
-	"description": "Glass containing Copper with magnifying properties.",
 	"cost": 3,
 	"color": "369928"
 }

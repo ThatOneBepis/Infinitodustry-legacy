@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Optic klin",
-	"description": "Smelts Sand, Lead and Copper into glass with optic properties.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "visionary-glass", "amount": 2.0},
 	"size": 2,
@@ -9,6 +7,7 @@
 	"hasLiquids": false,
 	"craftTime": 120,
 	"updateEffect": "smeltsmoke",
+	"flameColor": "ffef99",
 	"consumes": {
 		"power": 0.4,
 		"items": {

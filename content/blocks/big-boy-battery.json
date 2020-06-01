@@ -1,11 +1,10 @@
 {
 	"type": "battery",
-	"name": "Energetic matrix",
-	"description": "Look, we don't have to pay electricity bills anymore!",
 	"size": 5,
-	"health": 600,
+	"health": 105,
 	"category": "power",
 	"research": "battery-large",
+	"baseExplosiveness": 1,
 	"requirements": [
 		{"item": "matrix", "amount": 500}
 	],

@@ -1,6 +1,4 @@
 {
-	"name": "Armored overflower",
-	"description": "Piece of wall what accepts items, and distributes to the sides if items cannot be transported fowards. Useful for turret prioritization.",
 	"type": "OverflowGate",
 	"health": 450,
 	"size": 1,

@@ -1,9 +1,8 @@
 {
 	"type": "material",
-	"name": "Tensor",
-	"description": "Multidimensional thing",
+	"flammability": 0.9,
+	"explosiveness": 0.7,
 	"cost": 1.7,
 	"hardness": 8,
-	"tier": 9,
 	"color": "ff7c00"
 }

@@ -1,7 +1,5 @@
 {
     "type": "ChargeTurret",
-    "name": "Tesla",
-    "description": "An improved Arc turret. Denser coiling and a better transformer allow this turret to zap air units.",
     "targetAir": true,
     "targetGround": true,
     "hasPower": true,
@@ -26,5 +24,6 @@
         { "item": "silicon", "amount": 10 }
     ],
     "category": "turret",
-    "shootSound": "spark"
+    "shootSound": "spark",
+    "research": "arc"
 }

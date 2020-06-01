@@ -1,0 +1,46 @@
+{
+	"type": "HoverUnit",
+	"health": 450,
+	"update": true,
+	"flying": true,
+	"speed": 0.2,
+	"mass": 35,
+	"drag": 0.5,
+	"rotateSpeed": 0.2,
+	"rotateWeapons": true,
+	"shootCone": 1,
+	"retreatPercent": 1,
+	"engineSize": 1.5,
+	"engineColor": "#6fc979",
+	"weapon":{
+		"name": "nano-missile-pod",
+  		"length": -10,
+ 		"reload": 80,
+		"alternate": true,
+ 		"recoil": 0,
+		"width": 4,
+		"bullet": 
+			{
+				"type": "BasicBulletType",
+				"splashDamage": 50,
+				"splashDamageRadius": 10,
+				"drag": -0.05,
+				"canHeal": true,
+				"healPercent": 5,
+				"collidesTeam": true,
+				"lifetime": 60,
+				"trailColor": "#6fc979",
+				"frontColor": "#84f491",
+				"backColor": "#62ae7f",
+				"bulletSprite": "missile",
+				"shootEffect": "shootHeal",
+				"smokeEffect": "hitLaser",
+				"despawnEffect": "hitLaser",
+				"hitEffect": "hitLaser",
+				"weaveScale": 0,
+				"weaveMag": -1,
+				"homingPower": 1,
+				"speed": 3
+			}
+		}
+}

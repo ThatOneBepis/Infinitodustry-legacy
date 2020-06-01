@@ -1,0 +1,26 @@
+{
+	"type": "unitFactory",
+	"unitType": "medic-mk1",
+	"produceTime": 1500,
+	"size": 2,
+	"maxSpawn": 3,
+	"consumes": {
+		"power": 2.25,
+		"items": {
+		"items": [
+            {"item": "scalar", "amount": 15.0},
+            {"item": "silicon", "amount": 35.0},
+            {"item": "titanium", "amount": 20.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "copper", "amount": 75 },
+		{ "item": "lead", "amount": 65 },
+		{ "item": "silicon", "amount": 105 },
+		{ "item": "titanium", "amount": 75 },
+		{ "item": "scalar", "amount": 65 }
+	],
+	"category": "units",
+	"research": "spirit-factory"
+}

@@ -1,6 +1,5 @@
 {
 	"name": "IN5-AR",
-	"description": "A drill capable of mining everything. Requires molten metal in order to function properly.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 30,

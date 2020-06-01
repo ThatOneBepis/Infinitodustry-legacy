@@ -1,12 +1,8 @@
 {
-	"type": "GenericCrafter",
-	"name": "Snowball freezer",
-	"description": "Freezes the round objects called snowballs into colder round objects called the same way, but with a 2.0.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "snowball-but-colder", "amount": 1.0},
 	"size": 1,
 	"hasPower": true,
-	"hasitems": true,
 	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
 	"consumes": {

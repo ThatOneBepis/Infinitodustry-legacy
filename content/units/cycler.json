@@ -1,15 +1,12 @@
 {
-	"name": "Cyclcler",
-	"type": "flyingUnit",
-	"description": "A fighter unit wielding tiny cyclone turrets.",
+	"type": "HoverUnit",
 	"health": 5000,
 	"flying": true,
 	"speed": 0.35,
-	"mass": 25,
-	"rotatespeed": 0.6,
+	"mass": 5,
 	"maxVelocity": 1,
-	"drag": 3,
-	"rotateWeapons": false,
+	"drag": 1,
+	"rotateWeapons": true,
 	"weapon":{
 		"name": "mini-cyclone",
 		"bullet":
