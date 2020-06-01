@@ -1,7 +1,8 @@
 require("digital-regeneration");
 require("recycle");
 require("multiklin");
-require("medic-mk1");
+require("medicine");
+require("medicine-but-also-for-blocks");
 require("splat");
 require("snow");
 require("snow-2");
