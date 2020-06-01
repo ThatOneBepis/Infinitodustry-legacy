@@ -1,7 +1,4 @@
 {
-	"type": "GenericCrafter",
-	"name": "Snowball machine",
-	"description": "Freezes water into round objects called snowballs.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "snowball", "amount": 1.0},
 	"size": 1,

@@ -1,0 +1,27 @@
+{
+	"type": "unitFactory",
+	"unitType": "medic-mk2",
+	"produceTime": 4000,
+	"size": 3,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 3.12,
+		"items": {
+		"items": [
+            {"item": "scalar", "amount": 35.0},
+            {"item": "silicon", "amount": 50.0},
+            {"item": "titanium", "amount": 35.0},
+            {"item": "toughitinum", "amount": 25.0}
+      ]
+		}
+  },
+	"requirements": [
+		{ "item": "graphite", "amount": 95 },
+		{ "item": "lead", "amount": 85 },
+		{ "item": "silicon", "amount": 140 },
+		{ "item": "titanium", "amount": 115 },
+		{ "item": "matrix", "amount": 45 }
+	],
+	"category": "units",
+	"research": "medic-drone-factory-1"
+}
