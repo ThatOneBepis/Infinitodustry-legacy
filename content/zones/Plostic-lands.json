@@ -3,11 +3,12 @@
     "startingItems": [
     	{"item": "copper", "amount": 500},
     	{"item": "lead", "amount": 500},
-        {"item": "graphite", "amount": 250},
-        {"item": "titanium", "amount": 200},
+        {"item": "graphite", "amount": 500},
+        {"item": "titanium", "amount": 500},
         {"item": "scalar", "amount": 75},
         {"item": "phase-fabric", "amount": 100},
-        {"item": "silicon", "amount": 500},
+        {"item": "metaglass", "amount": 500},
+        {"item": "visionary-glass", "amount": 150}
     ],
     "conditionWave": 30,
     "configureObjective": {
