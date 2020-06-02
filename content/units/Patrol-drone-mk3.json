@@ -9,6 +9,7 @@
 	"rotatespeed": 6,
 	"maxVelocity": 0.4,
 	"drag": 0.07,
+	"attackLength": 5,
 	"rotateWeapon": true,
 	"weapon":
 	{
@@ -18,7 +19,6 @@
 		"recoil": 2,
 		"alternate": false,
 		"reload": 65,
-		"shots": 2,
 		"roundRobin": false,
 		"shootSound": "spark",
 		"shootEffect": "lightningShoot",

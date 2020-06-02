@@ -18,6 +18,6 @@
 		"shootSound": "none",
  		"recoil": 0,
 		"width": 0,
-		"bullet": {"instantDisappear": true, "lifetime": 30, "despawnEffect": "none"}
+		"bullet": {"instantDisappear": true, "lifetime": 5, "despawnEffect": "none"}
 		}
 }

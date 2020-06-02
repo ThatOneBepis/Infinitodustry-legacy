@@ -3,7 +3,7 @@
 	"health": 450,
 	"update": true,
 	"flying": true,
-	"speed": 0.2,
+	"speed": 0.32,
 	"mass": 35,
 	"drag": 0.5,
 	"rotateSpeed": 0.2,
