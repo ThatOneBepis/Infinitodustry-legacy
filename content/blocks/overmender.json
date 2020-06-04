@@ -5,12 +5,12 @@
   },
   "category": "effect",
   "buildVisibility": "sandboxOnly",
-  "range": 150,
+  "range": 900,
   "size": 1,
-  "reload": 0.1,
+  "reload": 0,
   "healPercent": 500,
   "phaseBoost": 500,
-  "phaseRangeBoost": 250,
+  "phaseRangeBoost": 800000,
   "requirements": [
 		{ "item": "test", "amount": 13 }
 	]
