@@ -5,7 +5,7 @@
   },
   "category": "effect",
   "buildVisibility": "sandboxOnly",
-  "range": 900,
+  "range": 80,
   "size": 1,
   "reload": 0,
   "healPercent": 500,
