@@ -7,7 +7,7 @@ Garmundo/Extended-unit-arsenal - Found out how to code Blast properly with this
 "some sprties idk"  - CA6
 "big-boy-battery" - D I O#4882 
 "ion-cannon-drone" - TrinityXyz#0624 
-"Patrol-drone-mk1" and "Patrol-drone-mk2" - Mega777#1778 
+"Patrol-drone-mk1" and "Patrol-drone-mk2" - Mega777#1778 (ARCHIVED)
 "Sky cleaner" - Seedlilly#6008 
 
 ##Maps
@@ -18,6 +18,7 @@ amione#0663 - The ancient json mod guy
 
 ##Scripts
 
+EyeOfDarkness#0350 and z0mbiesrock#2965 - guys i took some scripts from, indirectly contributed in a sense
 younggam#1086 - Helped with multi-crafters, because i mainly used his code
 
 ##Translators
@@ -26,5 +27,5 @@ Luka108 (discord syntax unknown)
 
 ##Developers
 
-Nope.avi#4037 (Lead developer, meh at Json, sucks at Scripting, but does good spriting if in mood)
-Ilya246.exe#9193 (That one guy what adds most funky stuff, skills are [REDACTED])
+Nope.avi#4037 
+Ilya246.exe#9193 
