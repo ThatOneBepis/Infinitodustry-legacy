@@ -5,6 +5,4 @@ Considering im running out of Source moddingn't stuff ideas, at one point i migh
 
 Planning to add a trello board for easier managment of resources/needs. In the meantime: discord server is launched!
 
-https://discord.gg/at7TRDz
-
 changelog is rendered useless, mod-announcements channel in discord server is used now
