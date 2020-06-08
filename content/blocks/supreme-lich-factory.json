@@ -1,7 +1,6 @@
 {
-	"name": "Supreme Lich Summoner",
-	"description": "Summons Supreme Lich.
-  Nobody knows what the symbols mean.",
+	"name": "Shrine Of Pandora",
+	"description": "Rumored to release one's greatest fear. Nobody knows what the symbols mean, hence the legends around it.",
 	"type": "UnitFactory",
 	"unitType": "supreme-lich",
 	"size": 1,
@@ -12,7 +11,7 @@
 		"power": 1.0
   },
 	"category": "units",
-	"research": "eradicator-factory",
+	"research": "lich-factory",
 	"requirements": [
 		{ "item": "copper", "amount": 1 }
 	]
