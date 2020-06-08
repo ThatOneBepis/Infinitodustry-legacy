@@ -2,7 +2,6 @@
 	"type": "Floor",
 	"name": "void",
 	"speedMultiplier": 1,
-	"drowntime": 5,
 	"variants": 0,
 	"isLiquid": true,
 	"damageTaken": 100000000000000000000000000,
