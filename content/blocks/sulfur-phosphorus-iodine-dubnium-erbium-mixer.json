@@ -1,8 +1,4 @@
 {
-	"type": "unitFactory",
-	"name": "Metaphorical lair",
-	"description": "Creates Metaphors.",
-	"unitType": "sulfur-phosphorus-iodine-dubnium-erbium",
 	"produceTime": 9000,
 	"size": 5,
 	"maxSpawn": 1,
