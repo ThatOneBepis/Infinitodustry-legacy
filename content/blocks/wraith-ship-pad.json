@@ -1,8 +1,6 @@
 {
     "type": "MechPad",
     "mech": "wraith-ship",
-    "name": "Wraith Ship Pad",
-    "description": "Puts you into a Wraith.                                                             Use on your own risk.",
     "size": 2,
     "consumes": {
       "power": 1.0

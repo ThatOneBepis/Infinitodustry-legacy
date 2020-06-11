@@ -1,8 +1,6 @@
 {
     "type": "MechPad",
     "mech": "playable-mech-constitution",
-    "name": "Pi mech pad",
-    "description": "Upgrades to ancient Pi mech vessel. Because of it's ancient design, it does not consume power.",
     "size": 4,
     "requirements": [
         { "item": "surge-alloy", "amount": 450 },
@@ -13,5 +11,5 @@
         { "item": "copper", "amount": 500 }
     ],
     "category": "upgrade",
-    "research": "delta-mech-pad"
+    "research": "playable-mech-router-pad"
 }

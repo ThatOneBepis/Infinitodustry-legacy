@@ -3,7 +3,7 @@
 	"laserRange": 0,
 	"health": 830,
 	"size": 1,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"requirements": [
 		{ "item": "toughitinum", "amount": 6 }
 	],

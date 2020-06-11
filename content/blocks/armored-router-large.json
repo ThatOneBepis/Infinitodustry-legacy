@@ -2,7 +2,6 @@
 	"type": "router",
 	"health": 1800,
 	"size": 2,
-	"BlockGroup": "transportation",
 	"requirements": [
 		{ "item": "vector", "amount": 24 },
 		{ "item": "silicon", "amount": 48},

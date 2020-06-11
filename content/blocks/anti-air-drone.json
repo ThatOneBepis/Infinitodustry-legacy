@@ -10,7 +10,6 @@
 	"rotatespeed": 20,
 	"burstSpacing":  5,
 	"shots": 5,
-	"BlockGroup": "turrets",
 	"ammo": {
 		"tensor": {
 			"speed": 6,
@@ -106,7 +105,14 @@
 			"fragBullets": 10
 		}
 	    },
-	"requirements": [],
+	"requirements": 
+	[
+		{"item": "lead", "amount": 450},
+		{"item": "tensor", "amount": 250},
+		{"item": "silicon", "amount": 250},
+		{"item": "surge-alloy", "amount": 335},
+		{"item": "thorium", "amount": 175}
+	],
 	"buildVisibility": "sandboxOnly",
 	"category": "turret"
 }

@@ -8,6 +8,5 @@
 		{"item": "infiar", "amount": 20}
 	],
 	"category": "effect",
-	"research": "message",
-	"speed": 3
+	"research": "message"
 }

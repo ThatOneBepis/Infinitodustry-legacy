@@ -10,11 +10,11 @@
     "inaccuracy": 0.1,
     "reload": 10,
     "shots": 2,
-    "BlockGroup": "turrets",
+    "group": "turrets",
     "recoil": 2,
     "heatColor": "#00ffff",
     "shootCone": 40,
-    "rotateSpeed": 30,
+    "rotationSpeed": 30,
     "range": 100,
     "shootEffect": "lightningShoot",
     "requirements": [

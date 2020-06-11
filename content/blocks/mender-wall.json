@@ -8,7 +8,7 @@
 	"reload": 150,
 	"healPercent": 5,
 	"phaseRangeBoost": 0,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"phaseBoost": 0,
 	"requirements": [
 		{ "item": "silicon", "amount": 6 },

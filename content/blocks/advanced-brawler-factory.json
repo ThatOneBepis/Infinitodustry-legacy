@@ -1,10 +1,8 @@
 {
 	"type": "unitFactory",
-	"name": "Panzer IV H factory",
-	"description": "Constructs German tanks. Which tanks? Look at the facility's name again.",
 	"unitType": "advanced-brawler",
 	"produceTime": 2000,
-	"size": 3,
+	"size": 4,
 	"consumes": {
 		"power": 1.45,
 		"items": {
@@ -25,4 +23,3 @@
 	"category": "units",
 	"research": "titan-factory"
 }
-

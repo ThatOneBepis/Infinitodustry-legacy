@@ -1,6 +1,5 @@
 {
 	"name": "TN4S-R",
-	"description": "Drills able to mine resources only few drills can also mine. Titanium-alloyed bricks can be consumed for faster mining.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 8,
@@ -8,7 +7,7 @@
 	"hasLiquids": false,
 	"drillTime": 145,
 	"itemUseTime": 60,
-	"BlockGroup": "drills",
+	"group": "drills",
 	"consumes": {
 		"power": 2.0,
 		"items": {

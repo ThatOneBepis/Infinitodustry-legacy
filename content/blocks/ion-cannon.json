@@ -1,7 +1,5 @@
 {
 	"type": "ItemTurret",
-	"name": "Hammerhead cannon",
-	"description": "Powerful single-shot cannon what ionises most enemies. Without ionised fluid, it has quite long reload speed.",
 	"health": 2350,
 	"size": 4,
 	"reload": 450,
@@ -12,12 +10,12 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "ion-matter", 
-			"amount": 0.12,
+			"amount": 0.02,
 			"optional": false,
-			"booster": true
+			"booster": false,
+			"update": false
 		}
 	},
-	"BlockGroup": "turrets",
 	"ammoUseEffect": "shellEjectBig",
 	"inaccuracy": 0,
 	"rotatespeed": 10,
@@ -72,12 +70,11 @@
 		},
 	    },
 	"requirements": [
-		{ "item": "tau-plate", "amount": 470 },
+		{ "item": "copper", "amount": 330 },
+	    { "item": "graphite", "amount": 250 },
+		{ "item": "tau-plate", "amount": 370 },
 		{ "item": "surge-alloy", "amount": 270 },
-		{ "item": "copper", "amount": 440 },
-        { "item": "scalar", "amount": 350 },
-        { "item": "infiar", "amount": 150 },
-        { "item": "graphite", "amount": 350 }
+        { "item": "scalar", "amount": 250 }
 	],
 	"category": "turret",
 	"research": "fuse"

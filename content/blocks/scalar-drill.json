@@ -1,13 +1,12 @@
 {
 	"name": "SCL1-R",
-	"description": "A drill what capable of mining thorium and scalar. Doesn't need power, but needs visionary glass instead.",
 	"type": "Drill",
 	"size": 2,
 	"tier": 4,
 	"hasItems": true,
 	"drillTime": 225,
 	"itemUseTime": 300,
-	"BlockGroup": "drills",
+	"group": "drills",
 	"consumes": {
 		"items": {
 	"items": [

@@ -2,7 +2,6 @@
 	"type": "massDriver",
 	"health": 450,
 	"size": 1,
-	"speed": 100,
 	"itemCapacity": 15,
 	"minDistribute": 5,
 	"reloadTime": 100,

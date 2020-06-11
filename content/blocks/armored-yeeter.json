@@ -2,7 +2,6 @@
 	"type": "LiquidExtendingBridge",
 	"health": 725,
 	"hasPower": false,
-	"BlockGroup": "liquids",
 	"requirements": [
 		{"item": "silicon", "amount": 6},
 		{"item": "stone", "amount": 12},

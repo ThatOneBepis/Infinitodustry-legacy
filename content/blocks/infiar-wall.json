@@ -1,10 +1,8 @@
 {
-	"name": "Infiar wall",
-	"description": "Wall made out of digital compound. Can regain it's lost health.",
 	"health": 900,
 	"size": 1,
 	"update": true,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"solid": true,
 	"buildCostMultiplier": 5,
 	"requirements": [

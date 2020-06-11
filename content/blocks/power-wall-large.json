@@ -2,7 +2,7 @@
 	"type": "PowerNode",
 	"laserRange": 0,
 	"health": 3320,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"size": 2,
 	"requirements": [
 		{ "item": "toughitinum", "amount": 24 }

@@ -3,7 +3,6 @@
 	"health": 2000,
 	"size": 2,
 	"insulated": true,
-	"BlockGroup": "walls",
 	"requirements": [
 		{ "item": "blast-fabric", "amount": 24 }
 	],

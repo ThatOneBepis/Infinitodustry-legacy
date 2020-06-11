@@ -4,7 +4,7 @@
 	"size": 2,
 	"tier": 30,
 	"drillTime": 95,
-	"BlockGroup": "drills",
+	"group": "drills",
 	"hasLiquids": true,
 	"consumes": {
 		"power": 4.0,

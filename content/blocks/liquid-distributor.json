@@ -2,7 +2,7 @@
 	"type": "LiquidTank",
 	"health": 100,
 	"size": 2,
-	"BlockGroup": "liquids",
+	"group": "liquids",
 	"requirements": [
 		{"item": "metaglass", "amount": 10},
 		{"item": "titanium", "amount": 5}

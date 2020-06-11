@@ -4,7 +4,6 @@
 	"size": 1,
 	"range": 6,
 	"speed": 70,
-	"BlockGroup": "transportation",
 	"bufferCapacity": 20,
 	"requirements": [
 		{ "item": "matrix", "amount": 6 },

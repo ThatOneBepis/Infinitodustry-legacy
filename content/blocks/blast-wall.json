@@ -1,7 +1,6 @@
 {
 	"type": "DeflectorWall",
 	"health": 500,
-	"BlockGroup": "walls",
 	"size": 1,
 	"insulated": true,
 	"requirements": [

@@ -2,7 +2,6 @@
 	"type": "OverflowGate",
 	"health": 450,
 	"size": 1,
-	"BlockGroup": "transportation",
 	"invert": true,
 	"requirements": [
 		{ "item": "vector", "amount": 6 },

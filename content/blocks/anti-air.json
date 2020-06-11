@@ -7,7 +7,6 @@
 	"range": 200,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0,
-	"BlockGroup": "turrets",
 	"rotatespeed": 20,
 	"ammo": {
 		"copper": {

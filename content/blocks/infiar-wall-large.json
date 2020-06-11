@@ -1,12 +1,10 @@
 {
-	"name": "Larger infiar wall",
-	"description": "Wall made out of digital compound. Can regain it's lost health. Spans multiple tiles.",
 	"health": 3600,
 	"size": 2,
 	"update": true,
 	"solid": true,
 	"buildCostMultiplier": 5,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"requirements": [
 		{ "item": "infiar", "amount": 24 }
 	],

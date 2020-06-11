@@ -1,7 +1,6 @@
 {
 	"type": "Conduit",
 	"health": 355,
-	"BlockGroup": "liquids",
 	"requirements": [
 		{"item": "silicon", "amount": 1},
 		{"item": "stone", "amount": 2}

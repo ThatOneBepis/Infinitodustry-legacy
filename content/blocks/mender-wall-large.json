@@ -9,7 +9,7 @@
 	"healPercent": 7,
 	"phaseRangeBoost": 0,
 	"phaseBoost": 0,
-	"BlockGroup": "walls",
+	"group": "walls",
 	"requirements": [
 		{ "item": "silicon", "amount": 24 },
 		{ "item": "surge-alloy", "amount": 12 },
