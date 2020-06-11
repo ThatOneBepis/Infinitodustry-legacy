@@ -1,12 +1,10 @@
 {
-	"name": "Wraith Ship",
-	"description": "A pilotable Wraith. Slightly stronger than normal Wraiths.",
 	"speed": 0.6,
-	"maxSpeed": 5,
 	"drag": -1,
 	"buildPower": 1.0,
 	"flying": true,
 	"health": 200,
+	"mass": 0.1,
 	"weapon": {
 		"name": "ae",
 		"length": 1.5,
@@ -14,6 +12,7 @@
 		"recoil": -5,
 		"alternate": true,
 		"bullet": "standardCopper",
-		"shootSound": "shoot"
+		"shootSound": "shoot",
+		"ejectEffect": "none"
 	}
 }

@@ -1,13 +1,11 @@
 {
-	"name": "Terran",
-	"description": "A command tank with built-in Command center, which can by right-clicking on itself can issue immediate orders (Attack, Retreat, or Rally (Rally will cause all mechs to go towards Terran, regardless of other Command centers)). It shoots cryofluid-filled shells, slowing down enemies but also extingushing fire. His order's effects stay up during process of respawn.",
 	"health": 285,
 	"weapon": 
 	{
 		"bullet":
 		{
 			"type": "ArtilleryBulletType",
-			"lifetime": 80,
+			"lifetime": 100,
 			"damage": 50,
 			"bulletWidth": 8,
 			"bulletHeight": 12,
@@ -23,10 +21,10 @@
 		"width": 0,
 		"lenght": 0
 	},
-	"buildSpeed": 0.85,
+	"buildPower": 0.85,
     "itemCapacity": 5,
     "mass": 30,
 	"flying": false,
-	"MaxSpeed": 0.7,
+	"MaxVelocity": 0.7,
 	"speed": 0.3
 }

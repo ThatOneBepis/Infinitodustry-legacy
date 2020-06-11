@@ -1,0 +1,38 @@
+{
+	"name": "Black pearl",
+	"description": "Ship having large item capacity and shielding capabilities. Taunts shot enemies.",
+	"weapon": {
+		"name": "Magnetic-cannonball-launcher",
+		"reload": 35,
+		"shots": 6,
+		"shotDelay": 180,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shootBig",
+		"bullet": {
+			"type": "BasicBulletType",
+			"damage": 35,
+			"speed": 10,
+			"lifetime": 15,
+			"hitEffect": "explosion",
+			"despawnEffect": "explosion",
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"splashDamageRadius": 25,
+			"splashDamage": 15,
+			"bulletWidth": 10,
+			"bulletHeight": 10,
+			"backColor": "2e2d2d",
+			"frontColor": "2e2d2d"
+		}
+	},
+	"health": 225,
+	"itemCapacity": 125,
+	"buildPower": 0.95,
+	"shield": 350,
+	"flying": true,
+	"speed": 0.085,
+	"mass": 60,
+	"rotatespeed": 0.01,
+	"maxVelocity": 0.45,
+	"drag": 0.5
+}

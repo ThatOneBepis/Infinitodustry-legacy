@@ -1,11 +1,10 @@
 {
-	"name": "Pi mech",
-	"description": "Ancerstors of modern mindustry units, it is capable of creating buildings almost instantly. Also comes with a spirit drone, even tho we mostly fight his kind. His 'wings' are not advised to be used unless you must.",
 	"health": 185,
-	"mass": 12,
-	"weaponOffsetY": 10,
-	"weaponOffsetX": 10,
+	"mass": 8,
 	"flying": false,
+	"maxSpeed": 2,
+	"speed": 2,
+	"boostSpeed": 0,
 	"weapon": 
 	{
 		"name": "Surge stick",
@@ -13,9 +12,11 @@
 		"width": 10,
 		"reload": 15,
 		"bullet": "arc",
+		"alternate": true
 	},
 	"buildPower": 10000,
-	"miningPower": 1.25,
+	"drillPower": 3,
 	"itemCapacity": 45,
-	"Tier": 7
+	"mineSpeed": 0.7,
+	"minePower": 7
 }

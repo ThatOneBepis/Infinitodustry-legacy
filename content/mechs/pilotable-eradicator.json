@@ -1,6 +1,4 @@
 {
-	"name": "Eradicator",
-	"description": "Powerful pilotable beast, with jetpacks attached to it. Cannot build or mine.",
 	"health": 9000,
 	"mass": 5,
 	"flying": false,
@@ -13,7 +11,7 @@
 		"name": "player-eradication",
 		"width": 13,
         "reload": 30,
-        "nimPlayerDist": 50,
+        "minPlayerDist": 50,
         "length": 22,
         "alternate": true,
         "recoil": 3,
