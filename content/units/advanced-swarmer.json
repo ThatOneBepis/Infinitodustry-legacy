@@ -1,0 +1,27 @@
+{
+	"type": "HoverUnit",
+	"health": 160,
+	"flying": false,
+	"targetAir": true,
+	"rotateWeapon": true,
+	"speed": 0.02,
+	"mass": 5,
+	"immunities": ["wet"],
+	"rotatespeed": 0.9,
+	"maxVelocity": 0.2,
+	"weapon":{
+		"name": "flakky",
+		"reload": 18,
+		"burstSpacing": 5,
+		"inaccuracy": 17,
+		"width": 0,
+		"length": -15,
+		"ejectEffect": "shellEjectSmall",
+		"shootSound": "shootSnap",
+		"alternate": false,
+		"bullet": "flakLead",
+		"shots": 2,
+		"recoil": 2,
+		"shootCone": 35
+	}
+}

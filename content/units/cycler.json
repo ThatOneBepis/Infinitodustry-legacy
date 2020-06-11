@@ -6,7 +6,7 @@
 	"mass": 5,
 	"maxVelocity": 1,
 	"drag": 1,
-	"rotateWeapons": true,
+	"rotateWeapon": true,
 	"weapon":{
 		"name": "mini-cyclone",
 		"bullet":

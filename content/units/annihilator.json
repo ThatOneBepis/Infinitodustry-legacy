@@ -1,7 +1,5 @@
 {
 	"type": "groundUnit",
-	"name": "Annihilator",
-	"description": "...Annihilates?",
 	"maxVelocity": 0.6,
 	"speed": 0.14,
 	"drag": 0.4,

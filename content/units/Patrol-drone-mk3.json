@@ -2,7 +2,6 @@
 	"type": "revenant",
 	"health": 600,
 	"flying": true,
-	"hitSize": 35,
 	"targetAir": true,
 	"speed": 0.07,
 	"mass": 65,
@@ -14,14 +13,12 @@
 	"weapon":
 	{
 		"name": "inquisition-arc",
+		"length": -15,
 		"width": 0,
-		"height": -15,
 		"recoil": 2,
 		"alternate": false,
 		"reload": 65,
-		"roundRobin": false,
 		"shootSound": "spark",
-		"shootEffect": "lightningShoot",
 		"bullet": "lightning"
 	}
 }

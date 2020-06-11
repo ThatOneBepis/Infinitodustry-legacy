@@ -1,20 +1,31 @@
 {
-	"name": "Black widow",
 	"type": "ghoul",
-	"description": "Stealth bomber unit. Can only be countered by player, Inquisitor drone or collateral damage.",
 	"health": 100,
 	"flying": true,
-	"hitSize": 8,
-	"speed": 0.2,
+	"targetAir": false,
+	"speed": 0.4,
 	"mass": 0.5,
 	"engineSize": 2,
 	"rotatespeed": 0.2,
 	"maxVelocity": 1.0,
 	"drag": 0.1,
-	"targetable": false,
 	"weapon": 
 	{
-		"bullet": "bombExplosive",
-		"reload": 20
+		"bullet": 
+		{
+			"bulletWidth": 9,
+			"bulletHeight": 17,
+			"bulletType": "bombBulletType",
+			"bulletSprite": "missile",
+			"drag": 0.1,
+			"hitEffect": "explosion",
+			"despawnEffect": "nuclearsmoke",
+			"damage": 5, /*compared to splash damage, this is nothing*/
+			"splashDamageRadius": 100,
+			"splashDamage": 6000
+		},
+		"reload": 300,
+		"width": 0,
+		"lenght": 0
 	}
 }

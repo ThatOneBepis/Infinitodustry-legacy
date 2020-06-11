@@ -1,7 +1,5 @@
 {
 	"type": "groundUnit",
-	"name": "Dagger God",
-	"description": "The god of Daggers.",
 	"maxVelocity": 1.5,
 	"speed": 0.5,
 	"drag": 0.4,
