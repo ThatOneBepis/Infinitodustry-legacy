@@ -11,11 +11,11 @@ Coloring role: Cyan/Lime
 --Cycler
 Misterious "drones", which serve differing purposes based off their design, which all share same weapon design (Divinity uses that weapon type too to an extent). Serves as "bosses", which have specific playgrounds and mechanics, while some may appear randomly.
 -Mobwagon
-A ship which supports raids of bases which did not expect an air assault. Most common (internally used to be named "experiment", as their implementation was in experimental fashion). May or may not carry different segments spawming Angel Drones upon death.
+A ship which supports raids of bases which did not expect an air assault. Most common (internally used to be named "experiment", as their implementation was in experimental fashion). May or may have different segments which spawn Angel Drones upon death.
 Coloring role: Orange/Lime
 Fighting location: Any, produced in "Wagoonlagoon" sector.
 -Messanger
-Mothership, which launches small Messy attack drones. Said drones are often used to distract enemy deffenses if they were to fire while Messanger would send it's prophecies (whatever Divinity would want to be sent to them). Hates Ion cannons, as they can dish out much damage out of nowhere.
+Mothership, which launches small Messy attack drones. Said drones are often used to distract enemy deffenses if they were to fire while Messanger would send it's prophecies (whatever Divinity would want to be sent to them). Hates Ion cannons, as they can dish out much damage out of nowhere. Also your to-go guy for legal advices.
 Coloring role: Purple/Red
 Fighting location: Any
 -Mr. Genocide
@@ -36,11 +36,11 @@ Coloring role: Lime/Purple
 Fighting location: Any, produced in "NullPointerArray" sector.
 
 --Inquisitor
-Most trusted of regular drones, allowing them to equip double-egded detection system. They guard every location of interest, where Black widow and Reverse-engineered Shadow Drones which could deal too much damage what could be accepted.
+Most trusted of regular drones, allowing them to equip double-egded detection system. They guard every location of interest, where Black widow and Reverse-engineered Shadow Drones which could deal too much damage what could be accepted. Yes, Sensor arrays are a thing, but no, they are not that economic for Divinity's taste.
 Coloring role: Brown/Purple
 
 --Archangel
-Auxuliary drone what is capable of deffending itself from the enemy. Used where Angels would be deemed less effective (like, everywhere)
+Auxuliary drone what is capable of deffending itself from the enemy. Used where Angels would be deemed less effective (like, everywhere).
 Coloring role: Green
 
 --Abyss
@@ -50,7 +50,7 @@ Coloring role: Dark Red
 --Auxiliaries
 Drones what with their supportive abilities reduces chances the enemy can win, but are useless when left alone (advanced regular drones, i guess)
 -Turtle
-Guardians of armies, projects a wide shield with considerable strenght. Out of combat they shield important components, in combination with other drones/units.
+Guardians of armies, projects a wide shield with considerable strenght. Out of combat they shield important components, in combination with other drones/units. They were named "Turtles" as their entire point is to turtle at specific locations while the squadron rests.
 Coloring role: Lime
 -Ant
 Booster of bases, projects overdriving, boosting production and fire rate of turrets. Divinity and Cyclers are discussing if it should be armed with building properties too.
@@ -61,7 +61,7 @@ Respected among regular drones, these are used ion more heated areas of battle, 
 Coloring role: Cyan
 
 --Shadow
-Knights which decided to become more sneaky, allowing them to strike at armies without fear of dying. Aren't shadows supposed to lack fear and accept the void anyway?
+Knights which decided to become more sneaky, allowing them to strike at armies without fear of dying. Aren't shadows supposed to lack fear and accept the abyss anyway?
 Coloring role: Dark Red
 
 --Regular drones
