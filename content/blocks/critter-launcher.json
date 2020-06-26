@@ -1,0 +1,29 @@
+{
+	"health": 2350,
+	"size": 4,
+	"reload": 90,
+	"targetGround": true,
+	"targetAir": true,
+	"range": 1000,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"rotatespeed": 10,
+	"shootSound": "unlock",
+	"consumes":{		
+		"items": {
+		"items": [
+            {"item": "infiar" , "amount": 1.0}
+        ],
+        "optional": false
+	}},
+	"requirements": [
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "silicon", "amount": 225 },
+		{ "item": "tensor", "amount": 175 },
+        { "item": "infiar", "amount": 190 },
+        { "item": "toughitinum", "amount": 105 }
+	],
+	"category": "units",
+	"research": "critter-fabricator",
+	"alwaysUnlocked": false
+}

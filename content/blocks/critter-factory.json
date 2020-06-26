@@ -1,7 +1,5 @@
 {
 	"type": "unitFactory",
-	"name": "Critter box opener",
-	"description": "Opens Critter boxes.",
 	"unitType": "boomer-droid",
 	"produceTime": 120,
 	"size": 2,

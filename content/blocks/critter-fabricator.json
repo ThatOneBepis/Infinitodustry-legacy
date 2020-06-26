@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Critter factory",
-	"description": "Creates critters, and puts them into a protective toughitinum box.",
 	"itemCapacity": 20,
 	"outputItem": {"item": "CRITTERS", "amount": 1.0},
 	"size": 2,
@@ -12,7 +10,7 @@
 		"power": 1.4,
 		"items": {
         "items": [
-            {"item": "silicon", "amount": 4},
+            {"item": "silicon", "amount": 2},
             {"item": "toughitinum", "amount": 1}
     ]
     }
