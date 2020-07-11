@@ -11,6 +11,7 @@
 	"rotateWeapon": true,
 	"weapon": 
 	{
+		"name": "snipah-equip",
 		"reload": 165,
 		"shootSound": "shootBig",
 		"width": 0,
