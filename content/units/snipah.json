@@ -1,0 +1,27 @@
+{
+	"type": "HoverUnit",
+	"health": 225,
+	"flying": true,
+	"speed": 0.1,
+	"mass": 0.5,
+	"engineSize": 1,
+	"rotatespeed": 0.2,
+	"maxVelocity": 0,
+	"drag": 0,
+	"rotateWeapon": true,
+	"weapon": 
+	{
+		"reload": 165,
+		"shootSound": "shootBig",
+		"width": 0,
+		"length": -5,
+		"alternate": true,
+		"recoil": 0.8,
+		"bullet": 
+		{
+			"lifetime": 50,
+			"speed": 6,
+			"damage": 30
+		}
+	}
+}

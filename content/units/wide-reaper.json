@@ -1,0 +1,39 @@
+{
+	"type": "Revenant",
+ 	"drag": 0.25,
+	"speed": 0.01,
+	"mass": 90,
+	"health": 33000,
+  	"flying": true,
+	"rotateWeapon": true,
+	"engineOffset": 40,
+	"engineSize": 22,
+	"rotatespeed": 0.01,
+	"baseRotateSpeed": 0.04,
+	"shootCone": 90,
+	"weapon": {
+		"name": "wide-equip",
+		"length": 9,
+		"width": 60,
+		"reload": 5,
+    	"shots": 1,
+   	 	"shootcone": 1,
+   		"shake": 1,
+		"inaccuracy": 3,
+  		"ejectEffect": "none",
+   		"shootSound": "shootBig",
+		"bullet":{
+			"type": "BasicBulletType",
+  		    "bulletWidth": 45,
+    		"speed": 7,
+    		"damage": 126,
+     		"bulletHeight": 21,
+     		"keepVelocity": false,
+     		"splashDamageRadius": 80,
+     		"splashDamage": 120,
+    		"lifetime": 60,
+     		"hitEffect": "blastExplosion",
+    		"despawnEffect": "blastExplosion"
+		}
+	}
+}
