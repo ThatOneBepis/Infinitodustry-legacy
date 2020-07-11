@@ -6,7 +6,7 @@
 	"mass": 0.5,
 	"engineSize": 1,
 	"rotatespeed": 0.2,
-	"maxVelocity": 0,
+	"maxVelocity": 0.7,
 	"drag": 0,
 	"rotateWeapon": true,
 	"weapon": 
