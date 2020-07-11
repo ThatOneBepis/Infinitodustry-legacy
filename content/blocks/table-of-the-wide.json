@@ -1,0 +1,17 @@
+{
+	"name": "infinitodustry-table-of-the-wide",
+	"type": "UnitFactory",
+	"unitType": "wide-reaper",
+	"size": 1,
+	"produceTime": 9000,
+  "buildVisibility": "sandboxOnly",
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 1.0
+  },
+	"category": "units",
+	"research": "reaper-factory",
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	]
+}
