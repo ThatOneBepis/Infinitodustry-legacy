@@ -1,0 +1,12 @@
+{
+	"type": "Floor",
+	"name": "Ink",
+	"speedMultiplier": 0.4,
+	"isLiquid": true,
+	"variants": 0,
+	"status": "tarred",
+	"statusDuration": 240,
+	"drownTime": 200,
+	"liquidDrop": "ink",
+	"cacheLayer": "tar"
+}
