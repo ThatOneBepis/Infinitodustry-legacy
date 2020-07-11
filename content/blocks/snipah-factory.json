@@ -18,6 +18,6 @@
 		{ "item": "silicon", "amount": 105 },
 		{ "item": "visionary-glass", "amount": 75 }
 	],
-	"category": "turret",
+	"category": "units",
 	"research": "hail"
 }
