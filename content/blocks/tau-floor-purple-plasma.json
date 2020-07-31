@@ -1,0 +1,6 @@
+{
+	"type": "Floor",
+	"blendGroup": "tau-floor-purple",
+	"variants": 0,
+    "attributes": {"array": [ 0.25, 0, 0, 0]}
+}

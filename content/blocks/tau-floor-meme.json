@@ -1,0 +1,7 @@
+{
+	"type": "Floor",
+	"speedMultiplier": 1,
+	"isLiquid": true,
+	"liquidDrop": "lemon-acid",
+	"variants": 0
+}
