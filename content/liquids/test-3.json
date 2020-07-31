@@ -1,0 +1,18 @@
+{
+	"temperature": 10000000,
+    "viscosity": 6.66,
+    "heatCapacity": 0,
+    "explosiveness": 6.66,
+    "flammability": 6.66,
+    "effect":{
+    "effect": "wet",
+    "name": "l-a-g",
+    "damage": 1,
+    "damageMultiplier": 0,
+    "armorMultiplier": 0,
+    "speedMultiplier": 0,
+    "color": "ffffff"
+	},
+    "color": "ffffff",
+    "lightColor": "ffffff"
+}
